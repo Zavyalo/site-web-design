@@ -18,6 +18,32 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/portfolio', function () {
+    return view('portfolio');
+});
+
+Route::get('/services', function () {
+    return view('services');
+});
+
+Route::get('/cases', function () {
+    return view('cases');
+});
+
+Route::get('/blog', function () {
+    return view('blog');
+});
+
+
+
+Route::get('/test', function () {
+    return view('test');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
