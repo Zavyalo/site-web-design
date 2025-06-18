@@ -13,17 +13,11 @@ export default {
 
     theme: {
         colors: {
-            transparent: 'transparent',
-            current: 'currentColor',
-            'main': 'ff0000',
-            'tahiti': {
-              100: '#cffafe',
-              200: '#a5f3fc',
-              300: '#67e8f9',
-              400: '#22d3ee',
-            },
-            // ...
-          },
+            'black': '111111',
+            'white': 'FFFFFF',
+            'dark gray': '3A383B',
+            'light gray': 'C5C5C5',
+        },
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
