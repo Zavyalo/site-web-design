@@ -16,7 +16,22 @@
     </head>
     <body class="font-sans antialiased">
         <header class="text-main bg-tahiti-200">
-            <h1>Название сайта</h1>
+            <div class="logo">
+                <div class="logo__img"></div>
+                <div class="logo__img">Цифровые решения</div>
+            </div>
+            <ul>
+                <li><a href=""></a>Главная</li>
+                <li><a href=""></a>О нас</li>
+                <li><a href=""></a>Услуги</li>
+                <li><a href=""></a>Блог</li>
+                <li><a href=""></a>Портфолио</li>
+            </ul>
+            <div class="lang">
+                <div class="lang__ru">RU</div>
+                <div class="lang__en">EN</div>
+            </div>
+            <x-secondary-button>Оставить заявку</x-secondary-button>
         </header>
         <main>
             {{ $slot }}
