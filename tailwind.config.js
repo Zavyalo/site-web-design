@@ -11,16 +11,16 @@ export default {
         "./resources/**/*.vue",
     ],
 
-    theme: {
-        colors: {
-            'black': '111111',
-            'white': 'FFFFFF',
-            'dark gray': '3A383B',
-            'light gray': 'C5C5C5',
-        },
+    theme: {  
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+            },
+            colors: {
+                'black': '#111111',
+                'white': '#FFFFFF',
+                'darkgray': '#3A383B',
+                'lightgray': '#C5C5C5',
             },
         },
     },
