@@ -8,26 +8,31 @@
         <title>{{ config('app.name', 'Laravel') }}</title>
 
         <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+        {{-- <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet"> --}}
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="font-sans antialiased">
-        <header class="text-main bg-tahiti-200">
-            <div class="logo">
-                <div class="logo__img"></div>
-                <div class="logo__img">Цифровые решения</div>
+    <body class="antialiased">
+        <header class="flex flex-row m-8 justify-center">
+            <div class="flex flex-row">
+                <img src="resourses/images/logo.svg" alt="">
+                <div class="">Цифровые решения</div>
             </div>
-            <ul>
-                <li><a href=""></a>Главная</li>
-                <li><a href=""></a>О нас</li>
-                <li><a href=""></a>Услуги</li>
-                <li><a href=""></a>Блог</li>
-                <li><a href=""></a>Портфолио</li>
+            <ul class="flex flex-row bg-white w-100 rounded-full justify-center items-center gap-4">
+                <li><a href="flex flex-row justify-center color-white bg-black"></a>Главная</li>
+                <li><a href="flex flex-row justify-center"></a>О нас</li>
+                <li><a href="flex flex-row justify-center"></a>Услуги</li>
+                <li><a href="flex flex-row justify-center"></a>Блог</li>
+                <li><a href="flex flex-row justify-center"></a>Портфолио</li>
             </ul>
-            <div class="lang">
+            <div class="flex flex-row">
                 <div class="lang__ru">RU</div>
                 <div class="lang__en">EN</div>
             </div>

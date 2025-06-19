@@ -13,10 +13,10 @@ export default {
 
     theme: {
         colors: {
-            'black': '111111',
-            'white': 'FFFFFF',
-            'dark gray': '3A383B',
-            'light gray': 'C5C5C5',
+            black: '#111111',
+            white: '#FFFFFF',
+            darkgray: '#3A383B',
+            lightgray: '#C5C5C5',
         },
         extend: {
             fontFamily: {
