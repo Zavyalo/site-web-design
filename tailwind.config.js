@@ -12,15 +12,22 @@ export default {
     ],
 
     theme: {
-        colors: {
-            'black': '111111',
-            'white': 'FFFFFF',
-            'dark gray': '3A383B',
-            'light gray': 'C5C5C5',
-        },
+
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                sans: ['Inter', ...defaultTheme.fontFamily.sans],
+            },
+            colors: {
+                black: '#111111',
+                white: '#FFFFFF',
+                darkgray: '#3A383B',
+                lightgray: '#C5C5C5',
+            },
+            colors: {
+                'black': '#111111',
+                'white': '#FFFFFF',
+                'darkgray': '#3A383B',
+                'lightgray': '#C5C5C5',
             },
         },
     },
