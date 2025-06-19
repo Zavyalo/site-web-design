@@ -20,29 +20,51 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="antialiased">
-        <header class="flex flex-row justify-center m-8 h-10">
-            <div class="flex flex-row">
-                <img src="resourсes/images/logo.svg" alt="">
-                <div class="">Цифровые решения</div>
+        <header class="flex flex-row justify-center my-8 mx-12 h-10 justify-between">
+            <div class="flex flex-row gap-4 items-center">
+                <img class="w-9 h-9" src="{{ Vite::asset('resources/images/logo.svg') }}" alt="МИДиС">
+                <div class="w-20 text-white font-semibold leading-5">Цифровые решения</div>
             </div>
-            <ul class="flex flex-row bg-white w-100 rounded-full justify-center items-center gap-4 mx-6">
-                <li><a href="flex flex-row justify-center color-white bg-gradient z-1"></a>Главная</li>
-                <li><a href="flex flex-row justify-center"></a>О нас</li>
-                <li><a href="flex flex-row justify-center"></a>Услуги</li>
-                <li><a href="flex flex-row justify-center"></a>Блог</li>
-                <li><a href="flex flex-row justify-center"></a>Портфолио</li>
+            <ul class="flex flex-row bg-white rounded-full justify-center items-center gap-3 px-1">
+                <li class="flex justify-center text-white bg-gradient rounded-full px-3 py-1"><a href="#"></a>Главная</li>
+                <li class="flex justify-center rounded-full px-3 py-1"><a href=""></a>О нас</li>
+                <li class="flex justify-center rounded-full px-3 py-1"><a href=""></a>Услуги</li>
+                <li class="flex justify-center rounded-full px-3 py-1"><a href=""></a>Блог</li>
+                <li class="flex justify-center rounded-full px-3 py-1"><a href=""></a>Портфолио</li>
             </ul>
-            <div class="flex flex-row bg-darkgray color-white w-100 rounded-full">
-                <div class="lang__ru">RU</div>
-                <div class="lang__en">EN</div>
+            <div class="flex flex-row gap-8">
+            <div class="flex flex-row bg-darkgray text-white rounded-full justify-center items-center px-1 gap-1">
+                <div class="flex justify-center text-black bg-white rounded-full px-1.5 py-1">RU</div>
+                <div class="flex justify-center rounded-full px-1.5 py-1">EN</div>
             </div>
             <x-secondary-button>Оставить заявку</x-secondary-button>
+            </div>
         </header>
         <main>
             {{ $slot }}
         </main>
-        <footer>
-            подвал
+        <footer class="bg-darkgray flex flex-row justify-center p-12 pb-20 justify-between text-white">
+            <div class="flex flex-col gap-4">
+            <div class="flex flex-row gap-4 items-center">
+                <img class="w-9 h-9" src="{{ Vite::asset('resources/images/logo.svg') }}" alt="МИДиС">
+                <div class="w-20 text-white font-semibold leading-5">Цифровые решения</div>
+            </div>
+            <p>+7 951 770 70-21</p>
+            <ul class="flex flex-row gap-5">
+                <li><a href="#" class="flex flex-row gap-2 text-sm"><img class="w-4 h-4" src="{{ Vite::asset('resources/images/icon_whatsapp.svg') }}" alt="">WhatsApp</a></li>
+                <li><a href="#" class="flex flex-row gap-2 text-sm"><img class="w-4 h-4" src="{{ Vite::asset('resources/images/icon_tg.svg') }}" alt="">Telegram</a></li>
+                <li><a href="#" class="flex flex-row gap-2 text-sm"><img class="w-4 h-4" src="{{ Vite::asset('resources/images/icon_vk.svg') }}" alt="">BK</a></li>
+            </ul>
+            </div>
+            <div class="flex flex-row gap-20">
+            <ul>
+                <li><a href="#">О мастерской</a></li>
+                <li><a href="#">Наши услуги</a></li>
+                <li><a href="#">Порфолио</a></li>
+                <li><a href="#">Блог</a></li>
+            </ul>
+            <x-secondary-button class="h-10">Оставить заявку</x-secondary-button>
+            </div>
         </footer>
     </body>
 </html>
