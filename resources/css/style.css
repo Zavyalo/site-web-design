@@ -4,6 +4,12 @@ body {
 
 /* sonia */
 
+.section-display{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
 .bg-gradient {
     background-color: hsla(352, 100%, 50%, 1);
     background-image:
