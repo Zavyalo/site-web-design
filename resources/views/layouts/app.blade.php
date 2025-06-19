@@ -20,19 +20,19 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="antialiased">
-        <header class="flex flex-row m-8 justify-center">
+        <header class="flex flex-row justify-center m-8 h-10">
             <div class="flex flex-row">
-                <img src="resourses/images/logo.svg" alt="">
+                <img src="resourсes/images/logo.svg" alt="">
                 <div class="">Цифровые решения</div>
             </div>
-            <ul class="flex flex-row bg-white w-100 rounded-full justify-center items-center gap-4">
-                <li><a href="flex flex-row justify-center color-white bg-black"></a>Главная</li>
+            <ul class="flex flex-row bg-white w-100 rounded-full justify-center items-center gap-4 mx-6">
+                <li><a href="flex flex-row justify-center color-white bg-gradient z-1"></a>Главная</li>
                 <li><a href="flex flex-row justify-center"></a>О нас</li>
                 <li><a href="flex flex-row justify-center"></a>Услуги</li>
                 <li><a href="flex flex-row justify-center"></a>Блог</li>
                 <li><a href="flex flex-row justify-center"></a>Портфолио</li>
             </ul>
-            <div class="flex flex-row">
+            <div class="flex flex-row bg-darkgray color-white w-100 rounded-full">
                 <div class="lang__ru">RU</div>
                 <div class="lang__en">EN</div>
             </div>
