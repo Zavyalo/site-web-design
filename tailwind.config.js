@@ -12,17 +12,19 @@ export default {
     ],
 
     theme: {
-
         extend: {
             fontFamily: {
                 sans: ['Inter', ...defaultTheme.fontFamily.sans],
-            },
+            },          
             colors: {
-                black: '#111111',
-                white: '#FFFFFF',
-                darkgray: '#3A383B',
-                lightgray: '#C5C5C5',
+                'black': '#111111',
+                'white': '#FFFFFF',
+                'darkgray': '#3A383B',
+                'lightgray': '#C5C5C5',
             },
+            container: {
+                center: true,
+              },
         },
     },
 
