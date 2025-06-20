@@ -41,6 +41,9 @@ export default {
                 'modile-20': '20px',
                 'modile-15': '15px',
             },
+            container: {
+                center: true,
+              },
         },
     },
     plugins: [forms]
