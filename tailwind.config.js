@@ -22,6 +22,7 @@ export default {
                 'white': '#FFFFFF',
                 'darkgray': '#3A383B',
                 'lightgray': '#C5C5C5',
+                // --- gradient: class="bg-gradient"
             },
             spacing: {
                 'space-144': '144px',
@@ -32,6 +33,7 @@ export default {
                 'space-20': '20px',
                 'space-16': '16px',
                 'space-10': '10px',
+                'space-4': '4px',
             },
             borderRadius: {
                 'desktop-40': '40px',
