@@ -14,7 +14,8 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Inter', ...defaultTheme.fontFamily.sans],
+                inter: ['Inter', ...defaultTheme.fontFamily.sans],
+                victor: ['Victor Mono', ...defaultTheme.fontFamily.sans],
             },          
             colors: {
                 'black': '#111111',
@@ -22,8 +23,23 @@ export default {
                 'darkgray': '#3A383B',
                 'lightgray': '#C5C5C5',
             },
+            spacing: {
+                'space-144': '144px',
+                'space-70': '70px',
+                'space-48': '48px',
+                'space-32': '32px',
+                'space-26': '26px',
+                'space-20': '20px',
+                'space-16': '16px',
+                'space-10': '10px',
+            },
+            borderRadius: {
+                'desktop-40': '40px',
+                'desktop-30': '30px',
+                'modile-20': '20px',
+                'modile-15': '15px',
+            },
         },
     },
-
-    plugins: [forms],
+    plugins: [forms]
 };
