@@ -22,6 +22,9 @@ export default {
                 'darkgray': '#3A383B',
                 'lightgray': '#C5C5C5',
             },
+            container: {
+                center: true,
+              },
         },
     },
 
