@@ -45,4 +45,5 @@
         </div>
     </div>
 
+    <x-cardtwo></x-cardtwo>
 </x-app-layout>
