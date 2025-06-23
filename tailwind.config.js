@@ -44,6 +44,12 @@ export default {
             container: {
                 center: true,
             },
+            colors: {
+                'black': '#111111',
+                'white': '#FFFFFF',
+                'darkgray': '#3A383B',
+                'lightgray': '#C5C5C5',
+            },
         },
     },
 
