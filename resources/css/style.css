@@ -1,6 +1,16 @@
 
 body {
+
     background-color: black;
+}
+
+
+/* sonia */
+
+.section-display{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
 }
 
 
@@ -16,7 +26,6 @@ body {
         radial-gradient(at 11% 16%, hsla(342, 98%, 78%, 1) 0px, transparent 50%);
 }
 
-
 .clip-sloped-25 {
     clip-path: polygon(25px 0%,
             calc(100% - 25px) 0%,
@@ -26,5 +35,8 @@ body {
             25px 100%,
             0% calc(100% - 25px),
             0% 25px);
+
 }
+
+
 
