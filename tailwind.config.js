@@ -12,6 +12,7 @@ export default {
     ],
 
     theme: {
+
         extend: {
             fontFamily: {
                 inter: ['Inter', ...defaultTheme.fontFamily.sans],
@@ -43,7 +44,7 @@ export default {
             },
             container: {
                 center: true,
-              },
+            },
         },
     },
     plugins: [forms]

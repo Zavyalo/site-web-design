@@ -1,0 +1,1 @@
+<span class="bg-white text-sm py-[10px] px-[28px] text-black rounded-full shrink-0"> {{ $slot }}</span>

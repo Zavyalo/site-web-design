@@ -1,3 +1,9 @@
+
+body {
+    background-color: black;
+}
+
+
 .bg-gradient {
     background-color: hsla(352, 100%, 50%, 1);
     background-image:
@@ -10,6 +16,7 @@
         radial-gradient(at 11% 16%, hsla(342, 98%, 78%, 1) 0px, transparent 50%);
 }
 
+
 .clip-sloped-25 {
     clip-path: polygon(25px 0%,
             calc(100% - 25px) 0%,
@@ -20,3 +27,4 @@
             0% calc(100% - 25px),
             0% 25px);
 }
+
