@@ -23,10 +23,10 @@
         <header class="flex flex-row justify-center my-space-32 mx-space-70 justify-between">
             <div class="flex flex-row gap-space-16 items-center">
                 <img class="w-9 h-9" src="{{ Vite::asset('resources/images/logo.svg') }}" alt="МИДиС">
-                <div class="w-20 text-white font-semibold leading-5"><a href="/welcome">Цифровые решения</a></div>
+                <div class="w-20 text-white font-semibold leading-5"><a href="/">Цифровые решения</a></div>
             </div>
             <ul class="flex flex-row bg-white rounded-full justify-center items-center gap-space-10 px-space-4">
-                <li class="flex justify-center text-white bg-gradient rounded-full px-space-10 py-space-4"><a href="#"></a>Главная</li>
+                <li class="flex justify-center text-white bg-gradient rounded-full px-space-10 py-space-4"><a href="/">Главная</a></li>
                 <li class="flex justify-center rounded-full px-3 py-1"><a href="/about">О нас</a></li>
                 <li class="flex justify-center rounded-full px-3 py-1"><a href="/services">Услуги</a></li>
                 <li class="flex justify-center rounded-full px-3 py-1"><a href="/blog">Блог</a></li>
@@ -47,7 +47,7 @@
             <div class="flex flex-col gap-space-16">
             <div class="flex flex-row gap-space-16 items-center">
                 <img class="w-9 h-9" src="{{ Vite::asset('resources/images/logo.svg') }}" alt="МИДиС">
-                <div class="w-20 text-white font-semibold leading-5"><a href="/welcome">Цифровые решения</a></div>
+                <div class="w-20 text-white font-semibold leading-5"><a href="/">Цифровые решения</a></div>
             </div>
             <p>+7 951 770 70-21</p>
             <ul class="flex flex-row gap-space-20">
