@@ -1,4 +1,5 @@
 <x-app-layout>
+
     <div class="flex flex-col justify-center size-auto gap-[144px] mb-[144px] mt-[144px]">
         <section class="flex flex-col items-center gap-[70px]">
             <div class="flex flex-col justify-center gap-[42px]">
@@ -95,5 +96,4 @@
             </fieldset>
         </section>
     </div>
-
 </x-app-layout>
