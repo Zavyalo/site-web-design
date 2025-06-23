@@ -1,80 +1,160 @@
 <x-app-layout>
-    <div class="flex flex-col justify-center size-auto gap-[144px] mb-[144px] mt-[144px]">
-        <section class="flex flex-col items-center gap-[70px]">
-            <div class="flex flex-col justify-center gap-[42px]">
-            <p class="text-[74px] font-bold text-white text-center">Создаём цифровые решения, которые работают</p>
-            <h1 class="text-white text-[24px] text-center">Образовательный проект МИДиС: от идеи до цифрового продукта. Мы слышим, вникаем и превращаем Ваши задачи в понятные, живые цифровые продукты</h1>
+    <container class="flex flex-col items-center size-auto gap-[144px] mb-[144px] mt-[144px]">
+        <section class="flex flex-col items-center gap-[70px] font-inter">
+            <div class="flex flex-col items-center gap-[42px]">
+            <p class="text-7xl text-white text-center font-victor max-w-[1114px]">СОЗДАЁМ ЦИФРОВЫЕ РЕШЕНИЯ, КОТОРЫЕ РАБОТАЮТ</p>
+            <h1 class="text-white text-2xl text-center max-w-[832px]">Образовательный проект МИДиС: от идеи до цифрового продукта. Мы слышим, вникаем и превращаем Ваши задачи в понятные, живые цифровые продукты</h1>
             </div>
             <x-secondary-button class=" flex justify-center w-[311px] h-[56px]">Оставить заявку</x-secondary-button>
         </section>
-        <section class="flex flex-col gap-[48px]">
-            <h1 class="text-[64px] text-white">НАШИ УСЛУГИ</h1>
+        <section class="flex flex-col gap-[48px] font-victor w-[100%]">
+            <x-h1-gradient>НАШИ УСЛУГИ</x-h1-gradient>
             <div class="flex flex-wrap gap-[14px]">
-                <div class="w-[866px] h-[413px] bg-white clip-sloped-25 p-[50px] content-end">
-                    <h1 class="text-[64px]">исследования и гипотезы</h1>
-                </div>
-                <div class="border border-white outline-[1,5px] rounded-[28px] w-[426px] h-[413px] p-[50px] content-end">
-                    <h1 class="text-[48px]">Создание сайтов на tilda</h1>
-                </div>
-                <div class="border border-white outline-[1,5px] rounded-[28px] w-[426px] h-[413px] p-[50px] content-end">
-                    <h1 class="text-[48px]">Создание приложений с vr-технологиями</h1>
-                </div>
-                <div class="w-[866px] h-[413px] bg-white clip-sloped-25 p-8 p-[50px] content-end">
-                    <h1 class="text-[64px]">Создание прототипов сайта</h1>
-                </div>
+                <a href="/services" class="flex flex-col justify-between grow bg-white clip-sloped-25 p-[35px] content-end shrink-0">
+                    <div class="max-w-[100%] flex flex-row justify-end"><img src="{{ Vite::asset('resources/images/ArrowUpRight.svg') }}" alt="#" class="w-[50px]"></div>
+                    <h1 class="text-[64px]">ИССЛЕДОВАНИЯ И ГИПОТЕЗЫ</h1>
+                </a>
+                <a href="/services" class="flex flex-col justify-between border border-white text-white outline-[1,5px] rounded-[28px] w-[426px] h-[413px] p-[35px] content-end ">
+                    <div class="max-w-[100%] flex flex-row justify-end"><img src="{{ Vite::asset('resources/images/ArrowUpRightwhite.svg') }}" alt="#" class="w-[50px]"></div>
+                    <h1 class="text-[48px]">СОЗДАНИЕ САЙТОВ НА TILDA</h1>
+                </a>
+                <a href="/services" class="flex flex-col justify-between border border-white text-white outline-[1,5px] rounded-[28px] w-[426px] h-[413px] p-[35px] content-end">
+                    <div class="max-w-[100%] flex flex-row justify-end"><img src="{{ Vite::asset('resources/images/ArrowUpRightwhite.svg') }}" alt="#" class="w-[50px]"></div>
+                    <h1 class="text-[48px]">СОЗДАНИЕ ПРИЛОЖЕНИЙ С VR-ТЕХНОЛОГИЯМИ</h1>
+                </a>
+                <a href="/services" class="flex flex-col justify-between grow bg-white clip-sloped-25 p-[35px] content-end shrink-0 ">
+                    <div class="max-w-[100%] flex flex-row justify-end"><img src="{{ Vite::asset('resources/images/ArrowUpRight.svg') }}" alt="#" class="w-[50px]"></div>
+                    <h1 class="text-[64px]">СОЗДАНИЕ ПРОТОТИПОВ САЙТА</h1>
+                </a>
             </div>
         </section>
-        <section class="about-goals section-display">
+        <section class="flex about-goals section-display font-victor w-[100%]">
             <h1 class="text-[64px] text-white">ДОСТИЖЕНИЯ</h1>
             <div class="about-goals-num-wrapper flex flex-row">
                 <div class="about-goals-num flex flex-1 flex-col grow items-center">
                     <h2 class="text-[200px] font-bold">80+</h2>
-                    <span class="text-white">Завершённых проектов</span>
+                    <span class="text-white font-inter">Завершённых проектов</span>
                 </div>
                 <div class="about-goals-num flex flex-1 flex-col grow items-center">
                     <h2 class="text-[200px] font-bold">4</h2>
-                    <span class="text-white">Направления работ</span>
+                    <span class="text-white font-inter">Направления работ</span>
                 </div>
                 <div class="about-goals-num flex flex-1 flex-col grow items-center">
                     <h2 class="text-[200px] font-bold">25</h2>
-                    <span class="text-white">Постоянных клиентов</span>
+                    <span class="text-white font-inter">Постоянных клиентов</span>
                 </div>
             </div>
         </section>
-        <section class="flex flex-col gap-[48px]">
-            <h1 class="text-[64px] text-white">НАШИ РАБОТЫ</h1>
-            
+        <section class="flex flex-col gap-[48px] w-[100%] font-inter">
+            <h1 class="text-[64px] text-white font-victor">НАШИ РАБОТЫ</h1>
+            <div class="case-about">
+                <div class="w-full h-[464px] bg-black rounded-[40px] border-2 border-white p-[32px] flex items-start justify-between gap-6 text-white">
+      
+                  <div class="flex flex-col justify-between h-full">
+      
+                    <div class="gap-[40px] flex-col">
+                      <div class="flex gap-2 pb-[40px]">
+                      <x-tag>Исследования</x-tag>
+                      <x-tag>Веб-дизайн</x-tag>
+                    </div>
+                    <h2 class="text-2xl pb-[16px]">Сайт баскетбольного клуба «Челбаскет»</h2>
+                    <p class="text-xl text-white pb-[40px]">Аналитика и редизайн многостраничного сайта</p>
+                    <p class="text-lg text-lightgray mb-4">01.02.2024</p>
+                    </div>
+      
+                    <x-secondary-button class="justify-center h-[56px] w-[231px]">Подробнее о кейсе</x-secondary-button>
+                  </div>
+                
+      
+                  <div class="flex-shrink-0">
+                    <img src="{{ Vite::asset('resources/images/content/case1.png') }}" alt="Челбаскет кейс" class="rounded-[28px]">
+                  </div>
+                </div>
+              </div>
+              <div class="case-about">
+                <div class="w-full h-[464px] bg-black rounded-[40px] border-2 border-white p-[32px] flex items-start justify-between gap-6 text-white">
+      
+                  <div class="flex flex-col justify-between h-full">
+      
+                    <div class="gap-[40px] flex-col">
+                      <div class="flex gap-2 pb-[40px]">
+                      <x-tag>Исследования</x-tag>
+                      <x-tag>Веб-дизайн</x-tag>
+                    </div>
+                    <h2 class="text-2xl pb-[16px]">Сайт баскетбольного клуба «Челбаскет»</h2>
+                    <p class="text-xl text-white pb-[40px]">Аналитика и редизайн многостраничного сайта</p>
+                    <p class="text-lg text-lightgray mb-4">01.02.2024</p>
+                    </div>
+      
+                    <x-secondary-button class="justify-center h-[56px] w-[231px]">Подробнее о кейсе</x-secondary-button>
+                  </div>
+                
+      
+                  <div class="flex-shrink-0">
+                    <img src="{{ Vite::asset('resources/images/content/case1.png') }}" alt="Челбаскет кейс" class="rounded-[28px]">
+                  </div>
+                </div>
+              </div>
         </section> 
-        <section class="flex flex-col gap-[48px]">
+
+        <section class="flex flex-col gap-[48px] font-victor w-[100%]">
             <h1 class="text-[64px] text-white">ПОЧЕМУ ВЫБИРАЮТ НАС</h1>
-            <div class="flex flex-row gap-[14px]">
-                <div class="flex justify-center items-center outline-[1,5px] rounded-[28px] w-[426px] h-[365px] bg-gradient p-[63px]">
-                    <h1 class="text-[32px] text-white">Тестирование вашего сайта за 1 день с участием >500 человек</h1>
+            <div class="flex flex-row gap-[14px] overflow-hidden">
+                <div class="flex justify-center items-center outline-[1,5px] shrink-0 rounded-[28px] w-[426px] h-[365px] bg-gradient p-[63px]">
+                    <h1 class="text-[32px] text-white">ТЕСТИРОВАНИЕ ВАШЕГО САЙТА ЗА 1 ДЕНЬ С УЧАСТИЕМ >500 ЧЕЛОВЕК</h1>
                 </div>
-                <div class="flex justify-center items-center outline-[1,5px] rounded-[170px] w-[426px] h-[365px] bg-white p-[52px]">
-                    <h1 class="text-[32px]">эффективное решение ваших задач благодаря работе большой команды</h1>
+                <div class="flex justify-center items-center outline-[1,5px] shrink-0 rounded-[170px] w-[426px] h-[365px] bg-white p-[52px]">
+                    <h1 class="text-[28px] ">ЭФФЕКТИВНОЕ РЕШЕНИЕ ВАШИХ ЗАДАЧ БЛАГОДАРЯ РАБОТЕ БОЛЬШОЙ КОМАНДЫ</h1>
                 </div>
-                <div class="flex justify-center items-center outline-[1,5px] rounded-[28px] w-[426px] h-[365px] bg-gradient clip-sloped-25 p-[63px]">
-                    <h1 class="text-[32px] text-white">Прозрачные сроки и процессы</h1>
+                <div class="flex justify-center items-center outline-[1,5px] shrink-0 rounded-[28px] w-[426px] h-[365px] bg-gradient clip-sloped-25 px-[55px]">
+                    <h1 class="text-[32px] text-white">ПРОЗРАЧНЫЕ СРОКИ И ПРОЦЕССЫ</h1>
                 </div>
-                <div class="flex justify-center items-center outline-[1,5px] rounded-[170px] w-[426px] h-[365px] bg-white p-[52px]">
-                    <h1 class="text-[32px]">Опыт в разных отраслях: EdTech, ритейл, медицина, культура</h1>
+                <div class="flex justify-center items-center outline-[1,5px] shrink-0 rounded-[170px] w-[426px] h-[365px] bg-white p-[52px]">
+                    <h1 class="text-[28px]">ОПЫТ В РАЗНЫХ ОТРАСЛЯХ: EDTECH, РИТЕЙЛ, МЕДИЦИНА, КУЛЬТУРА</h1>
                 </div>
-                <div class="flex justify-center items-center outline-[1,5px] rounded-[28px] w-[426px] h-[365px] bg-gradient p-[63px]">
-                    <h1 class="text-[32px] text-white">Глубокая 
-                        UX-экспертиза</h1>
+                <div class="flex justify-center items-center outline-[1,5px] shrink-0 rounded-[28px] w-[426px] h-[365px] bg-gradient p-[63px]">
+                    <h1 class="text-[32px] text-white">ГЛУБОКАЯ UX-ЭКСПЕРТИЗА</h1>
                 </div>
             </div>
         </section>
-        <section class="flex flex-row gap-[48px]">
-            <h1 class="text-[64px] text-white">ОТЗЫВЫ КЛИЕНТОВ</h1>
+        <section class="flex flex-col gap-[48px] w-[100%]">
+            <h1 class="text-[64px] text-white font-victor">НАШИ ПАРТНЕРЫ</h1>
+            <div class="flex flex-row grow gap-[8px] overflow-hidden">
+                <div class="flex flex-1 flex-col grow gap-5">
+                    <img class="" src="{{ Vite::asset('resources/images/part-aero.png') }}" alt="">
+                    <p class="text-white font-inter text-[15px]">Платформа развлечений на борту ПАО «Аэрофлот»</p>
+                </div>
+                <div class="flex flex-1 flex-col grow gap-5">
+                    <img class="" src="{{ Vite::asset('resources/images/part-ugmk.png') }}" alt="">
+                    <p class="text-white font-inter text-[15px]">3D-тренажер для УГМК</p>
+                </div>
+                <div class="flex flex-1 flex-col grow gap-5">
+                    <img class="" src="{{ Vite::asset('resources/images/part-uni.png') }}" alt="">
+                    <p class="text-white font-inter text-[15px]">«Умная обувь»: прототип обуви будущего</p>
+                </div>
+                <div class="flex flex-1 flex-col grow gap-5">
+                    <img class="" src="{{ Vite::asset('resources/images/part-mus.png') }}" alt="">
+                    <p class="text-white font-inter text-[15px]">Виртуальный атлас-тренажер для ООО «ПрограмЛаб»</p>
+                </div>
+                <div class="flex flex-1 flex-col grow gap-5">
+                    <img class="" src="{{ Vite::asset('resources/images/part-hyatt.png') }}" alt="">
+                    <p class="text-white font-inter text-[15px]">Business case for human resources management</p>
+                </div>
+                <div class="flex flex-1 flex-col grow gap-5">
+                    <img class="" src="{{ Vite::asset('resources/images/part-bank.png') }}" alt="">
+                    <p class="text-white font-inter text-[15px]">Выявление актуальных схем финансового мошенничества</p>
+                </div>
+            </div>
+        </section>
+        <section class="flex flex-row gap-[48px] w-[100%]">
+            <h1 class="text-[64px] text-white font-victor">ОТЗЫВЫ КЛИЕНТОВ</h1>
             <div class="flex flex-col">
 
             </div>
         </section>
-        <section class="about-form grid grid-cols-2">
+        <section class="about-form grid grid-cols-2 font-inter w-[100%] font-inter">
             <div class="about-form-text-wrapper flex flex-col gap-[26px]">
-                <h1 class="text-[64px] text-white">СВЯЖИТЕСЬ С НАМИ</h1>
+                <h1 class="text-[64px] text-white font-victor">СВЯЖИТЕСЬ С НАМИ</h1>
                 <p class="text-white">Оставьте заявку и мы свяжемся с вами или позвоните по номеру:</p>
                 <a class="text-3xl font-bold text-white" href="#">+7(999)123-45-67</a>
             </div>
@@ -94,6 +174,6 @@
             </div>
             </fieldset>
         </section>
-    </div>
+    </container>
 
 </x-app-layout>
