@@ -12,18 +12,18 @@ export default {
     ],
 
     theme: {
-
         extend: {
             fontFamily: {
                 inter: ['Inter', ...defaultTheme.fontFamily.sans],
                 victor: ['Victor Mono', ...defaultTheme.fontFamily.sans],
-            },          
+
+            },
             colors: {
                 'black': '#111111',
                 'white': '#FFFFFF',
                 'darkgray': '#3A383B',
                 'lightgray': '#C5C5C5',
-                // --- gradient: class="bg-gradient"
+
             },
             spacing: {
                 'space-144': '144px',
@@ -45,7 +45,19 @@ export default {
             container: {
                 center: true,
             },
+            colors: {
+                'black': '#111111',
+                'white': '#FFFFFF',
+                'darkgray': '#3A383B',
+                'lightgray': '#C5C5C5',
+
+            },
+            container: {
+                center: true,
+            },
         },
     },
+
     plugins: [forms]
 };
+

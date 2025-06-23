@@ -15,12 +15,14 @@ class TagSeeder extends Seeder
     public function run(): void
     {
         Tag::insert([
-            'name' => 'Веб-дизайн',
-            'slug' => Str::slug('Веб-дизайн')            
-        ],
-        [
-            'name' => 'Исследования',
-            'slug' => Str::slug('Исследования')            
+            [
+                'name' => 'Веб-дизайн',
+                'slug' => Str::slug('Веб-дизайн')
+            ],
+            [
+                'name' => 'Исследования',
+                'slug' => Str::slug('Исследования')
+            ]
         ]);
     }
 }
