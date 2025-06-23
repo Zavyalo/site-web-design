@@ -1,3 +1,30 @@
+
 body {
-    background-color: lightgrey;
+    background-color: black;
 }
+
+
+.bg-gradient {
+    background-color: hsla(352, 100%, 50%, 1);
+    background-image:
+        radial-gradient(at 59% 100%, hsla(154, 67%, 87%, 1) 0px, transparent 50%),
+        radial-gradient(at 0% 100%, hsla(0, 97%, 60%, 1) 0px, transparent 50%),
+        radial-gradient(at 61% 36%, hsla(15, 99%, 60%, 1) 0px, transparent 50%),
+        radial-gradient(at 90% 11%, hsla(10, 76%, 68%, 1) 0px, transparent 50%),
+        radial-gradient(at 42% 9%, hsla(355, 100%, 93%, 1) 0px, transparent 50%),
+        radial-gradient(at 46% 81%, hsla(154, 67%, 87%, 1) 0px, transparent 50%),
+        radial-gradient(at 11% 16%, hsla(342, 98%, 78%, 1) 0px, transparent 50%);
+}
+
+
+.clip-sloped-25 {
+    clip-path: polygon(25px 0%,
+            calc(100% - 25px) 0%,
+            100% 25px,
+            100% calc(100% - 25px),
+            calc(100% - 25px) 100%,
+            25px 100%,
+            0% calc(100% - 25px),
+            0% 25px);
+}
+
