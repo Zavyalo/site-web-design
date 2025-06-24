@@ -22,6 +22,10 @@ class TagSeeder extends Seeder
             [
                 'name' => 'Исследования',
                 'slug' => Str::slug('Исследования')
+            ],
+            [
+                'name' => 'VR-приложения',
+                'slug' => Str::slug('VR-приложения')
             ]
         ]);
     }
