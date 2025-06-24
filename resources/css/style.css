@@ -1,7 +1,5 @@
 
 body {
-
-
     background-color: black;
 }
 
@@ -40,5 +38,15 @@ body {
 }
 
 
+/* polina (burger menu) */
 
-
+.burger-panel {
+    display: block;
+    transform: translate(-100%);
+    transition: transform 0.7s ease-in-out;
+}
+.show-burger-panel {
+    display: block;
+    transition: all 0.7s;
+    transform: translate(0);
+}

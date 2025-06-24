@@ -1,8 +1,8 @@
-import './app';
 
 const btnShowMenuPanel = document.querySelector("#btn-show-burger-panel");
-const menuPanel = document.querySelector("#catalog__burger");
 
+const menuPanel = document.querySelector("#menu__burger");
+console.log(menuPanel);
 btnShowMenuPanel.addEventListener("click", () => {
     menuPanel.classList.add("show-burger-panel");
 })
