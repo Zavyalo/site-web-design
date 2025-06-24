@@ -1,24 +1,31 @@
 <x-app-layout>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <h1 class="font-victor uppercase text-[64px] my-space-144 text-orange-600">Наши услуги</h1>
     <div class="flex flex-row justify-between mb-space-144 font-victor uppercase">
-        <div class="flex items-center justify-center text-3xl h-[373px] w-[244px] p-space-26 text-white bg-gradient rounded-3xl">
+        <div class="flex items-center justify-center text-3xl h-[373px] w-[244px] p-space-26 text-white bg-gradient rounded-3xl
+                    min-[320px]:mr-space-20 sm:mr-space-20 md:mr-space-20 xl:mr-space-20 lg:w-[244px] md:w-[244px] sm:w-[244px]">
             <p class="text-center">Создаем цифровые продукты с нуля</p>
         </div>
-        <div class="flex items-center justify-center text-3xl h-[373px] w-[244px] p-space-26 bg-white rounded-full">
+        <div class="flex items-center justify-center text-3xl h-[373px] w-[244px] p-space-26 bg-white rounded-full 
+                    min-[320px]:mr-space-20 sm:mr-space-20 md:mr-space-20 xl:mr-space-20">
             <p class="text-center">Проводим исследования</p>
         </div>
-        <div class="flex items-center justify-center text-3xl h-[373px] w-[244px] p-space-26 clip-sloped-25 text-white bg-gradient rounded-3xl">
+        <div class="flex items-center justify-center text-3xl h-[373px] w-[244px] p-space-26 clip-sloped-25 text-white bg-gradient rounded-3xl 
+                    min-[320px]:mr-space-20 sm:mr-space-20 md:mr-space-20 xl:mr-space-20">
             <p class="text-center">проектируем интерфейсы</p>
         </div>
-        <div class="flex items-center justify-center text-3xl h-[373px] w-[244px] p-space-26 bg-white rounded-full">
+        <div class="flex items-center justify-center text-3xl h-[373px] w-[244px] p-space-26 bg-white rounded-full 
+                    min-[320px]:mr-space-20 sm:mr-space-20 md:mr-space-20 xl:mr-space-20">
             <p class="text-center">разрабатываем сайты на tilda</p>
         </div>
-        <div class="flex items-center justify-center text-3xl h-[373px] w-[244px] p-space-26 text-white bg-gradient rounded-3xl">
+        <div class="flex items-center justify-center text-3xl h-[373px] w-[244px] p-space-26 text-white bg-gradient rounded-3xl 
+                    min-[320px]:mr-space-20 sm:mr-space-20 md:mr-space-20 xl:mr-space-20">
             <p class="text-center">создаем vr-решения</p>
         </div>
     </div>
 
-    <div class="flex flex-row justify-between mb-space-144">
+    <div class="flex flex-row justify-between mb-space-144" id="service1">
         <div class="flex flex-col justify-between">
             <div class="flex flex-row mb-space-48 font-victor uppercase">
                 <h2 class="text-3xl text-red-500 pr-space-4">(01)</h2>
@@ -57,7 +64,7 @@
         <img src="{{ Vite::asset('resources/images/serves_1.png') }}" alt="" class="flex-shrink-0">
     </div>
 
-    <div class="flex flex-row justify-between mb-space-144">
+    <div class="flex flex-row justify-between mb-space-144" id="service2">
         <div class="flex flex-col justify-between">
             <div class="flex flex-row mb-space-48">
                 <h2 class="font-victor uppercase text-3xl text-red-500 pr-space-4">(02)</h2>
@@ -98,7 +105,7 @@
         <img src="{{ Vite::asset('resources/images/serves_2.png') }}" alt="" class="flex-shrink-0">
     </div>
 
-    <div class="flex flex-row justify-between mb-space-144">
+    <div class="flex flex-row justify-between mb-space-144" id="service3">
         <div class="flex flex-col justify-between">
             <div class="flex flex-row mb-space-48">
                 <h2 class="font-victor uppercase text-3xl text-red-500 pr-space-4">(03)</h2>
@@ -139,8 +146,8 @@
         <img src="{{ Vite::asset('resources/images/serves_3.png') }}" alt="" class="flex-shrink-0">
     </div>
 
-    <div class="flex flex-row justify-between mb-space-144">
-        <div class="flex flex-col justify-between">
+    <div class="flex flex-row justify-between mb-space-144 sm:flex-wrap min-[320px]:flex-wrap lg:flex-nowrap max-[1280px]:flex-col" id="service4">
+        <div class="flex flex-col justify-between sm:pb-space-32">
             <div class="flex flex-row mb-space-48">
                 <h2 class="font-victor uppercase text-3xl text-red-500 pr-space-4">(04)</h2>
                 <h2 class="font-victor uppercase text-3xl text-white"> Создание приложений с VR-технологиями</h2>
@@ -150,9 +157,9 @@
                 <p class="font-victor text-lightgray">Методы: user-flow, сценарии, pain points, CJM</p>
             </div>
             <div class="flex flex-row justify-between">
-                <div class="flex flex-col justify-between">
-                    <div class="flex flex-row mb-space-48">
-                        <div class="pr-space-70">
+                <div class="flex flex-col justify-between lg:flex-nowrap">
+                    <div class="flex 2xl:flex-row mb-space-48 min-[320px]:flex-wrap lg:flex-nowrap lg:flex-row">
+                        <div class="pr-space-70 sm:pb-space-26 min-[320px]:pb-space-26 lg:flex-nowrap lg:flex-row">
                             <p class="font-victor uppercase text-white text-base font-semibold pb-space-16">Что делаем:</p>
                             <ul class="font-inter text-white text-base font-light">
                                 <li>> Сценарии взаимодействия в VR</li>
@@ -176,7 +183,9 @@
                 </div>
             </div>
         </div>
-        <img src="{{ Vite::asset('resources/images/serves_4.png') }}" alt="" class="flex-shrink-0">
+        <div>
+            <img src="{{ Vite::asset('resources/images/serves4.png') }}" alt="" class="flex-shrink-0 object-fit:contain max-width:100% max-height:100% width:auto height:auto max-[1280px]:h-[500px]">
+        </div>
     </div>
 
     <section class="about-form grid grid-cols-2 mb-space-144">
