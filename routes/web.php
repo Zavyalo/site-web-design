@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\WorkController;
 use Illuminate\Support\Facades\Route;
@@ -31,9 +32,7 @@ Route::get('/services', function () {
 
 Route::get('/cases/{work}', [WorkController::class, 'show']) ->name('case-show');;
 
-Route::get('/blog', function () {
-    return view('blog');
-});
+Route::get('/blog', [ArticleController::class, 'index']);
 
 
 
