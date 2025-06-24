@@ -22,6 +22,30 @@ class WorkTagSeeder extends Seeder
                 [
                     'work_id' => 1,
                     'tag_id' => 2
+                ],
+                [
+                    'work_id' => 2,
+                    'tag_id' => 1
+                ],
+                [
+                    'work_id' => 3,
+                    'tag_id' => 1
+                ],
+                [
+                    'work_id' => 3,
+                    'tag_id' => 2
+                ],
+                [
+                    'work_id' => 4,
+                    'tag_id' => 1
+                ],
+                [
+                    'work_id' => 5,
+                    'tag_id' => 1
+                ],
+                [
+                    'work_id' => 5,
+                    'tag_id' => 2
                 ]
             ]
         );
