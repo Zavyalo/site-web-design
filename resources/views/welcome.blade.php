@@ -12,21 +12,21 @@
         <section class="flex flex-col gap-[48px] font-victor w-[100%]">
             <x-h1-gradient>НАШИ УСЛУГИ</x-h1-gradient>
             <div class="flex flex-wrap gap-[14px]">
-                <a href="/services#service1" class="flex flex-col justify-between grow bg-white clip-sloped-25 p-[35px] content-end ">
+                <a href="/services#service1" class="flex flex-col justify-between grow bg-white clip-sloped-25 p-[35px] content-end">
                     <div class="max-w-[100%] flex flex-row justify-end"><img src="{{ Vite::asset('resources/images/ArrowUpRight.svg') }}" alt="#" class="w-[50px]"></div>
-                    <h1 class="text-[64px]">ИССЛЕДОВАНИЯ И ГИПОТЕЗЫ</h1>
+                    <h1 class="text-[64px] 2xl:max-w-[100%] 2xl:text-[64px] lg:max-w-[465px] lg:text-[64px] md:text-[48px]">ИССЛЕДОВАНИЯ И ГИПОТЕЗЫ</h1>
                 </a>
-                <a href="/services#service2" class="flex flex-col justify-between border border-white text-white outline-[1,5px] rounded-[28px] w-[426px] h-[413px] p-[35px] content-end shrink-0">
+                <a href="/services#service2" class="flex flex-col justify-between grow border border-white text-white outline-[1,5px] rounded-[28px] w-[426px] h-[413px] p-[35px] content-end shrink-0 md:min-w-[384px]">
                     <div class="max-w-[100%] flex flex-row justify-end"><img src="{{ Vite::asset('resources/images/ArrowUpRightwhite.svg') }}" alt="#" class="w-[50px]"></div>
                     <h1 class="text-[48px]">СОЗДАНИЕ САЙТОВ НА TILDA</h1>
                 </a>
-                <a href="/services#service3" class="flex flex-col justify-between border border-white text-white outline-[1,5px] rounded-[28px] w-[426px] h-[413px] p-[35px] content-end shrink-0">
+                <a href="/services#service3" class="flex flex-col justify-between grow border border-white text-white outline-[1,5px] rounded-[28px] w-[426px] h-[413px] p-[35px] content-end shrink-0 md:min-w-[384px]">
                     <div class="max-w-[100%] flex flex-row justify-end"><img src="{{ Vite::asset('resources/images/ArrowUpRightwhite.svg') }}" alt="#" class="w-[50px]"></div>
                     <h1 class="text-[48px]">СОЗДАНИЕ ПРИЛОЖЕНИЙ С VR-ТЕХНОЛОГИЯМИ</h1>
                 </a>
                 <a href="/services#service4" class="flex flex-col justify-between grow bg-white clip-sloped-25 p-[35px] content-end ">
                     <div class="max-w-[100%] flex flex-row justify-end"><img src="{{ Vite::asset('resources/images/ArrowUpRight.svg') }}" alt="#" class="w-[50px]"></div>
-                    <h1 class="text-[64px]">СОЗДАНИЕ ПРОТОТИПОВ САЙТА</h1>
+                    <h1 class="text-[64px] lg:text-[64px] 2xl:text-[64px] 2xl:max-w-[100%]  xl:max-w-[689px] lg:max-w-[384px] md:text-[48px]">СОЗДАНИЕ ПРОТОТИПОВ САЙТА</h1>
                 </a>
             </div>
         </section>
