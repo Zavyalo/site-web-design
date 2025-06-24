@@ -19,6 +19,7 @@ class ArticleSeeder extends Seeder
                 [
                     'name' => 'Статья 1',
                     'slug' => Str::slug('Статья 1'),
+                    'link' => 'portal.midis.info',
                     'description' => 'описание',
                     'path_img' => 'content/articles/article1.jpg',
                     'date' => '2025-01-01',
@@ -28,6 +29,7 @@ class ArticleSeeder extends Seeder
                 [
                     'name' => 'Статья 1',
                     'slug' => Str::slug('Статья 1'),
+                    'link' => 'portal.midis.info',
                     'description' => 'описание',
                     'path_img' => 'content/articles/article1.jpg',
                     'date' => '2025-01-01',
