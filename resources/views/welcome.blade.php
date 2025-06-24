@@ -133,4 +133,5 @@
     </container>
 
 
+    <x-cardtwo></x-cardtwo>
 </x-app-layout>
