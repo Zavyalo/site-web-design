@@ -50,6 +50,25 @@ body {
     transition: all 0.7s;
     transform: translate(0);
 }
+<<<<<<< HEAD
 .form__border {
     border-bottom: 1px solid white;
 }
+=======
+
+
+#submit-agreement[type='checkbox']:checked{
+    background-color: hsla(0, 97%, 60%, 1);
+}
+
+
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* для IE и Edge */
+    scrollbar-width: none;     /* для Firefox */
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;             /* для Chrome, Safari и Opera */
+  }
+
+>>>>>>> 6c68397cc04becbd4af17853c2171380d749eec6
