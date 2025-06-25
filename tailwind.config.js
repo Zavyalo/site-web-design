@@ -50,7 +50,6 @@ export default {
                 'white': '#FFFFFF',
                 'darkgray': '#3A383B',
                 'lightgray': '#C5C5C5',
-
             },
             container: {
                 center: true,

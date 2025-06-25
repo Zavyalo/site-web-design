@@ -53,28 +53,35 @@
             </div>
             
         </header>
-        <main class="container mx-auto px-[15px] mt-60">
+        <main class="container mx-auto px-[15px] mt-60 max-lg:mt-40">
 
             <div class="bg-darkgray w-70 top-0 left-0 z-10 px-space-20 pt-space-26 pb-space-144 burger-panel absolute" id="menu__burger">
                 <div class="flex flex-row justify-between mb-space-26">
                 <div class="flex flex-row gap-space-16 items-center">
                     <img class="w-9 h-9" src="{{ Vite::asset('resources/images/logo.svg') }}" alt="МИДиС">
-                    <div class="w-20 text-white font-semibold leading-5"><a href="/">Цифровые решения</a></div>
+                    <div class="w-20 text-white font-semibold leading-5"><a href="/">Цифровые решения</a></div> <div class=""></div>
                 </div>
                 <img class="w-10 h-10 block" id="btn-close-burger-panel" src="{{ Vite::asset('resources/images/Close_round_light.svg') }}" alt="Закрыть меню">
                 </div>
                 <ul class="flex flex-col gap-space-10">
-                    <li class="w-50 flex justify-center rounded-full py-1 {{ request()->is('/') ? 'text-white bg-gradient' : 'text-black bg-white' }}"><a href="/">Главная</a></li>
-                    <li class="w-60 flex justify-center rounded-full py-1 {{ request()->is('about') ? 'text-white bg-gradient' : 'text-black bg-white' }}"><a href="/about">О нас</a></li>
-                    <li class="w-60 flex justify-center text-black bg-white rounded-full py-1 {{ request()->is('services') ? 'text-white bg-gradient' : 'text-black bg-white' }}"><a href="/services">Услуги</a></li>
-                    <li class="w-60 flex justify-center text-black bg-white rounded-full py-1 {{ request()->is('blog') ? 'text-white bg-gradient' : 'text-black bg-white' }}"><a href="/blog">Блог</a></li>
-                    <li class="w-60 flex justify-center text-black bg-white rounded-full py-1 {{ request()->is('portfolio') ? 'text-white bg-gradient' : 'text-black bg-white' }}"><a href="/portfolio">Портфолио</a></li>
+                    <li class="w-50 flex justify-center rounded-full py-1 {{ request()->is('/') ? 'text-white bg-gradient' : 'text-black bg-white' }}">
+                    <a href="/" class="py-1 px-20">Главная</a></li>
+                    <li class="w-60 flex justify-center rounded-full py-1 {{ request()->is('about') ? 'text-white bg-gradient' : 'text-black bg-white' }}">
+                    <a href="/about" class="py-1 px-20">О нас</a></li>
+                    <li class="w-60 flex justify-center text-black bg-white rounded-full py-1 {{ request()->is('services') ? 'text-white bg-gradient' : 'text-black bg-white' }}">
+                    <a href="/services" class="py-1 px-20">Услуги</a></li>
+                    <li class="w-60 flex justify-center text-black bg-white rounded-full py-1 {{ request()->is('blog') ? 'text-white bg-gradient' : 'text-black bg-white' }}">
+                    <a href="/blog" class="py-1 px-20">Блог</a></li>
+                    <li class="w-60 flex justify-center text-black bg-white rounded-full py-1 {{ request()->is('portfolio') ? 'text-white bg-gradient' : 'text-black bg-white' }}">
+                    <a href="/portfolio" class="py-1 px-20">Портфолио</a></li>
                 </ul>
                 <div class="w-20 flex flex-row bg-black text-white rounded-full justify-center items-center py-1 gap-space-4 mt-space-26">
                     <div class="flex justify-center text-black bg-white rounded-full px-space-4 py-space-4">RU</div>
                     <div class="flex justify-center rounded-full px-space-4 py-space-4">EN</div>
                 </div>
             </div>
+
+            <x-FAQ></x-FAQ>
 
             {{ $slot }}
         </main>
