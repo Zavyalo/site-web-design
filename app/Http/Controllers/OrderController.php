@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\Http;
 use App\Models\Order;
 use Illuminate\Http\Request;
 
@@ -16,9 +16,26 @@ class OrderController extends Controller
             'name'=>'required|string|max:255',
             'tel'=>'required|string|max:255',
             'email'=>'required|string|max:255',
-            'comment'=>'string'
+            'message'=>'string'
         ]);
         $order->create($data);
+        $message = sprintf(
+            "%s\r\n%s\r\n%s\r\n%s",
+            "message",
+            $request->input("name"),
+            $request->input("tel"),
+            $request->input("email"),
+            $request->input("message"),        
+        );
+
+        Http::post(sprintf(
+            'https://api.telegram.org/bot%s/sendMessage',
+            config('telegram.bot_token')),
+            [
+                'chat_id' => config('telegram.reciever_chat_id'),
+                'text' => $message,
+            ]
+        );
         return redirect()->back()->with('info','Ваше сообщение принято! Мы свяжемся с Вами в ближайшее время!');
     }
 }
