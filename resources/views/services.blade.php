@@ -25,21 +25,22 @@
         </div>
     </div>
 
-    <div class="flex flex-row justify-between mb-space-144" id="service1">
-        <div class="flex flex-col justify-between">
-            <div class="flex flex-row mb-space-48 font-victor uppercase">
-                <h2 class="text-3xl text-red-500 pr-space-4">(01)</h2>
-                <h2 class="text-3xl text-white"> Исследования и гипотезы</h2>
+    <div class="flex flex-row justify-between mb-space-144 sm:flex-wrap min-[320px]:flex-wrap lg:flex-nowrap max-[1280px]:flex-col" id="service1">
+        <div class="flex flex-col justify-between sm:pb-space-32 min-[320px]:pb-space-32">
+            <div class="flex flex-row mb-space-48 sm:mb-space-20 min-[320px]:mb-space-20">
+                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-red-500 pr-space-4 sm:text-base min-[320px]:text-base">(01)</h2>
+                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-white sm:text-base min-[320px]:text-base"> Исследования и гипотезы</h2>
             </div>
             <div class="mb-space-48 font-victor uppercase">
-                <p class="font-victor text-lightgray pb-space-16">Кому подходит: стартапы, компании с новым продуктом</p>
-                <p class="font-victor text-lightgray">Методы: user-flow, сценарии, pain points, CJM</p>
+                <p class="font-victor text-lightgray lg:pb-space-16 md:pb-space-16 xl:pb-space-16 max-[1280px]:pb-space-16 sm:pb-space-4 min-[320px]:pb-space-4 sm:text-xs min-[320px]:text-xs
+                        lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70 w-[500px] break-words">Кому подходит: стартапы, компании с новым продуктом</p>
+                <p class="font-victor text-lightgray sm:text-xs min-[320px]:text-xs lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70">Методы: user-flow, сценарии, pain points, CJM</p>
             </div>
             <div class="flex flex-row justify-between">
-                <div class="flex flex-col justify-between">
-                    <div class="flex flex-row mb-space-48">
-                        <div class="pr-space-70">
-                            <p class="font-victor uppercase text-white text-base font-semibold pb-space-16">Что делаем:</p>
+                <div class="flex flex-col justify-between lg:flex-nowrap">
+                    <div class="flex 2xl:flex-row mb-space-48 min-[320px]:flex-wrap lg:flex-nowrap lg:flex-row sm:mb-space-20 min-[320px]:mb-space-20 mr-space-70">
+                        <div class="pr-space-70 sm:pb-space-26 min-[320px]:pb-space-26 lg:flex-nowrap lg:flex-row">
+                            <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что делаем:</p>
                             <ul class="font-inter text-white text-base font-light">
                                 <li>> Интервью с пользователями</li>
                                 <li>> Анализ конкурентов</li>
@@ -49,7 +50,7 @@
                             </ul>
                         </div>
                         <div>
-                            <p class="font-victor uppercase text-white text-base font-semibold pb-space-16">Что получает клиент:</p>
+                            <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что получает клиент:</p>
                             <ul class="font-inter text-white text-base font-light">
                                 <li>> Чёткие выводы и инсайты</li>
                                 <li>> Верифицированные гипотезы</li>
@@ -61,116 +62,128 @@
                 </div>
             </div>
         </div>
-        <img src="{{ Vite::asset('resources/images/serves_1.png') }}" alt="" class="flex-shrink-0">
+        <img src="{{ Vite::asset('resources/images/serves1.jpg') }}" alt="" class="clip-sloped-25 flex-shrink-0 
+                    max-[1280px]:h-[500px] max-[1280px]:w-[645px] rounded-3xl
+                    md:h-[400px] sm:h-[350px] sm:w-[470px]
+                    min-[320px]:h-[250px] min-[320px]:w-[350px]">
     </div>
 
-    <div class="flex flex-row justify-between mb-space-144" id="service2">
-        <div class="flex flex-col justify-between">
-            <div class="flex flex-row mb-space-48">
-                <h2 class="font-victor uppercase text-3xl text-red-500 pr-space-4">(02)</h2>
-                <h2 class="font-victor uppercase text-3xl text-white"> Создание прототипов сайтов</h2>
+    <div class="flex flex-row justify-between mb-space-144 sm:flex-wrap min-[320px]:flex-wrap lg:flex-nowrap max-[1280px]:flex-col" id="service2">
+        <div class="flex flex-col justify-between sm:pb-space-32 min-[320px]:pb-space-32">
+            <div class="flex flex-row mb-space-48 sm:mb-space-20 min-[320px]:mb-space-20">
+                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-red-500 pr-space-4 sm:text-base min-[320px]:text-base">(02)</h2>
+                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-white sm:text-base min-[320px]:text-base"> Создание прототипов сайтов</h2>
             </div>
-            <div class="mb-space-48 uppercase">
-                <p class="font-victor text-lightgray pb-[14px]">Кому подходит: тем, кто запускает новый продукт, редизайн, платформу, личный кабинет или сервисную систему.</p>
-                <p class="font-victor text-lightgray">Методы: user-flow, сценарии, pain points, CJM</p>
-            </div>
-            <div class="flex flex-row justify-between">
-                <div class="flex flex-col justify-between">
-                    <div class="flex flex-row mb-space-48">
-                        <div class="pr-space-70">
-                            <p class="font-victor uppercase text-white text-base font-semibold pb-space-16">Что делаем:</p>
-                            <ul class="font-inter text-white text-base font-light">
-                                <li>> User-flow</li>
-                                <li>> Wireframes</li>
-                                <li>> Карты CJM</li>
-                                <li>> Кликабельные прототипы в Figma</li>
-                                <li>> Тестирование на целевой аудитории</li>
-                                <li>> Подготовка к передаче в дизайн или разработку</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <p class="font-victor uppercase text-white text-base font-semibold pb-space-16">Что получает клиент:</p>
-                            <ul class="font-inter text-white text-base font-light">
-                                <li>> Прототип сайта</li>
-                                <li>> Продуманную структуру страниц</li>
-                                <li>> Понятный визуальный сценарий</li>
-                                <li>> Возможность тестировать проект до его реализации</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <span class="font-inter flex items-center justify-center bg-white font-semibold py-2 px-4 rounded-full h-[46px] w-[145px]">От 18 000</span>
-                </div>
-            </div>
-        </div>
-        <img src="{{ Vite::asset('resources/images/serves_2.png') }}" alt="" class="flex-shrink-0">
-    </div>
-
-    <div class="flex flex-row justify-between mb-space-144" id="service3">
-        <div class="flex flex-col justify-between">
-            <div class="flex flex-row mb-space-48">
-                <h2 class="font-victor uppercase text-3xl text-red-500 pr-space-4">(03)</h2>
-                <h2 class="font-victor uppercase text-3xl text-white"> Создание сайтов на Tilda</h2>
-            </div>
-            <div class="mb-space-48 uppercase">
-                <p class="font-victor text-lightgray pb-space-16">Кому подходит: тем, кто запускает новый продукт, редизайн, платформу, личный кабинет или сервисную систему.</p>
-                <p class="font-victor text-lightgray">Методы: user-flow, сценарии, pain points, CJM</p>
-            </div>
-            <div class="flex flex-row justify-between">
-                <div class="flex flex-col justify-between">
-                    <div class="flex flex-row mb-space-48">
-                        <div class="pr-space-70">
-                            <p class="font-victor uppercase text-white text-base font-semibold pb-space-16">Что делаем:</p>
-                            <ul class="font-inter text-white text-base font-light">
-                                <li>> User-flow</li>
-                                <li>> Wireframes</li>
-                                <li>> Карты CJM</li>
-                                <li>> Кликабельные прототипы в Figma</li>
-                                <li>> Тестирование на целевой аудитории</li>
-                                <li>> Подготовка к передаче в дизайн или разработку</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <p class="font-victor uppercase text-white text-base font-semibold pb-space-16">Что получает клиент:</p>
-                            <ul class="font-inter text-white text-base font-light">
-                                <li>> Прототип сайта</li>
-                                <li>> Продуманную структуру страниц</li>
-                                <li>> Понятный визуальный сценарий</li>
-                                <li>> Возможность тестировать проект до его реализации</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <span class="font-inter flex items-center justify-center bg-white font-semibold py-2 px-4 rounded-full h-[46px] w-[145px]">От 18 000</span>
-                </div>
-            </div>
-        </div>
-        <img src="{{ Vite::asset('resources/images/serves_3.png') }}" alt="" class="flex-shrink-0">
-    </div>
-
-    <div class="flex flex-row justify-between mb-space-144 sm:flex-wrap min-[320px]:flex-wrap lg:flex-nowrap max-[1280px]:flex-col" id="service4">
-        <div class="flex flex-col justify-between sm:pb-space-32">
-            <div class="flex flex-row mb-space-48">
-                <h2 class="font-victor uppercase text-3xl text-red-500 pr-space-4">(04)</h2>
-                <h2 class="font-victor uppercase text-3xl text-white"> Создание приложений с VR-технологиями</h2>
-            </div>
-            <div class="mb-space-48 uppercase">
-                <p class="font-victor text-lightgray pb-space-16">Кому подходит: тем, кто запускает новый продукт, редизайн, платформу, личный кабинет или сервисную систему.</p>
-                <p class="font-victor text-lightgray">Методы: user-flow, сценарии, pain points, CJM</p>
+            <div class="mb-space-48 uppercase sm:mb-space-20 min-[320px]:mb-space-20">
+                <p class="font-victor text-lightgray lg:pb-space-16 md:pb-space-16 xl:pb-space-16 max-[1280px]:pb-space-16 sm:pb-space-4 min-[320px]:pb-space-4 sm:text-xs min-[320px]:text-xs
+                        lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70 w-[500px] break-words">Кому подходит: тем, кто запускает новый продукт, редизайн, платформу, личный кабинет или сервисную систему.</p>
+                <p class="font-victor text-lightgray sm:text-xs min-[320px]:text-xs lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70">Методы: user-flow, сценарии, pain points, CJM</p>
             </div>
             <div class="flex flex-row justify-between">
                 <div class="flex flex-col justify-between lg:flex-nowrap">
-                    <div class="flex 2xl:flex-row mb-space-48 min-[320px]:flex-wrap lg:flex-nowrap lg:flex-row">
+                    <div class="flex 2xl:flex-row mb-space-48 min-[320px]:flex-wrap lg:flex-nowrap lg:flex-row sm:mb-space-20 min-[320px]:mb-space-20 mr-space-70">
                         <div class="pr-space-70 sm:pb-space-26 min-[320px]:pb-space-26 lg:flex-nowrap lg:flex-row">
-                            <p class="font-victor uppercase text-white text-base font-semibold pb-space-16">Что делаем:</p>
+                            <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что делаем:</p>
                             <ul class="font-inter text-white text-base font-light">
-                                <li>> Сценарии взаимодействия в VR</li>
-                                <li>> Дизайн и моделирование 3D-сред</li>
-                                <li>> Разработка приложений на Unity/WebXR</li>
-                                <li>> Поддержка под Oculus, WebVR, мобильные устройства</li>
-                                <li>> Видео-демо и инструкции по использованию</li>
+                                <li>> User-flow</li>
+                                <li>> Wireframes</li>
+                                <li>> Карты CJM</li>
+                                <li>> Кликабельные прототипы в Figma</li>
+                                <li>> Тестирование на целевой аудитории</li>
+                                <li>> Подготовка к передаче в дизайн или разработку</li>
                             </ul>
                         </div>
                         <div>
-                            <p class="font-victor uppercase text-white text-base font-semibold pb-space-16">Что получает клиент:</p>
+                            <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что получает клиент:</p>
+                            <ul class="font-inter text-white text-base font-light">
+                                <li>> Прототип сайта</li>
+                                <li>> Продуманную структуру страниц</li>
+                                <li>> Понятный визуальный сценарий</li>
+                                <li>> Возможность тестировать проект до его реализации</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <span class="font-inter flex items-center justify-center bg-white font-semibold py-2 px-4 rounded-full h-[46px] w-[145px]">От 18 000</span>
+                </div>
+            </div>
+        </div>
+        <img src="{{ Vite::asset('resources/images/serves2.jpg') }}" alt="" class="rounded-full flex-shrink-0 
+                    max-[1280px]:h-[500px] max-[1280px]:w-[645px]
+                    md:h-[400px] sm:h-[350px] sm:w-[470px]
+                    min-[320px]:h-[250px] min-[320px]:w-[350px]">
+    </div>
+
+    <div class="flex flex-row justify-between mb-space-144 sm:flex-wrap min-[320px]:flex-wrap lg:flex-nowrap max-[1280px]:flex-col" id="service3">
+        <div class="flex flex-col justify-between sm:pb-space-32 min-[320px]:pb-space-32">
+            <div class="flex flex-row mb-space-48 sm:mb-space-20 min-[320px]:mb-space-20">
+                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-red-500 pr-space-4 sm:text-base min-[320px]:text-base">(03)</h2>
+                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-white sm:text-base min-[320px]:text-base"> Создание сайтов на Tilda</h2>
+            </div>
+            <div class="mb-space-48 uppercase sm:mb-space-20 min-[320px]:mb-space-20">
+                <p class="font-victor text-lightgray lg:pb-space-16 md:pb-space-16 xl:pb-space-16 max-[1280px]:pb-space-16 sm:pb-space-4 min-[320px]:pb-space-4 sm:text-xs min-[320px]:text-xs
+                        lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70 w-[500px] break-words">Кому подходит: тем, кто запускает новый продукт, редизайн, платформу, личный кабинет или сервисную систему.</p>
+                <p class="font-victor text-lightgray sm:text-xs min-[320px]:text-xs lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70">Методы: user-flow, сценарии, pain points, CJM</p>
+            </div>
+            <div class="flex flex-row justify-between">
+                <div class="flex flex-col justify-between lg:flex-nowrap">
+                    <div class="flex 2xl:flex-row mb-space-48 min-[320px]:flex-wrap lg:flex-nowrap lg:flex-row sm:mb-space-20 min-[320px]:mb-space-20 mr-space-70">
+                        <div class="pr-space-70 sm:pb-space-26 min-[320px]:pb-space-26 lg:flex-nowrap lg:flex-row">
+                            <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что делаем:</p>
+                            <ul class="font-inter text-white text-base font-light">
+                                <li>> User-flow</li>
+                                <li>> Wireframes</li>
+                                <li>> Карты CJM</li>
+                                <li>> Кликабельные прототипы в Figma</li>
+                                <li>> Тестирование на целевой аудитории</li>
+                                <li>> Подготовка к передаче в дизайн или разработку</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что получает клиент:</p>
+                            <ul class="font-inter text-white text-base font-light">
+                                <li>> Прототип сайта</li>
+                                <li>> Продуманную структуру страниц</li>
+                                <li>> Понятный визуальный сценарий</li>
+                                <li>> Возможность тестировать проект до его реализации</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <span class="font-inter flex items-center justify-center bg-white font-semibold py-2 px-4 rounded-full h-[46px] w-[145px]">От 18 000</span>
+                </div>
+            </div>
+        </div>
+        <img src="{{ Vite::asset('resources/images/serves3.jpg') }}" alt="" class="flex-shrink-0 
+                    max-[1280px]:h-[500px] max-[1280px]:w-[645px] rounded-3xl
+                    md:h-[400px] sm:h-[350px] sm:w-[470px]
+                    min-[320px]:h-[250px] min-[320px]:w-[350px]">
+    </div>
+
+    <div class="flex flex-row justify-between mb-space-144 sm:flex-wrap min-[320px]:flex-wrap lg:flex-nowrap max-[1280px]:flex-col" id="service4">
+        <div class="flex flex-col justify-between sm:pb-space-32 min-[320px]:pb-space-32">
+            <div class="flex flex-row mb-space-48 sm:mb-space-20 min-[320px]:mb-space-20">
+                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-red-500 pr-space-4 sm:text-base min-[320px]:text-base">(04)</h2>
+                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-white sm:text-base min-[320px]:text-base"> Создание приложений с VR-технологиями</h2>
+            </div>
+            <div class="mb-space-48 uppercase sm:mb-space-20 min-[320px]:mb-space-20">
+                <p class="font-victor text-lightgray lg:pb-space-16 md:pb-space-16 xl:pb-space-16 max-[1280px]:pb-space-16 sm:pb-space-4 min-[320px]:pb-space-4 sm:text-xs min-[320px]:text-xs
+                        lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70 w-[500px] break-words">Кому подходит: тем, кто запускает новый продукт, редизайн, платформу, личный кабинет или сервисную систему.</p>
+                <p class="font-victor text-lightgray sm:text-xs min-[320px]:text-xs lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70">Методы: user-flow, сценарии, pain points, CJM</p>
+            </div>
+            <div class="flex flex-row justify-between">
+                <div class="flex flex-col justify-between lg:flex-nowrap">
+                    <div class="flex 2xl:flex-row mb-space-48 min-[320px]:flex-wrap lg:flex-nowrap lg:flex-row sm:mb-space-20 min-[320px]:mb-space-20 mr-space-70">
+                        <div class="sm:pb-space-26 min-[320px]:pb-space-26 lg:flex-nowrap lg:flex-row">
+                            <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что делаем:</p>
+                            <ul class="font-inter text-white text-base font-light pr-space-48">
+                                <li class="w-[300px] break-words">> Сценарии взаимодействия в VR</li>
+                                <li class="w-[300px] break-words">> Дизайн и моделирование 3D-сред</li>
+                                <li class="w-[300px] break-words">> Разработка приложений на Unity/WebXR</li>
+                                <li class="w-[300px] break-words">> Поддержка под Oculus, WebVR, мобильные устройства</li>
+                                <li class="w-[300px] break-words">> Видео-демо и инструкции по использованию</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что получает клиент:</p>
                             <ul class="font-inter text-white text-base font-light">
                                 <li>> Готовое VR-решение под задачу</li>
                                 <li>> Интерактивный пользовательский опыт</li>
@@ -184,7 +197,10 @@
             </div>
         </div>
         <div>
-            <img src="{{ Vite::asset('resources/images/serves4.png') }}" alt="" class="flex-shrink-0 object-fit:contain max-width:100% max-height:100% width:auto height:auto max-[1280px]:h-[500px]">
+            <img src="{{ Vite::asset('resources/images/serves4.jpg') }}" alt="" class="rounded-full flex-shrink-0 
+                    max-[1280px]:h-[500px] max-[1280px]:w-[645px]
+                    md:h-[400px] sm:h-[350px] sm:w-[470px]
+                    min-[320px]:h-[250px] min-[320px]:w-[350px]">
         </div>
     </div>
 
