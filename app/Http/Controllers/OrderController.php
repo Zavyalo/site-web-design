@@ -9,6 +9,9 @@ class OrderController extends Controller
 {
     public function store (Request $request, Order $order)
     {
+        if($request -> check){
+            die();
+        }
         $data = $request -> validate([
             'name'=>'required|string|max:255',
             'tel'=>'required|string|max:255',
