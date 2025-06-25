@@ -50,3 +50,11 @@ body {
     transition: all 0.7s;
     transform: translate(0);
 }
+
+
+#submit-agreement[type='checkbox']:checked
+{
+   
+    background-color: hsla(0, 97%, 60%, 1);
+   
+}

@@ -4,6 +4,8 @@ use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\WorkController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\OrderController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -30,11 +32,11 @@ Route::get('/services', function () {
     return view('services');
 });
 
-Route::get('/cases/{work}', [WorkController::class, 'show']) ->name('case-show');;
+Route::get('/cases/{work}', [WorkController::class, 'show']) ->name('case-show');
 
 Route::get('/blog', [ArticleController::class, 'index']);
 
-
+Route::put('/order',[OrderController::class, 'store']) ->name('order.create');
 
 Route::get('/test', function () {
     return view('test');

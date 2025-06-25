@@ -178,56 +178,6 @@
     >ВОПРОСЫ И ОТВЕТЫ</h1>
 </section>
 
-<section class="about-form grid 
-    sm:grid-rows-2
-    sm:grid-flow-col
-    md:grid-cols-none
-    lg:grid-flow-row
-    lg:grid-rows-none">
-    <div class="about-form-text-wrapper flex flex-col
-        sm:gap-space-16
-        md:gap-space-26">
-        <h1 class="text-white font-victor font-bold
-            sm:text-3xl 
-            sm:row-start-1
-            md:text-4xl
-            lg:text-5xl"
-        >СВЯЖИТЕСЬ С НАМИ</h1>
-        <p class="text-white font-inter">Оставьте заявку и мы свяжемся с вами или позвоните по номеру:</p>
-        <a class="text-white font-inter text-3xl font-bold" href="#">+7(999)123-45-67</a>
-    </div>
-    <div class="about-form-input flex flex-col gap-y-[14px] w-full">
-        <div class="flex gap-[14px] w-full">
-            <input class="w-full border-none p-4 rounded-[100px]" 
-                type="text" 
-                name="form-name" 
-                placeholder="Имя" 
-                required>
-            <input class="w-full border-none p-4 rounded-[100px]" 
-                type="email" 
-                name="form-email" 
-                placeholder="E-mail" 
-                required>
-        </div>
-        <input class="w-full border-none p-4 rounded-[100px]" 
-            type="tel" 
-            name="form-telephone" 
-            placeholder="Телефон" 
-            required>
-        <textarea class="w-full border-none p-4 rounded-3xl" 
-            name="form-text" 
-            placeholder="Комментарий">
-        </textarea>
-        <div class="grid grid-cols-2 items-center w-full">
-            <div class="flex items-start gap-x-2">
-                <input type="checkbox" id="submit-agreement">
-                <label class="text-white font-inter" for="submit-agreement">
-                    Нажимая на кнопку, я соглашаюсь с&nbsp;<a class="underline" href="#">обработкой персональных данных</a>
-                </label>
-            </div>
-            <button class="form-submit bg-gradient p-4 font-medium text-white rounded-[100px] w-full">Оставить заявку</button>
-        </div>
-    </div>
-</section>
+<x-form-order></x-form-order>
 </div>
 </x-app-layout>
