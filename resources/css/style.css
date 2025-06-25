@@ -50,3 +50,16 @@ body {
     transition: all 0.7s;
     transform: translate(0);
 }
+
+
+
+/* katya (scrollbar-hide) */
+
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* для IE и Edge */
+    scrollbar-width: none;     /* для Firefox */
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;             /* для Chrome, Safari и Opera */
+  }
