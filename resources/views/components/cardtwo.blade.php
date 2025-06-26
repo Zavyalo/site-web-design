@@ -1,4 +1,4 @@
-<div class="flex justify-center items-center h-screen bg-gray-900">
+<div class="flex justify-center items-center">
   <div class="flex justify-center items-center border border-white outline-[1,5px] rounded-[28px] w-[774px] h-[392px]">
     <div class="flex flex-row gap-[60px] m-10">
       <div class="flex flex-col items-center gap-[15px] size-auto">
