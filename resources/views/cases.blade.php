@@ -1,82 +1,37 @@
 <x-app-layout>
-    <section class="flex flex-col gap-36 mt-36 container">
-        <div class="flex flex-col gap-6">
-            <div class="flex flex-row">
+    <section class="flex flex-col mt-space-48 md:mt-space-144">
+        <div class="flex flex-col">
+            <div class="flex flex-row ">
                 <div class="basis-4/6">
-                    <h1 class="uppercase text-6xl">
-                        Название кейса
-                    </h1>
+                    <x-h1-gradient class="leadind-[86px] md:leading-[86px]">
+                        {{$work->name}}
+                    </x-h1-gradient>
                 </div>
-                <div class="basis-2/6 flex-auto ">
+                <div class="basis-2/6 flex-auto hidden lg:block">
                     <ul class="flex flex-row justify-end gap-3.5">
-                        <li class="">Исследования</li>
-                        <li class="">Веб-дизайн</li>
+                        @foreach ($work->tags as $tag)
+                        <li class="">
+                            <x-tag>{{ $tag->name }}</x-tag>
+                        </li>
+                        @endforeach
                     </ul>
                 </div>
             </div>
-            <div class="flex flex-col gap-5">
-                <p class="w-8/12 text-2xl">В этом разделе мы собрали кейсы, демонстрирующие подход мастерской к решению цифровых задач. От первых исследований
-                    до запуска продукта — мы сопровождаем проект на каждом этапе, опираясь на цели клиента и пользовательский опыт</p>
-                <p class="text-base">01.03.2025</p>
+            <div class="flex flex-col mt-space-24">
+                <p class="w-12/12 md:w-8/12 font-inter text-base md:text-2xl text-white">{{$work->description}}</p>
+                <p class="text-base text-lightgray font-inter mt-space-20">{{ \Carbon\Carbon::parse($work->date)->translatedFormat('d.m.Y') }}</p>
             </div>
         </div>
-        <div class="flex justify-center">
+        <div class="flex justify-center mt-space-48 md:mt-space-144">
             <img class="object-fill flex-grow" src="{{ Vite::asset('resources/images/behance.png') }}" alt="">
         </div>
-        
-        <section class="about-form grid grid-cols-2">
-            <div class="about-form-text-wrapper flex flex-col gap-[26px]">
-                <h1 class="text-6xl font-bold">СВЯЖИТЕСЬ С НАМИ</h1>
-                <p>Оставьте заявку и мы свяжемся с вами или позвоните по номеру:</p>
-                <a class="text-3xl font-bold" href="#">+7(999)123-45-67</a>
-            </div>
-            <fieldset class="about-form-input flex flex-col gap-y-[14px]">
-                <div class="flex gap-[14px]">
-                    <input class="flex grow border-none p-4 rounded-[100px]" type="text" name="form-name" id="" placeholder="Имя" required>
-                    <input class="flex grow border-none p-4 rounded-[100px]" type="email" name="form-email" id="" placeholder="E-mail" required>
-                </div>
-                <input class="border-none p-4 rounded-[100px]" type="tel" name="form-telephone" id="" placeholder="Телефон" required>
-                <textarea class="border-none p-4 rounded-3xl" type="text" name="form-text" id="" placeholder="Комментарий"></textarea>
-                <div class="grid grid-cols-2">
-                    <div>
-                        <input type="checkbox" name="" id="submit-agreement">
-                        <label for="submit-agreement">Нажимая на кнопку, я соглашаюсь с&nbsp<a class="underline" href="#">обработкой персональных данных</a></label>
-                    </div>
-                    <button class="form-submit bg-gradient p-4 font-medium text-white rounded-[100px]">Оставить заявку</button>
-                </div>
-            </fieldset>
-        </section>
-    </section>
 
-    <section class="partners">
-        <h1 class="uppercase text-6xl">
-            Наши партнёры
-        </h1>
-        <div class="flex flex-row gap-2.5 mt-12">
-            <div class="flex flex-col w-52 gap-5">
-                <img class="" src="{{ Vite::asset('resources/images/part-aero.png') }}" alt="">
-                <p>Платформа развлечений на борту ПАО «Аэрофлот»</p>
-            </div>
-            <div class="flex flex-col w-52 gap-5">
-                <img class="" src="{{ Vite::asset('resources/images/part-ugmk.png') }}" alt="">
-                <p>3D-тренажер для УГМК</p>
-            </div>
-            <div class="flex flex-col w-52 gap-5">
-                <img class="" src="{{ Vite::asset('resources/images/part-uni.png') }}" alt="">
-                <p>«Умная обувь»: прототип обуви будущего</p>
-            </div>
-            <div class="flex flex-col w-52 gap-5">
-                <img class="" src="{{ Vite::asset('resources/images/part-mus.png') }}" alt="">
-                <p>Виртуальный атлас-тренажер для ООО «ПрограмЛаб»</p>
-            </div>
-            <div class="flex flex-col w-52 gap-5">
-                <img class="" src="{{ Vite::asset('resources/images/part-hyatt.png') }}" alt="">
-                <p>Business case for human resources management</p>
-            </div>
-            <div class="flex flex-col w-52 gap-5">
-                <img class="" src="{{ Vite::asset('resources/images/part-bank.png') }}" alt="">
-                <p>Выявление актуальных схем финансового мошенничества</p>
-            </div>
+        <div class="flex flex-col md:flex-row justify-between mt-space-48 md:mt-space-144">
+            <x-h1-white class="w-[269px] leading-[86px] mb-space-32 md:mb-space-0">Отзыв клиента</x-h1-white>
+            <x-cardtwo></x-cardtwo>
+        </div>
+        <div class="mt-space-48 mb-space-48 md:mt-space-144 md:mb-space-144">
+            <x-form-order></x-form-order>
         </div>
     </section>
 </x-app-layout>
