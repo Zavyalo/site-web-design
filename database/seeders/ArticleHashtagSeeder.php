@@ -22,6 +22,75 @@ class ArticleHashtagSeeder extends Seeder
                 [
                     'article_id' => 1,
                     'hashtag_id' => 2
+                ],
+                [
+                    'article_id' => 1,
+                    'hashtag_id' => 3
+                ],
+
+                [
+                    'article_id' => 2,
+                    'hashtag_id' => 1
+                ],
+                [
+                    'article_id' => 2,
+                    'hashtag_id' => 2
+                ],
+                [
+                    'article_id' => 2,
+                    'hashtag_id' => 3
+                ],
+
+                [
+                    'article_id' => 3,
+                    'hashtag_id' => 1
+                ],
+                [
+                    'article_id' => 3,
+                    'hashtag_id' => 2
+                ],
+                [
+                    'article_id' => 3,
+                    'hashtag_id' => 3
+                ],
+
+                [
+                    'article_id' => 4,
+                    'hashtag_id' => 1
+                ],
+                [
+                    'article_id' => 4,
+                    'hashtag_id' => 2
+                ],
+                [
+                    'article_id' => 4,
+                    'hashtag_id' => 3
+                ],
+
+                [
+                    'article_id' => 5,
+                    'hashtag_id' => 1
+                ],
+                [
+                    'article_id' => 5,
+                    'hashtag_id' => 2
+                ],
+                [
+                    'article_id' => 5,
+                    'hashtag_id' => 3
+                ],
+
+                [
+                    'article_id' => 6,
+                    'hashtag_id' => 1
+                ],
+                [
+                    'article_id' => 6,
+                    'hashtag_id' => 2
+                ],
+                [
+                    'article_id' => 6,
+                    'hashtag_id' => 3
                 ]
             ]
         );
