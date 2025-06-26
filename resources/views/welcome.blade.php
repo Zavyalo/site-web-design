@@ -101,10 +101,11 @@
                 </div>
             </div>
         </section>
-        <section class="flex flex-row gap-[48px] w-[100%]">
-            <x-h1-gradient class="text-[64px] text-white font-victor">ОТЗЫВЫ КЛИЕНТОВ</x-h1-gradient>
-            <div class="flex flex-col">
-
+        <section class="flex lg:flex-row min-[320px]:flex-col gap-[48px] w-[100%] place-content-between">
+            <x-h1-gradient class="text-[64px] text-white font-victor w-[307px] ">ОТЗЫВЫ КЛИЕНТОВ</x-h1-gradient>
+            <div class="flex flex-col gap-[20px]">
+               <x-cardtwo></x-cardtwo>
+               <x-cardtwo></x-cardtwo>
             </div>
         </section>
         <section class="about-form grid grid-cols-2 font-inter w-[100%] font-inter">
