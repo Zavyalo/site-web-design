@@ -9,6 +9,7 @@ class OrderController extends Controller
 {
     public function store (Request $request, Order $order)
     {
+
         if($request -> check){
             die();
         }
@@ -20,8 +21,8 @@ class OrderController extends Controller
         ]);
         $order->create($data);
         $message = sprintf(
-            "%s\r\n%s\r\n%s\r\n%s",
-            "message",
+            "%s\r\n%s\r\n%s\r\n%s\r\n%s",
+            "сообщение-заявка",
             $request->input("name"),
             $request->input("tel"),
             $request->input("email"),
