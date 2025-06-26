@@ -53,6 +53,7 @@
             </div>
             
         </header>
+        <x-notice></x-notice>
         <main class="container mx-auto px-[15px] mt-60 max-lg:mt-40">
 
             <div class="bg-darkgray w-70 top-0 left-0 z-10 px-space-20 pt-space-26 pb-space-144 burger-panel absolute" id="menu__burger">
@@ -82,6 +83,9 @@
             </div>
 
             {{ $slot }}
+
+            
+
         </main>
         <footer class="bg-darkgray flex flex-row justify-center p-space-48 justify-between text-white max-lg:p-space-32 max-[420px]:flex-col gap-space-32">
             <div class="flex flex-col gap-space-16">
