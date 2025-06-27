@@ -12,7 +12,7 @@ window.Alpine = Alpine;
 Alpine.start();
 
 import.meta.glob([
-        '../images/**',
+        '../images/*/*.*',
 ]);
 
 window.onload = function(){

@@ -14,4 +14,8 @@ class Work extends Model
     {
         return $this->belongsToMany(Tag::class, 'work_tags');
     }
+    public function getImageUrlAttribute()
+    {
+        return '/resources/images/' . $this->path_img;
+    }
 }
