@@ -3,6 +3,9 @@
 @import "./blog.css";
 @import "./cases.css";
 
+[type='checkbox'], [type='radio'] {
+    color: none;
+}
 
 @tailwind base;
 @tailwind components;

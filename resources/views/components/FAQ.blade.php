@@ -1,6 +1,6 @@
 <section class="flex flex-row justify-between w-full font-inter">
     <x-h1-white>ВОПРОСЫ <br> И ОТВЕТЫ</x-h1-white>
-    <div class="flex flex-col w-[1000px] gap-space-26">
+    <div class="flex flex-col gap-space-26">
         <div class="text-white text-lg form__border pb-space-32">
         <div class="flex flex-row justify-between">
             <p class="">Как мы передаём сайт клиенту?</p>
