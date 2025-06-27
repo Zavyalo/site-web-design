@@ -3,7 +3,7 @@
     <container class=" flex flex-col items-center gap-[144px] sm:gap-[144px] min-[320px]:gap-[48px] my-[144px]">
         <section class="flex flex-col items-center gap-[70px] font-inter">
             <div class="flex flex-col items-center gap-[42px]">
-            <p class="text-[74px] md:text-[74px] min-[320px]:text-[30px] text-center font-victor max-w-[1114px]">СОЗДАЁМ ЦИФРОВЫЕ РЕШЕНИЯ, КОТОРЫЕ РАБОТАЮТ</p>
+            <p class="text-[74px] md:text-[74px] min-[320px]:text-[30px] font-bold text-center font-victor bg-gradient-text-transparent bg-clip-text bg-gradient-to-r from-emerald-100 from-10% via-orange-500 via-20% to-red-200 to-100% bg-clip-text uppercase text-transparent max-w-[1114px]">СОЗДАЁМ ЦИФРОВЫЕ РЕШЕНИЯ, КОТОРЫЕ РАБОТАЮТ</p>
             <h1 class="text-white text-[24px] md:text-[24px] min-[320px]:text-[12px] text-center max-w-[832px]">Образовательный проект МИДиС: от идеи до цифрового продукта. Мы слышим, вникаем и превращаем Ваши задачи в понятные, живые цифровые продукты</h1>
 
             </div>
