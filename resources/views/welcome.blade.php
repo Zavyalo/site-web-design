@@ -34,7 +34,7 @@
                 </a>
             </div>
         </section>
-        <section class="flex about-goals section-display font-victor w-[100%]">
+        <section class="flex flex-col about-goals section-display font-victor w-[100%]">
             <x-h1-white>ДОСТИЖЕНИЯ</x-h1-white>
             <div class="about-goals-num-wrapper flex flex-row sm:flex-row min-[320px]:flex-col">
                 <div class="about-goals-num flex flex-1 flex-col grow items-center">
