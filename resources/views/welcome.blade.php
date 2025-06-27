@@ -10,7 +10,7 @@
             <x-secondary-button class=" flex justify-center w-[311px] h-[56px]">Оставить заявку</x-secondary-button>
         </section>
         <section class="flex flex-col gap-[48px] font-victor w-[100%]">
-            <x-h1-gradient>НАШИ УСЛУГИ</x-h1-gradient>
+            <x-h1-white>НАШИ УСЛУГИ</x-h1-white>
             <div class="flex flex-wrap gap-[14px]">
                 <a href="/services#service1" class="flex flex-col justify-between grow bg-white clip-sloped-25 p-[35px] content-end 2xl:gap-[auto] xl:gap-[auto] lg:gap-[auto] md:gap-[auto] sm:gap-[0px] min-[320px]:gap-[55px]
                 hover:bg-darkgray hover:text-white">
@@ -35,51 +35,51 @@
             </div>
         </section>
         <section class="flex about-goals section-display font-victor w-[100%]">
-            <x-h1-gradient class="text-[64px] text-white">ДОСТИЖЕНИЯ</x-h1-gradient>
+            <x-h1-white>ДОСТИЖЕНИЯ</x-h1-white>
             <div class="about-goals-num-wrapper flex flex-row sm:flex-row min-[320px]:flex-col">
                 <div class="about-goals-num flex flex-1 flex-col grow items-center">
-                    <h2 class="text-[200px] lg:text-[200px] min-[320px]:text-[110px] font-bold">80+</h2>
+                    <p class="text-[200px] lg:text-[200px] min-[320px]:text-[110px] font-bold">80+</p>
                     <span class="text-white font-inter sm:text-[24px] min-[320px]:text-[12px]">Завершённых проектов</span>
                 </div>
                 <div class="about-goals-num flex flex-1 flex-col grow items-center">
-                    <h2 class="text-[200px] lg:text-[200px] min-[320px]:text-[110px] font-bold">4</h2>
+                    <p class="text-[200px] lg:text-[200px] min-[320px]:text-[110px] font-bold">4</p>
                     <span class="text-white font-inter sm:text-[24px] min-[320px]:text-[12px]">Направления работ</span>
                 </div>
                 <div class="about-goals-num flex flex-1 flex-col grow items-center">
-                    <h2 class="text-[200px] lg:text-[200px] min-[320px]:text-[110px] font-bold">25</h2>
+                    <p class="text-[200px] lg:text-[200px] min-[320px]:text-[110px] font-bold">25</p>
                     <span class="text-white font-inter Z">Постоянных клиентов</span>
                 </div>
             </div>
         </section>
         <section class="flex flex-col gap-[48px] w-[100%] font-inter">
-            <x-h1-gradient class="text-[64px] text-white font-victor">НАШИ РАБОТЫ</x-h1-gradient>
+            <x-h1-white>НАШИ РАБОТЫ</x-h1-white>
             
         </section> 
 
         <section class="flex flex-col gap-[48px] font-victor w-[100%]">
-            <x-h1-gradient class="text-[64px] text-white">ПОЧЕМУ ВЫБИРАЮТ НАС</x-h1-gradient>
+            <x-h1-white>ПОЧЕМУ ВЫБИРАЮТ НАС</x-h1-white>
            <div class="swiper SwiperWelcome w-[100%]">
             <div class="swiper-wrapper flex flex-row gap-[14px] w-[100%]">
                 <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] rounded-[28px] w-[426px] sm:w-[426px] min-[320px]:w-[184px] h-[365px]  sm:h-[365px] min-[320px]:h-[158px] bg-gradient p-[63px]">
-                    <h1 class="text-[32px] sm:text-[32px] min-[320px]:text-[12px] text-white">ТЕСТИРОВАНИЕ ВАШЕГО САЙТА ЗА 1 ДЕНЬ С УЧАСТИЕМ >500 ЧЕЛОВЕК</h1>
+                    <p class="text-[32px] sm:text-[32px] min-[320px]:text-[12px] text-white">ТЕСТИРОВАНИЕ ВАШЕГО САЙТА ЗА 1 ДЕНЬ С УЧАСТИЕМ >500 ЧЕЛОВЕК</p>
                 </div>
                 <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] rounded-[170px] w-[426px] sm:w-[426px] min-[320px]:w-[184px] h-[365px]  sm:h-[365px] min-[320px]:h-[158px] bg-white p-[52px]">
-                    <h1 class="text-[28px] sm:text-[28px] min-[320px]:text-[12px]">ЭФФЕКТИВНОЕ РЕШЕНИЕ ВАШИХ ЗАДАЧ БЛАГОДАРЯ РАБОТЕ БОЛЬШОЙ КОМАНДЫ</h1>
+                    <p class="text-[28px] sm:text-[28px] min-[320px]:text-[12px]">ЭФФЕКТИВНОЕ РЕШЕНИЕ ВАШИХ ЗАДАЧ БЛАГОДАРЯ РАБОТЕ БОЛЬШОЙ КОМАНДЫ</p>
                 </div>
                 <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] rounded-[28px] w-[426px] sm:w-[426px] min-[320px]:w-[184px] h-[365px]  sm:h-[365px] min-[320px]:h-[158px] bg-gradient clip-sloped-25 px-[55px]">
-                    <h1 class="text-[32px] sm:text-[32px] min-[320px]:text-[12px] text-white">ПРОЗРАЧНЫЕ СРОКИ И ПРОЦЕССЫ</h1>
+                    <p class="text-[32px] sm:text-[32px] min-[320px]:text-[12px] text-white">ПРОЗРАЧНЫЕ СРОКИ И ПРОЦЕССЫ</p>
                 </div>
                 <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] rounded-[170px] w-[426px] sm:w-[426px] min-[320px]:w-[184px] h-[365px]  sm:h-[365px] min-[320px]:h-[158px] bg-white p-[52px]">
-                    <h1 class="text-[28px] sm:text-[28px] min-[320px]:text-[12px]">ОПЫТ В РАЗНЫХ ОТРАСЛЯХ: EDTECH, РИТЕЙЛ, МЕДИЦИНА, КУЛЬТУРА</h1>
+                    <p class="text-[28px] sm:text-[28px] min-[320px]:text-[12px]">ОПЫТ В РАЗНЫХ ОТРАСЛЯХ: EDTECH, РИТЕЙЛ, МЕДИЦИНА, КУЛЬТУРА</p>
                 </div>
                 <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] rounded-[28px] w-[426px] sm:w-[426px] min-[320px]:w-[184px] h-[365px]  sm:h-[365px] min-[320px]:h-[158px] bg-gradient p-[63px]">
-                    <h1 class="text-[32px] sm:text-[32px] min-[320px]:text-[12px] text-white">ГЛУБОКАЯ UX-ЭКСПЕРТИЗА</h1>
+                    <p class="text-[32px] sm:text-[32px] min-[320px]:text-[12px] text-white">ГЛУБОКАЯ UX-ЭКСПЕРТИЗА</p>
                 </div>
             </div>
         </div>
         </section>
         <section class="flex flex-col gap-[48px] w-[100%] font-inter">
-            <x-h1-gradient class="text-[64px] text-white font-victor">НАШИ ПАРТНЕРЫ</x-h1-gradient>
+            <x-h1-white>НАШИ ПАРТНЕРЫ</x-h1-white>
             <div class="swiper SwiperWelcomepartners w-[100%]">
                 <div class="swiper-wrapper flex flex-row grow gap-[8px] w-[100%]">
                     <div class="swiper-slide flex flex-1 flex-col grow sm:gap-[20px] min-[320px]:gap-[12px]">
@@ -110,7 +110,7 @@
             </div>
         </section>
         <section class="flex lg:flex-row min-[320px]:flex-col gap-[48px] w-[100%] place-content-between">
-            <x-h1-gradient class="text-[64px] text-white font-victor w-[307px] ">ОТЗЫВЫ КЛИЕНТОВ</x-h1-gradient>
+            <x-h1-white>ОТЗЫВЫ КЛИЕНТОВ</x-h1-white>
             <div class="flex flex-col gap-[20px]">
                <x-cardtwo></x-cardtwo>
                <x-cardtwo></x-cardtwo>
