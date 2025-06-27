@@ -32,8 +32,8 @@
     </div>
 </section>
 
-<section class="about-mission section-display">
-        <h1 class="text-white font-victor font-bold
+<section class="about-mission">
+        <h1 class="text-white font-victor font-bold  mb-space-48
             sm:text-3xl 
             sm:row-start-1
             md:text-4xl
@@ -42,21 +42,21 @@
     <div class="about-blob-wrapper grid grid-cols-3 gap-[14px]">
         <!-- row 1 -->
         <div class="bg-white font-inter text-center flex flex-1 rounded-[100px] p-8 items-center justify-center sm:text-sm md:text-base lg:text-lg">Упростить сложное</div>
-        <div class="bg-gradient font-inter text-center flex flex-1 clip-sloped-25 p-8 items-center justify-center sm:text-sm md:text-base lg:text-lg"></div>
+        <div class="bg-gradient text-white font-inter text-center flex flex-1 clip-sloped-25 p-8 items-center justify-center sm:text-sm md:text-base lg:text-lg">Думать о пользоватеях</div>
         <div class="bg-white font-inter text-center flex flex-1 rounded-xl p-8 items-center justify-center sm:text-sm md:text-base lg:text-lg">Всегда работать в интересах клиента</div>
         <!-- row 2 -->
-        <div class="bg-gradient font-inter text-center flex flex-1 rounded-[100px] p-8 justify-center sm:text-sm md:text-base lg:text-lg"></div>
+        <div class="bg-gradient text-white font-inter text-center flex flex-1 rounded-[100px] p-8 justify-center sm:text-sm md:text-base lg:text-lg">Развиваться и обучаться</div>
         <div class="bg-white font-inter text-center flex flex-1 rounded-xl p-8 justify-center sm:text-sm md:text-base lg:text-lg">Быть открытыми к экспериментам</div>
-        <div class="bg-gradient font-inter text-center flex flex-1 rounded-[100px] p-8 justify-center sm:text-sm md:text-base lg:text-lg"></div>
+        <div class="bg-gradient text-white font-inter text-center flex flex-1 rounded-[100px] p-8 justify-center sm:text-sm md:text-base lg:text-lg">Быть прозрачными</div>
         <!-- row 3 -->
-        <div class="bg-white font-inter text-center flex flex-1 rounded-xl p-8 justify-center sm:text-sm md:text-base lg:text-lg"></div>
-        <div class="bg-gradient font-inter text-center flex flex-1 clip-sloped-25 p-8 justify-center sm:text-sm md:text-base lg:text-lg"></div>
-        <div class="bg-white font-inter text-center flex flex-1 rounded-[100px] p-8 justify-center sm:text-sm md:text-base lg:text-lg">Создавать решения, а не просто дизайн</div>
+        <div class="bg-white font-inter text-center flex flex-1 rounded-xl p-8 justify-center sm:text-sm md:text-base lg:text-lg">Быть на шаг впереди ожиданий</div>
+        <div class="bg-gradient text-white font-inter text-center flex flex-1 clip-sloped-25 p-8 justify-center sm:text-sm md:text-base lg:text-lg">Вдохновлять и вдохновляться</div>
+        <div class="bg-white font-inter text-center flex flex-1 rounded-[100px] p-8 justify-center sm:text-sm md:text-base lg:text-lg">Создавать решения, не просто дизайн</div>
     </div>
 </section>
 
-<section class="about-goals section-display">
-        <h1 class="text-white font-victor font-bold
+<section class="about-goals">
+        <h1 class="text-white font-victor font-bold  mb-space-48
             sm:text-3xl 
             sm:row-start-1
             md:text-4xl
@@ -102,8 +102,8 @@
     </div>
 </section>
 
-<section class="about-experts section-display">
-    <div class="about-experts-text-wrapper grid gap-space-16
+<section class="about-experts">
+    <div class="about-experts-text-wrapper grid gap-space-16  mb-space-48
         sm:grid-rows-2
         md:grid-rows-none
         md:grid-cols-2">
@@ -169,15 +169,13 @@
     </div>
 </section>
 
-<section class="about-faq">
-    <h1 class="text-white font-victor font-bold
-        sm:text-3xl 
-        sm:row-start-1
-        md:text-4xl
-        lg:text-5xl"
-    >ВОПРОСЫ И ОТВЕТЫ</h1>
+<section class="about-faq  mb-space-48">
+<x-FAQ></x-FAQ>
 </section>
 
+<section class="about-form mb-space-48">
 <x-form-order></x-form-order>
+</section>
+
 </div>
 </x-app-layout>

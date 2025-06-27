@@ -1,8 +1,10 @@
 <section class="flex flex-row justify-between w-full font-inter text-white">
     <x-h1-white>ВОПРОСЫ <br> И ОТВЕТЫ</x-h1-white>
+
     <div class="flex flex-col w-[1000px] gap-space-32">
         <div class="faq-item pb-space-20">
         <div class="faq-question flex flex-row justify-between" onclick="toggleAnswer(this)">
+
             <p class="">Как мы передаём сайт клиенту?</p>
             <div class="" id="">⮧</div>
         </div>
