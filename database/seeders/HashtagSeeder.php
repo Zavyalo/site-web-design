@@ -22,6 +22,10 @@ class HashtagSeeder extends Seeder
             [
                 'name' => 'дизайн',
                 'slug' => Str::slug('дизайн')
+            ],
+            [
+                'name' => 'интерфейсы',
+                'slug' => Str::slug('интерфейсы')
             ]
         ]);
     }

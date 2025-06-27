@@ -38,7 +38,7 @@ body {
 }
 
 
-/* polina (burger menu) */
+/* polina (burger menu & notice) */
 
 .burger-panel {
     display: block;
@@ -50,12 +50,20 @@ body {
     transition: all 0.7s;
     transform: translate(0);
 }
+.notice {
+    transition: all 0.7s;
+    transform: translate(0, 0);
+    transition: transform 0.7s ease-in-out;
+}
 
+
+.form__border {
+    border-bottom: 1px solid white;
+}
 
 #submit-agreement[type='checkbox']:checked{
     background-color: hsla(0, 97%, 60%, 1);
 }
-
 
 .scrollbar-hide {
     -ms-overflow-style: none;  /* для IE и Edge */
@@ -65,4 +73,5 @@ body {
   .scrollbar-hide::-webkit-scrollbar {
     display: none;             /* для Chrome, Safari и Opera */
   }
+
 
