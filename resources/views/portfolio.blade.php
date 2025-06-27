@@ -4,9 +4,7 @@
 
 
         <section class="flex flex-col gap-6">
-            <h1 class="text-5xl md:text-6xl lg:text-7xl font-victor bg-gradient bg-clip-text text-transparent">
-                Наши работы
-            </h1>
+                <x-h1-gradient>Наши работы</x-h1-gradient>
             <p class="w-full md:w-[70%] text-base md:text-xl lg:text-2xl text-white font-inter">
                 В этом разделе мы собрали кейсы, демонстрирующие подход мастерской к решению цифровых задач. От первых
                 исследований до запуска продукта — мы сопровождаем проект на каждом этапе, опираясь на цели клиента и
