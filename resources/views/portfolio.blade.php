@@ -73,9 +73,6 @@
                             <img src="{{ Vite::asset($work->getImageUrlAttribute()) }}" alt="Челбаскет кейс"
                                 class="h-full w-full lg:w-auto max-w-none object-cover rounded-[28px]">
                         </div>
-                        
-
-
                     </div>
                 @endforeach
             </div>
@@ -84,67 +81,12 @@
                 <div class="flex items-center justify-center gap-x-[8px]">
                     {{ $works->links() }}
                 </div>
-
-                
-                {{-- <div class="flex items-center justify-center gap-x-[8px]">
-
-                    <button
-                        class="w-9 h-9 flex items-center justify-center rounded-full bg-white text-black hover:opacity-80 transition">
-                        &larr;
-                    </button>
-
-
-                    <button
-                        class="w-9 h-9 flex items-center justify-center bg-gradient rounded-full bg-black text-white text-sm font-medium transition">
-                        1
-                    </button>
-                    <button
-                        class="w-9 h-9 flex items-center justify-center rounded-full border border-white text-white text-sm hover:bg-white hover:text-black transition">
-                        2
-                    </button>
-                    <button
-                        class="w-9 h-9 flex items-center justify-center rounded-full border border-white text-white text-sm hover:bg-white hover:text-black transition">
-                        3
-                    </button>
-
-                    <button
-                        class="w-9 h-9 flex items-center justify-center rounded-full bg-white text-black hover:opacity-80 transition">
-                        &rarr;
-                    </button>
-                </div> --}}
             </div>
 
 
         </section>
 
-        <section class="about-form grid grid-cols-2 text-white font-inter">
-            <div class="about-form-text-wrapper flex flex-col gap-[26px]">
-                <h1 class="text-6xl font-bold font-victor">СВЯЖИТЕСЬ С НАМИ</h1>
-                <p>Оставьте заявку и мы свяжемся с вами или позвоните по номеру:</p>
-                <a class="text-3xl font-bold " href="#">+7 999 123-45-67</a>
-            </div>
-            <fieldset class="about-form-input flex flex-col gap-y-[14px]">
-                <div class="flex gap-[14px]">
-                    <input class="flex grow border-none p-4 rounded-[100px]" type="text" name="form-name"
-                        id="" placeholder="Имя" required>
-                    <input class="flex grow border-none p-4 rounded-[100px]" type="email" name="form-email"
-                        id="" placeholder="E-mail" required>
-                </div>
-                <input class="border-none p-4 rounded-[100px]" type="tel" name="form-telephone" id=""
-                    placeholder="Телефон" required>
-                <textarea class="border-none p-4 rounded-3xl" type="text" name="form-text" id="" placeholder="Комментарий"></textarea>
-                <div class="grid grid-cols-2">
-                    <div>
-                        <input type="checkbox" name="" id="submit-agreement">
-                        <label for="submit-agreement">Нажимая на кнопку, я соглашаюсь с&nbsp<a class="underline"
-                                href="#">обработкой персональных данных</a></label>
-                    </div>
-                    <button class="form-submit bg-gradient p-4 font-medium text-white rounded-[100px]">Оставить
-                        заявку</button>
-                </div>
-            </fieldset>
-        </section>
-
+        <x-form-order></x-form-order>
 
     </section>
 </x-app-layout>
