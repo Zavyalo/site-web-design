@@ -13,4 +13,8 @@ class Article extends Model
     {
         return $this->belongsToMany(Hashtag::class, 'article_hashtags');
     }
+    public function getImageUrlAttribute()
+    {
+        return asset('resources/images/' . $this->path_img);
+    }
 }
