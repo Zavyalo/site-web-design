@@ -70,9 +70,9 @@
 
                         <div class="w-full lg:w-auto max-h-[400px] h-[200px] sm:h-[300px] lg:h-[400px] md:h-[350px] overflow-hidden flex items-center">
                             @php
-                                $imagePath = 'resources/images/' . $work->path_img;
+                               
                             @endphp
-                            <img src="{{ Vite::asset($imagePath) }}" alt="Челбаскет кейс"
+                            <img src="{{ Vite::asset($work->getImageUrlAttribute()) }}" alt="Челбаскет кейс"
                                 class="h-full w-full lg:w-auto max-w-none object-cover rounded-[28px]">
                         </div>
                         
@@ -84,6 +84,11 @@
 
             <div class="case-pagination">
                 <div class="flex items-center justify-center gap-x-[8px]">
+                    {{ $works->links() }}
+                </div>
+
+                
+                {{-- <div class="flex items-center justify-center gap-x-[8px]">
 
                     <button
                         class="w-9 h-9 flex items-center justify-center rounded-full bg-white text-black hover:opacity-80 transition">
@@ -108,7 +113,7 @@
                         class="w-9 h-9 flex items-center justify-center rounded-full bg-white text-black hover:opacity-80 transition">
                         &rarr;
                     </button>
-                </div>
+                </div> --}}
             </div>
 
 
