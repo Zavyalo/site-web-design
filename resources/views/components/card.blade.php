@@ -5,10 +5,7 @@
              class="card-image w-full aspect-[4/3] object-cover rounded-[30px] mx-auto">
     </div>
     <div class="flex items-center mt-[16px] mb-[16px]">
-        <img src="{{ Vite::asset('resources/images/bmw.jpg') }}" alt="Автор"
-             class="author-avatar w-[45px] h-[45px] rounded-full mr-[10px]">
         <div>
-            <span class="author-name block text-sm font-semibold">Автор</span>
             <span class="time text-xs text-white">16 часов назад</span>
         </div>
     </div>
