@@ -23,11 +23,13 @@ export default {
                 'white': '#FFFFFF',
                 'darkgray': '#3A383B',
                 'lightgray': '#C5C5C5',
+                'field': '#EDEDED'
             },
             spacing: {
                 'space-144': '144px',
                 'space-70': '70px', 
                 'space-48': '48px',
+                'space-40': '40px',
                 'space-32': '32px',
                 'space-26': '26px',
                 'space-24': '24px',
@@ -41,6 +43,7 @@ export default {
                 'desktop-30': '30px',
                 'modile-20': '20px',
                 'modile-15': '15px',
+                'loginfield': '26px',
             },
             container: {
                 center: true,
@@ -48,6 +51,9 @@ export default {
         },
     },
 
-    plugins: [forms]
+    plugins: [
+        forms,
+        require('flowbite/plugin')
+    ],
 };
 

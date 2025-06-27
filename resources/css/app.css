@@ -2,6 +2,7 @@
 @import "./style.css";
 @import "./blog.css";
 @import "./cases.css";
+@import "flowbite/src/themes/default";
 
 
 @tailwind base;

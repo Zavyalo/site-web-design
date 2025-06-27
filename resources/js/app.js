@@ -1,8 +1,9 @@
 import Swiper from 'swiper/bundle';
 
 import './bootstrap';
-
+import 'flowbite';
 import './burger';
+
 
 import Alpine from 'alpinejs';
 import mask from '@alpinejs/mask';
@@ -12,7 +13,7 @@ window.Alpine = Alpine;
 Alpine.start();
 
 import.meta.glob([
-        '../images/**',
+        '../images/*/*.*',
 ]);
 
 window.onload = function(){

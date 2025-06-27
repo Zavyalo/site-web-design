@@ -1,5 +1,5 @@
 <x-app-layout>
-    <section class="flex flex-col mt-space-48 md:mt-space-144">
+    <section class="flex flex-col mt-space-48 md:mt-space-144 mb-space-48 md:mb-space-144">
         <div class="flex flex-col">
             <div class="flex flex-row ">
                 <div class="basis-4/6">
@@ -30,7 +30,7 @@
             <x-h1-white class="w-[269px] leading-[86px] mb-space-32 md:mb-space-0">Отзыв клиента</x-h1-white>
             <x-cardtwo></x-cardtwo>
         </div>
-        <div class="mt-space-48 mb-space-48 md:mt-space-144 md:mb-space-144">
+        <div class="mt-space-48 md:mt-space-144 ">
             <x-form-order></x-form-order>
         </div>
     </section>
