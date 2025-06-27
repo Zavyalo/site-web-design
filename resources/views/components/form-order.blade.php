@@ -1,14 +1,10 @@
 <div class="about-form grid 
-    sm:grid-rows-2
-    sm:grid-flow-col
-    md:grid-flow-col
-    lg:grid-flow-row
+    sm:grid-rows-[auto,auto]
     lg:grid-cols-2
-    lg:grid-rows-none
+    sm:gap-space-20
+    md:gap-space-48
     items-start">
-    <div class="about-form-text-wrapper flex flex-col
-        sm:gap-space-16
-        md:gap-space-26">
+    <div class="about-form-text-wrapper flex flex-col gap-5">
         <h1 class="text-white font-victor font-bold
             sm:text-3xl 
             sm:row-start-1
@@ -22,25 +18,25 @@
             @method('put')
             @csrf
         <div class="flex gap-[14px] w-full">
-            <input class="caret-rose-600 w-full border-none p-4 rounded-[100px]" 
+            <input class="caret-rose-600 w-full border-none p-4 rounded-[100px] focus:outline-2 focus:outline-rose-600" 
                 type="text" 
                 name="name" 
                 placeholder="Имя" 
                 required>
-            <input class="caret-rose-600 w-full border-none p-4 rounded-[100px]" 
+            <input class="caret-rose-600 w-full border-none p-4 rounded-[100px] focus:outline-2 focus:outline-rose-600" 
                 type="email" 
                 name="email" 
                 placeholder="E-mail" 
                 required>
         </div>
-        <input class="caret-rose-600 w-full border-none p-4 rounded-[100px]" 
+        <input class="caret-rose-600 w-full border-none p-4 rounded-[100px] focus:outline-2 focus:outline-rose-600" 
             x-data
             x-mask="+7(999)999-99-99"
             type="tel" 
             name="tel" 
             placeholder="+7(999)999-99-99"
             required>
-        <textarea class="caret-rose-600 field-sizing-content border-none p-4 rounded-3xl"
+        <textarea class="caret-rose-600 field-sizing-content border-none p-4 rounded-3xl focus:outline-2 focus:outline-rose-600"
             rows="2" 
             name="message" 
             placeholder="Комментарий"></textarea>
@@ -48,7 +44,7 @@
         <div class="grid grid-cols-2 items-center w-full">
             <div class="flex items-start gap-x-2">
                 <label class="text-white font-inter" for="submit-agreement">
-                    <input class="accent-rose-600" type="checkbox" id="submit-agreement">
+                    <input class="accent-rose-600 focus:outline-2 focus:outline-rose-600" type="checkbox" id="submit-agreement">
                     Нажимая на кнопку, я соглашаюсь с&nbsp;<a class="underline" href="#">обработкой персональных данных</a>
                 </label>
             </div>
