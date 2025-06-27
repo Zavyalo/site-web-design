@@ -28,7 +28,8 @@
                 </div>
             </div>
         </section>
-        <section class="about-form grid grid-cols-1 lg:grid-cols-2 text-white mt-20 font-inter gap-8 sm:gap-12">
+
+        <section class="about-form grid grid-cols-1 lg:grid-cols-2 text-white mt-20 mb-20 font-inter gap-8 sm:gap-12">
             <div class="about-form-text-wrapper flex flex-col gap-[20px]">
                 <h1 class="text-2xl sm:text-4xl lg:text-6xl font-bold font-victor leading-tight max-w-full">
                     ПОДПИШИТЕСЬ НА РАССЫЛКУ
