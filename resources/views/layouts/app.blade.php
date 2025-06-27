@@ -84,7 +84,7 @@
 
             {{ $slot }}
 
-            
+            <x-FAQ></x-FAQ>
 
         </main>
         <footer class="bg-darkgray flex flex-row justify-center p-space-48 justify-between text-white max-lg:p-space-32 max-[420px]:flex-col gap-space-32">

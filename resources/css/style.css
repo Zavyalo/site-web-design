@@ -38,7 +38,7 @@ body {
 }
 
 
-/* polina (burger menu & notice) */
+/* polina (burger menu & notice & FAQ) */
 
 .burger-panel {
     display: block;
@@ -51,15 +51,22 @@ body {
     transform: translate(0);
 }
 .notice {
-    transition: all 0.7s;
-    transform: translate(0, 0);
-    transition: transform 0.7s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    animation-delay: 10s;
 }
-
-
-.form__border {
+.faq-question {
+    cursor: pointer;
+}
+.faq-answer {
+    display: none;
+}
+.faq-answer.show {
+    display: block;
+}
+.faq-item {
     border-bottom: 1px solid white;
 }
+
 
 #submit-agreement[type='checkbox']:checked{
     background-color: hsla(0, 97%, 60%, 1);
