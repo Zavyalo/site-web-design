@@ -10,7 +10,7 @@ class WorkController extends Controller
 {
     public function index()
     {
-        $works = Work::all();
+        $works = Work::paginate(5);
         $tags = Tag::all();
         return view('portfolio',compact('works','tags'));
     }

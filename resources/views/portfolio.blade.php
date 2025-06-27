@@ -4,9 +4,7 @@
 
 
         <section class="flex flex-col gap-6">
-            <h1 class="text-5xl md:text-6xl lg:text-7xl font-victor bg-gradient bg-clip-text text-transparent">
-                Наши работы
-            </h1>
+                <x-h1-gradient>Наши работы</x-h1-gradient>
             <p class="w-full md:w-[70%] text-base md:text-xl lg:text-2xl text-white font-inter">
                 В этом разделе мы собрали кейсы, демонстрирующие подход мастерской к решению цифровых задач. От первых
                 исследований до запуска продукта — мы сопровождаем проект на каждом этапе, опираясь на цели клиента и
@@ -70,9 +68,9 @@
 
                         <div class="w-full lg:w-auto max-h-[400px] h-[200px] sm:h-[300px] lg:h-[400px] md:h-[350px] overflow-hidden flex items-center">
                             @php
-                                $imagePath = 'resources/images/' . $work->path_img;
+                               
                             @endphp
-                            <img src="{{ Vite::asset($imagePath) }}" alt="Челбаскет кейс"
+                            <img src="{{ Vite::asset($work->getImageUrlAttribute()) }}" alt="Челбаскет кейс"
                                 class="h-full w-full lg:w-auto max-w-none object-cover rounded-[28px]">
                         </div>
                         
@@ -84,6 +82,11 @@
 
             <div class="case-pagination">
                 <div class="flex items-center justify-center gap-x-[8px]">
+                    {{ $works->links() }}
+                </div>
+
+                
+                {{-- <div class="flex items-center justify-center gap-x-[8px]">
 
                     <button
                         class="w-9 h-9 flex items-center justify-center rounded-full bg-white text-black hover:opacity-80 transition">
@@ -108,7 +111,7 @@
                         class="w-9 h-9 flex items-center justify-center rounded-full bg-white text-black hover:opacity-80 transition">
                         &rarr;
                     </button>
-                </div>
+                </div> --}}
             </div>
 
 

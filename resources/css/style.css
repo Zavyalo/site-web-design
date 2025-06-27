@@ -50,10 +50,6 @@ body {
     transition: all 0.7s;
     transform: translate(0);
 }
-.notice {
-    transition: opacity 1s ease-in-out;
-    animation-delay: 10s;
-}
 .faq-question {
     cursor: pointer;
 }
