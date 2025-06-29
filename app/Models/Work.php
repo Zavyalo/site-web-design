@@ -16,6 +16,6 @@ class Work extends Model
     }
     public function getImageUrlAttribute()
     {
-        return '/resources/images/' . $this->path_img;
+        return 'resources/images/' . $this->path_img;
     }
 }
