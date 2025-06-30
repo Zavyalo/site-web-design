@@ -1,8 +1,10 @@
 <x-app-layout>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <h1 class="font-victor uppercase max-[1280px]:mb-space-144 lg:my-space-144 xl:my-space-144 sm:my-space-48 min-[320px]:my-space-48 md:my-space-48 text-orange-600
-    lg:text-[64px] md:text-[64px] xl:text-[64px] max-[1280px]:text-[64px] sm:text-[32px] min-[320px]:text-[32px]">Наши услуги</h1>
+    <x-h1-gradient>Наши услуги</x-h1-gradient>
+    <!-- <h1 class="font-victor font-bold uppercase max-[1280px]:mb-space-144 lg:my-space-144 xl:my-space-144 sm:my-space-48 min-[320px]:my-space-48 md:my-space-48 
+    text-transparent bg-clip-text bg-gradient-to-r from-emerald-100 from-10% via-orange-500 via-20% to-red-200 to-100% 
+    lg:text-[64px] md:text-[64px] xl:text-[64px] max-[1280px]:text-[64px] sm:text-[32px] min-[320px]:text-[32px]">Наши услуги</h1> -->
     <div class="swiper SwiperServices">
         <div class="swiper-wrapper flex flex-row justify-between max-[1280px]:mb-space-144 lg:mb-space-144 xl:mb-space-144 sm:mb-space-48 min-[320px]:mb-space-48 md:mb-space-48 font-victor uppercase">
             <div class="swiper-slide flex items-center justify-center font-bold
@@ -57,7 +59,8 @@
     <div class="flex flex-row justify-between max-[1280px]:mb-space-144 lg:mb-space-144 xl:mb-space-144 sm:mb-space-48 min-[320px]:mb-space-48 md:mb-space-48 sm:flex-wrap min-[320px]:flex-wrap lg:flex-nowrap max-[1280px]:flex-col" id="service1">
         <div class="flex flex-col justify-between sm:pb-space-32 min-[320px]:pb-space-32">
             <div class="flex flex-row mb-space-48 sm:mb-space-20 min-[320px]:mb-space-20">
-                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-red-500 pr-space-4 sm:text-base min-[320px]:text-base">(01)</h2>
+                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl pr-space-4 sm:text-base min-[320px]:text-base
+                            text-transparent bg-clip-text bg-gradient-to-r from-red-600 from-10% via-orange-500 via-20% to-red-200 to-100%">(01)</h2>
                 <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-white sm:text-base min-[320px]:text-base"> Исследования и гипотезы</h2>
             </div>
             <div class="mb-space-48 font-victor uppercase">
@@ -101,7 +104,8 @@
     <div class="flex flex-row justify-between max-[1280px]:mb-space-144 lg:mb-space-144 xl:mb-space-144 sm:mb-space-48 min-[320px]:mb-space-48 md:mb-space-48 sm:flex-wrap min-[320px]:flex-wrap lg:flex-nowrap max-[1280px]:flex-col" id="service2">
         <div class="flex flex-col justify-between sm:pb-space-32 min-[320px]:pb-space-32">
             <div class="flex flex-row mb-space-48 sm:mb-space-20 min-[320px]:mb-space-20">
-                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-red-500 pr-space-4 sm:text-base min-[320px]:text-base">(02)</h2>
+                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl pr-space-4 sm:text-base min-[320px]:text-base
+                            text-transparent bg-clip-text bg-gradient-to-r from-red-600 from-10% via-orange-500 via-20% to-red-200 to-100%">(02)</h2>
                 <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-white sm:text-base min-[320px]:text-base
                             max-[1280px]:w-[500px] lg:w-[500px] xl:w-[500px] sm:w-[230px] min-[320px]:w-[230px] md:w-[230px] break-words"> Создание прототипов сайтов</h2>
             </div>
@@ -146,7 +150,8 @@
     <div class="flex flex-row justify-between max-[1280px]:mb-space-144 lg:mb-space-144 xl:mb-space-144 mb-space-144 sm:mb-space-48 min-[320px]:mb-space-48 md:mb-space-48 sm:flex-wrap min-[320px]:flex-wrap lg:flex-nowrap max-[1280px]:flex-col" id="service3">
         <div class="flex flex-col justify-between sm:pb-space-32 min-[320px]:pb-space-32">
             <div class="flex flex-row mb-space-48 sm:mb-space-20 min-[320px]:mb-space-20">
-                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-red-500 pr-space-4 sm:text-base min-[320px]:text-base">(03)</h2>
+                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl pr-space-4 sm:text-base min-[320px]:text-base
+                            text-transparent bg-clip-text bg-gradient-to-r from-red-600 from-10% via-orange-500 via-20% to-red-200 to-100%">(03)</h2>
                 <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-white sm:text-base min-[320px]:text-base
                             max-[1280px]:w-[500px] lg:w-[500px] xl:w-[500px] sm:w-[230px] min-[320px]:w-[230px] md:w-[230px] break-words"> Создание сайтов на Tilda</h2>
             </div>
@@ -189,7 +194,8 @@
     <div class="flex flex-row justify-between max-[1280px]:mb-space-144 lg:mb-space-144 xl:mb-space-144 sm:mb-space-48 min-[320px]:mb-space-48 md:mb-space-48 sm:flex-wrap min-[320px]:flex-wrap lg:flex-nowrap max-[1280px]:flex-col" id="service4">
         <div class="flex flex-col justify-between sm:pb-space-32 min-[320px]:pb-space-32">
             <div class="flex flex-row mb-space-48 sm:mb-space-20 min-[320px]:mb-space-20">
-                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-red-500 pr-space-4 sm:text-base min-[320px]:text-base">(04)</h2>
+                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl pr-space-4 sm:text-base min-[320px]:text-base
+                            text-transparent bg-clip-text bg-gradient-to-r from-red-600 from-10% via-orange-500 via-20% to-red-200 to-100%">(04)</h2>
                 <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-white sm:text-base min-[320px]:text-base"> Создание приложений с VR-технологиями</h2>
             </div>
             <div class="mb-space-48 uppercase sm:mb-space-20 min-[320px]:mb-space-20">
@@ -227,6 +233,7 @@
         <img src="{{ Vite::asset('resources/images/serves4.jpg') }}" alt="" class="rounded-full flex-shrink-0">
     </div>
 
+<<<<<<< HEAD
     <section class="about-form grid grid-cols-2 mb-space-144" id="form">
         <div class="about-form-text-wrapper flex flex-col gap-[26px]">
             <h1 class="text-[64px] text-white">СВЯЖИТЕСЬ С НАМИ</h1>
@@ -249,5 +256,8 @@
             </div>
         </fieldset>
     </section>
+=======
+<x-form-order></x-form-order>
+>>>>>>> c960f797016cf18952f3076f546386c5baf6b02f
 
 </x-app-layout>

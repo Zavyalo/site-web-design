@@ -15,6 +15,6 @@ class Article extends Model
     }
     public function getImageUrlAttribute()
     {
-        return asset('resources/images/' . $this->path_img);
+        return 'resources/images/' . $this->path_img;
     }
 }

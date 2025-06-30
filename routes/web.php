@@ -5,7 +5,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\WorkController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\OrderController;
-
+use App\Http\Controllers\SubscribeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -37,7 +37,7 @@ Route::get('/cases/{work}', [WorkController::class, 'show']) ->name('case-show')
 Route::get('/blog', [ArticleController::class, 'index']);
 
 Route::put('/order',[OrderController::class, 'store']) ->name('order.create');
-
+Route::put('/subscribe',[SubscribeController::class, 'store']) ->name('subscribe.create');
 Route::get('/test', function () {
     return view('test');
 });
