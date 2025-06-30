@@ -5,26 +5,35 @@
 
         <section class="flex flex-col gap-[32px] font-inter">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[20px] sm:gap-[24px]">
-                @for($i=0; $i < 12; $i++) 
-                    <x-card></x-card>
-                @endfor
+                @foreach ($articles as $article)
+                <div class="border-2 border-white rounded-[40px] p-[20px] text-white font-inter">
+
+                    <div class="rounded-[30px]">
+                        <img src="{{ Vite::asset('resources/images/7.jpg') }}" alt="preview"
+                            class="card-image w-full aspect-[4/3] object-cover rounded-[30px] mx-auto">
+                    </div>
+                    <div class="flex items-center mt-[16px] mb-[16px]">
+                        <div>
+                            <span class="time text-xs text-white">16 часов назад</span>
+                        </div>
+                    </div>
+                    <h2 class="title text-[18px] font-bold leading-tight mb-[8px]">
+                        {{$article->name}}
+                    </h2>
+                    <p class="description text-[14px] leading-[20px] text-white mb-[12px]">
+                        Обсуждаем основные принципы работы с цветом и советы по созданию гармоничных сочетаний
+                    </p>
+                    <div class="tags text-[14px] text-white space-x-3">
+                        <span>#UX/UI</span>
+                        <span>#дизайн</span>
+                        <span>#интерфейсы</span>
+                    </div>
+                </div>
+                @endforeach
             </div>
             <div class="case-pagination">
-                <div class="flex items-center justify-center gap-x-[6px] sm:gap-x-[8px] flex-wrap">
-                    <button class="w-9 h-9 flex items-center justify-center rounded-full bg-white text-black hover:opacity-80 transition">
-                        &larr;
-                    </button>
-                    <button class="w-9 h-9 flex items-center justify-center rounded-full bg-black text-white text-sm font-medium transition">
-                        1
-                    </button>
-                    @for($i = 2; $i <= 5; $i++)
-                    <button class="w-9 h-9 flex items-center justify-center rounded-full border border-white text-white text-sm hover:bg-white hover:text-black transition">
-                        {{ $i }}
-                    </button>
-                    @endfor
-                    <button class="w-9 h-9 flex items-center justify-center rounded-full bg-white text-black hover:opacity-80 transition">
-                        &rarr;
-                    </button>
+                <div class="flex items-center justify-center gap-x-[8px]">
+                    {{ $articles->links() }}
                 </div>
             </div>
         </section>
@@ -39,7 +48,7 @@
                 <input class="border-none p-3 sm:p-4 rounded-[100px] text-black text-sm sm:text-base" type="tel" name="form-telephone" placeholder="E-mail" required>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 items-start">
                     <div class="text-xs sm:text-sm">
-                        <input type="checkbox" name="" id="submit-agreement">
+                        <input type="checkbox" name="" id="submit-agreement" name="agreement">
                         <label for="submit-agreement">
                             Нажимая на кнопку, я соглашаюсь с&nbsp;
                             <a class="underline" href="#">обработкой персональных данных</a>

@@ -67,9 +67,6 @@
 
 
                         <div class="w-full lg:w-auto max-h-[400px] h-[200px] sm:h-[300px] lg:h-[400px] md:h-[350px] overflow-hidden flex items-center">
-                            @php
-                               
-                            @endphp
                             <img src="{{ Vite::asset($work->getImageUrlAttribute()) }}" alt="Челбаскет кейс"
                                 class="h-full w-full lg:w-auto max-w-none object-cover rounded-[28px]">
                         </div>

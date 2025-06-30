@@ -12,7 +12,7 @@
     </div>
 
     <h2 class="title text-[18px] font-bold leading-tight mb-[8px]">
-        Как выбрать идеальную цветовую палитру для вашего проекта?
+        {{$article->name}}
     </h2>
 
     <p class="description text-[14px] leading-[20px] text-white mb-[12px]">

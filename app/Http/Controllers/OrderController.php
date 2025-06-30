@@ -17,7 +17,8 @@ class OrderController extends Controller
             'name'=>'required|string|max:255',
             'tel'=>'required|string|max:255',
             'email'=>'required|string|max:255',
-            'message'=>'string'
+            'message'=>'string',
+            'agreement'=>'required',
         ]);
         $order->create($data);
         $message = sprintf(
@@ -28,7 +29,7 @@ class OrderController extends Controller
             $request->input("email"),
             $request->input("message"),        
         );
-
+   
         Http::post(sprintf(
             'https://api.telegram.org/bot%s/sendMessage',
             config('telegram.bot_token')),
