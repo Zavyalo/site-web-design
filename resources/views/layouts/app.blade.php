@@ -82,8 +82,6 @@
                 </div>
             </div>
 
-            <x-FAQ></x-FAQ>
-
             {{ $slot }}
 
         </main>
