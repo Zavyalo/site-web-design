@@ -38,15 +38,15 @@
             <x-h1-white>ДОСТИЖЕНИЯ</x-h1-white>
             <div class="about-goals-num-wrapper flex flex-row sm:flex-row min-[320px]:flex-col">
                 <div class="about-goals-num flex flex-1 flex-col grow items-center">
-                    <p class="text-[200px] lg:text-[200px] min-[320px]:text-[110px] font-bold">80+</p>
+                    <x-h1-gradient class="text-[200px] lg:text-[200px] min-[320px]:text-[110px] font-bold">80+</x-h1-gradient>
                     <span class="text-white font-inter sm:text-[24px] min-[320px]:text-[12px]">Завершённых проектов</span>
                 </div>
                 <div class="about-goals-num flex flex-1 flex-col grow items-center">
-                    <p class="text-[200px] lg:text-[200px] min-[320px]:text-[110px] font-bold">4</p>
+                    <x-h1-gradient class="text-[200px] lg:text-[200px] min-[320px]:text-[110px] font-bold">4</x-h1-gradient>
                     <span class="text-white font-inter sm:text-[24px] min-[320px]:text-[12px]">Направления работ</span>
                 </div>
                 <div class="about-goals-num flex flex-1 flex-col grow items-center">
-                    <p class="text-[200px] lg:text-[200px] min-[320px]:text-[110px] font-bold">25</p>
+                    <x-h1-gradient class="text-[200px] lg:text-[200px] min-[320px]:text-[110px] font-bold">25</x-h1-gradient>
                     <span class="text-white font-inter Z">Постоянных клиентов</span>
                 </div>
             </div>
@@ -60,19 +60,19 @@
             <x-h1-white>ПОЧЕМУ ВЫБИРАЮТ НАС</x-h1-white>
            <div class="swiper SwiperWelcome w-[100%]">
             <div class="swiper-wrapper flex flex-row gap-[14px] w-[100%]">
-                <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] rounded-[28px] w-[426px] sm:w-[426px] min-[320px]:w-[184px] h-[365px]  sm:h-[365px] min-[320px]:h-[158px] bg-gradient p-[63px]">
+                <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] sm:rounded-[28px] min-[320px]:rounded-[12px] w-[426px] sm:min-w-[426px] min-[320px]:min-w-[184px] h-[365px] sm:h-[365px] min-[320px]:h-[158px] bg-gradient p-[63px]">
                     <p class="text-[32px] sm:text-[32px] min-[320px]:text-[12px] text-white">ТЕСТИРОВАНИЕ ВАШЕГО САЙТА ЗА 1 ДЕНЬ С УЧАСТИЕМ >500 ЧЕЛОВЕК</p>
                 </div>
-                <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] rounded-[170px] w-[426px] sm:w-[426px] min-[320px]:w-[184px] h-[365px]  sm:h-[365px] min-[320px]:h-[158px] bg-white p-[52px]">
+                <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] sm:rounded-[170px] min-[320px]:rounded-[70px] w-[426px] sm:min-w-[426px] min-[320px]:min-w-[184px] h-[365px] sm:h-[365px] min-[320px]:h-[158px] bg-white p-[52px]">
                     <p class="text-[28px] sm:text-[28px] min-[320px]:text-[12px]">ЭФФЕКТИВНОЕ РЕШЕНИЕ ВАШИХ ЗАДАЧ БЛАГОДАРЯ РАБОТЕ БОЛЬШОЙ КОМАНДЫ</p>
                 </div>
-                <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] rounded-[28px] w-[426px] sm:w-[426px] min-[320px]:w-[184px] h-[365px]  sm:h-[365px] min-[320px]:h-[158px] bg-gradient clip-sloped-25 px-[55px]">
+                <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] sm:rounded-[28px] min-[320px]:rounded-[12px] w-[426px] sm:min-w-[426px] min-[320px]:min-w-[184px] h-[365px] sm:h-[365px] min-[320px]:h-[158px] bg-gradient clip-sloped-25 px-[55px]">
                     <p class="text-[32px] sm:text-[32px] min-[320px]:text-[12px] text-white">ПРОЗРАЧНЫЕ СРОКИ И ПРОЦЕССЫ</p>
                 </div>
-                <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] rounded-[170px] w-[426px] sm:w-[426px] min-[320px]:w-[184px] h-[365px]  sm:h-[365px] min-[320px]:h-[158px] bg-white p-[52px]">
+                <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] sm:rounded-[170px] min-[320px]:rounded-[70px] w-[426px] sm:min-w-[426px] min-[320px]:min-w-[184px] h-[365px] sm:h-[365px] min-[320px]:h-[158px] bg-white p-[52px]">
                     <p class="text-[28px] sm:text-[28px] min-[320px]:text-[12px]">ОПЫТ В РАЗНЫХ ОТРАСЛЯХ: EDTECH, РИТЕЙЛ, МЕДИЦИНА, КУЛЬТУРА</p>
                 </div>
-                <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] rounded-[28px] w-[426px] sm:w-[426px] min-[320px]:w-[184px] h-[365px]  sm:h-[365px] min-[320px]:h-[158px] bg-gradient p-[63px]">
+                <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] sm:rounded-[28px] min-[320px]:rounded-[12px] w-[426px] sm:min-w-[426px] min-[320px]:min-w-[184px] h-[365px] sm:h-[365px] min-[320px]:h-[158px] bg-gradient p-[63px]">
                     <p class="text-[32px] sm:text-[32px] min-[320px]:text-[12px] text-white">ГЛУБОКАЯ UX-ЭКСПЕРТИЗА</p>
                 </div>
             </div>
