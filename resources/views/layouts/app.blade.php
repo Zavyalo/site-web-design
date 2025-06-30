@@ -47,7 +47,7 @@
                         <div class="flex justify-center text-black bg-white rounded-full px-space-4 py-space-4">RU</div>
                         <div class="flex justify-center rounded-full px-space-4 py-space-4">EN</div>
                     </div>
-                    <x-secondary-button>Оставить заявку</x-secondary-button>
+                    <x-secondary-button href="/services#form">Оставить заявку</x-secondary-button>
                     </div>
                     </div>
             </div>
@@ -91,7 +91,7 @@
                 <img class="w-9 h-9" src="{{ Vite::asset('resources/images/logo.svg') }}" alt="МИДиС">
                 <div class="w-20 text-white font-semibold leading-5"><a href="/">Цифровые решения</a></div>
             </div>
-            <p>+7 951 770 70-21</p>
+            <a href="tel:+73512161042">+7 (351) 216-10-42</a>
             <ul class="flex flex-row gap-space-20 max-[800px]:flex-col gap-1">
                 <li><a href="#" class="flex flex-row gap-space-10 text-sm"><img class="w-4 h-4" src="{{ Vite::asset('resources/images/icon_whatsapp.svg') }}" alt="">WhatsApp</a></li>
                 <li><a href="#" class="flex flex-row gap-space-10 text-sm"><img class="w-4 h-4" src="{{ Vite::asset('resources/images/icon_tg.svg') }}" alt="">Telegram</a></li>
