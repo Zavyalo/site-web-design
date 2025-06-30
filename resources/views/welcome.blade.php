@@ -12,17 +12,17 @@
         <section class="flex flex-col gap-[48px] font-victor w-[100%]">
             <x-h1-white>НАШИ УСЛУГИ</x-h1-white>
             <div class="flex flex-wrap gap-[14px]">
-                <a href="/services#service1" class="flex flex-col justify-between grow bg-white clip-sloped-25 p-[35px] content-end 2xl:gap-[auto] xl:gap-[auto] lg:gap-[auto] md:gap-[auto] sm:gap-[0px] min-[320px]:gap-[55px]
+                <a href="/services#service1" class="flex flex-col justify-between grow bg-white clip-sloped-25 p-[35px] content-end md:gap-[auto] sm:gap-[0px] min-[320px]:gap-[55px]
                 hover:bg-darkgray hover:text-white">
                     <div class="max-w-[100%] flex flex-row justify-end"><img src="{{ Vite::asset('resources/images/ArrowUpRight.svg') }}" alt="#" class="w-[50px] sm:w-[50px] min-[320px]:w-[30px]"></div>
                     <p class="text-[64px] 2xl:text-[64px] lg:text-[64px] sm:text-[48px] min-[320px]:text-[16px] 2xl:max-w-[100%] lg:max-w-[465px]">ИССЛЕДОВАНИЯ И ГИПОТЕЗЫ</p>
                 </a>
-                <a href="/services#service2" class="flex flex-col justify-between grow border border-white text-white outline-[1,5px] rounded-[28px] min-[320px]:w-[320px] md:w-[426px] xl:gap-[128px] lg:gap-[72px] sm:gap-[0px] min-[320px]:gap-[55px] p-[35px] content-end shrink-0
+                <a href="/services#service2" class="flex flex-col justify-between grow border border-white text-white outline-[1,5px] rounded-[28px] min-[320px]:w-[301px] md:w-[426px] xl:gap-[128px] lg:gap-[72px] sm:gap-[0px] min-[320px]:gap-[55px] p-[35px] content-end shrink-0
                 hover:bg-darkgray hover:text-white">
                     <div class="max-w-[100%] flex flex-row justify-end"><img src="{{ Vite::asset('resources/images/ArrowUpRightwhite.svg') }}" alt="#" class="w-[50px] sm:w-[50px] min-[320px]:w-[30px]"></div>
                     <p class="text-[48px] sm:text-[48px] min-[320px]:text-[16px]">СОЗДАНИЕ САЙТОВ НА TILDA</p>
                 </a>
-                <a href="/services#service3" class="flex flex-col justify-between grow border border-white text-white outline-[1,5px] rounded-[28px] min-[320px]:w-[320px] md:w-[426px] gap-[63px] sm:gap-[0px] min-[320px]:gap-[55px] p-[35px] content-end shrink-0
+                <a href="/services#service3" class="flex flex-col justify-between grow border border-white text-white outline-[1,5px] rounded-[28px] min-[320px]:w-[301px] md:w-[426px] gap-[63px] sm:gap-[0px] min-[320px]:gap-[55px] p-[35px] content-end shrink-0
                 hover:bg-darkgray hover:text-white">
                     <div class="max-w-[100%] flex flex-row justify-end"><img src="{{ Vite::asset('resources/images/ArrowUpRightwhite.svg') }}" alt="#" class="w-[50px] sm:w-[50px] min-[320px]:w-[30px]"></div>
                     <p class="text-[48px] sm:text-[48px] min-[320px]:text-[16px]">СОЗДАНИЕ ПРИЛОЖЕНИЙ С VR-ТЕХНОЛОГИЯМИ</p>
