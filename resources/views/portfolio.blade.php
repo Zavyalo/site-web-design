@@ -40,7 +40,7 @@
             <div class="case-about flex flex-col gap-[20px]">
                 @foreach ($works as $work)
                     <div
-                        class="w-full gap-[24px] lg:max-w-none bg-black rounded-[40px] border-2 border-white p-[15px] md:p-[20px] lg:p-8 flex flex-col-reverse md:flex-row items-start justify-between text-white">
+                        class="w-full gap-[24px] lg:max-w-none bg-black rounded-[40px] md:rounded-[28px] min-[320px]:rounded-[20px] border-2 border-white p-[15px] md:p-[20px] lg:p-8 flex flex-col-reverse md:flex-row items-start justify-between text-white">
 
                         <div class="flex flex-col justify-between lg:w-[50%] w-full h-auto lg:h-[400px] md:h-[350px]">
 
@@ -71,7 +71,7 @@
                                
                             @endphp
                             <img src="{{ Vite::asset($work->getImageUrlAttribute()) }}" alt="Челбаскет кейс"
-                                class="h-full w-full lg:w-auto max-w-none object-cover rounded-[28px]">
+                                class="h-full w-full lg:w-auto max-w-none object-cover rounded-[28px] md:rounded-[20px] min-[320px]:rounded-[15px]">
                         </div>
                     </div>
                 @endforeach
