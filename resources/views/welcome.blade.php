@@ -34,20 +34,20 @@
                 </a>
             </div>
         </section>
-        <section class="flex flex-col about-goals section-display font-victor w-[100%]">
+        <section class="flex flex-col about-goals section-display font-victor w-[100%] gap-[48px]">
             <x-h1-white>ДОСТИЖЕНИЯ</x-h1-white>
-            <div class="about-goals-num-wrapper flex flex-row sm:flex-row min-[320px]:flex-col">
+            <div class="about-goals-num-wrapper flex flex-row sm:flex-row min-[320px]:flex-col gap-[20px]">
                 <div class="about-goals-num flex flex-1 flex-col grow items-center">
                     <x-h1-gradient class="text-[200px] lg:text-[200px] min-[320px]:text-[110px] font-bold">80+</x-h1-gradient>
-                    <span class="text-white font-inter sm:text-[24px] min-[320px]:text-[12px]">Завершённых проектов</span>
+                    <span class="text-white font-inter ml:text-[24px] sm:text-[12px]">Завершённых проектов</span>
                 </div>
                 <div class="about-goals-num flex flex-1 flex-col grow items-center">
                     <x-h1-gradient class="text-[200px] lg:text-[200px] min-[320px]:text-[110px] font-bold">4</x-h1-gradient>
-                    <span class="text-white font-inter sm:text-[24px] min-[320px]:text-[12px]">Направления работ</span>
+                    <span class="text-white font-inter ml:text-[24px] sm:text-[12px]">Направления работ</span>
                 </div>
                 <div class="about-goals-num flex flex-1 flex-col grow items-center">
                     <x-h1-gradient class="text-[200px] lg:text-[200px] min-[320px]:text-[110px] font-bold">25</x-h1-gradient>
-                    <span class="text-white font-inter Z">Постоянных клиентов</span>
+                    <span class="text-white font-inter text-center ml:text-[24px] sm:text-[12px]">Постоянных клиентов</span>
                 </div>
             </div>
         </section>
