@@ -1,6 +1,6 @@
-<section class="flex flex-row justify-between w-full font-inter text-white">
-    <x-h1-white>ВОПРОСЫ <br> И ОТВЕТЫ</x-h1-white>
-    <div class="flex flex-col w-[1000px] gap-space-32">
+<section class="flex flex-row justify-between w-full font-inter text-white max-sm:flex-col gap-space-48">
+    <x-h1-white class="w-[300px]">ВОПРОСЫ <br> И ОТВЕТЫ</x-h1-white>
+    <div class="flex flex-col w-full gap-space-32 max-2xl:w-[800px] max-xl:w-[600px] max-lg:w-[400px] max-[400px]sm:w-[300px] break-words">
         <div class="faq-item pb-space-20">
         <div class="faq-question flex flex-row justify-between" onclick="toggleAnswer(this)">
             <p class="">Как мы передаём сайт клиенту?</p>
@@ -10,10 +10,10 @@
         </div>
         <div class="faq-item pb-space-20">
         <div class="faq-question flex flex-row justify-between" onclick="toggleAnswer(this)">
-            <p class="">Можно ли потом редактировать сайт самому?</p>
+            <p class="w-full">Можно ли потом редактировать сайт самому?</p>
             <div class="" id="">⮧</div>
         </div>
-        <div class="faq-answer pt-space-20">Да, вы сможете самостоятельно редактировать сайт через редактор Tilda. Для этого нужно войти, выбрать нужный проект и перейти в режим редактирования. Вы сможете менять тексты, изображения, добавлять новые блоки, корректировать дизайн и структуру страниц. Мы предоставим инструкции и, при необходимости, проведём обучение.</div>
+        <div class="faq-answer pt-space-20 w-full">Да, вы сможете самостоятельно редактировать сайт через редактор Tilda. Для этого нужно войти, выбрать нужный проект и перейти в режим редактирования. Вы сможете менять тексты, изображения, добавлять новые блоки, корректировать дизайн и структуру страниц. Мы предоставим инструкции и, при необходимости, проведём обучение.</div>
         </div>
         <div class="faq-item pb-space-20">
         <div class="faq-question flex flex-row justify-between" onclick="toggleAnswer(this)">
@@ -33,7 +33,7 @@
             <p class="">Предоставляете ли вы услуги по аудиту сайта?</p>
             <div class="" id="">⮧</div>
         </div>
-        <div class="faq-answer pt-space-20">Да, мы проводим аудит сайтов. В рамках аудита мы анализируем дизайн, структуру, юзабилити, технические параметры и показатели эффективности сайта. По результатам мы предоставляем подробный отчёт с рекомендациями по улучшению.</div>
+        <div class="faq-answer pt-space-20">Да, мы проводим аудит сайтов. В рамках исследования мы анализируем дизайн, структуру, юзабилити, технические параметры и показатели эффективности сайта. По результатам мы предоставляем подробный отчёт с рекомендациями по улучшению.</div>
     </div>
 </div>
 </section>

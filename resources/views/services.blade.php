@@ -227,7 +227,7 @@
         <img src="{{ Vite::asset('resources/images/serves4.jpg') }}" alt="" class="rounded-full flex-shrink-0">
     </div>
 
-    <section class="about-form grid grid-cols-2 mb-space-144">
+    <section class="about-form grid grid-cols-2 mb-space-144" id="form">
         <div class="about-form-text-wrapper flex flex-col gap-[26px]">
             <h1 class="text-[64px] text-white">СВЯЖИТЕСЬ С НАМИ</h1>
             <p class="text-white">Оставьте заявку и мы свяжемся с вами или позвоните по номеру:</p>
