@@ -44,7 +44,7 @@
         <div class="grid grid-cols-2 items-center w-full">
             <div class="flex items-start gap-x-2">
                 <label class="text-white font-inter" for="submit-agreement">
-                    <input class="accent-rose-600 focus:outline-2 focus:outline-rose-600" type="checkbox" id="submit-agreement">
+                    <input class="accent-rose-600 focus:outline-2 focus:outline-rose-600" type="checkbox" id="submit-agreement" name="agreement">
                     Нажимая на кнопку, я соглашаюсь с&nbsp;<a class="underline" href="#">обработкой персональных данных</a>
                 </label>
             </div>

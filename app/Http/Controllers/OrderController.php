@@ -17,7 +17,8 @@ class OrderController extends Controller
             'name'=>'required|string|max:255',
             'tel'=>'required|string|max:255',
             'email'=>'required|string|max:255',
-            'message'=>'string'
+            'message'=>'string',
+            'agreement'=>'required',
         ]);
         $order->create($data);
         $message = sprintf(
