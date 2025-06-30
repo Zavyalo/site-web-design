@@ -83,28 +83,28 @@
             <div class="swiper SwiperWelcomepartners w-[100%]">
                 <div class="swiper-wrapper flex flex-row grow gap-[8px] w-[100%]">
                     <div class="swiper-slide flex flex-1 flex-col grow sm:gap-[20px] min-[320px]:gap-[12px]">
-                        <img class="min-w-[126px]" src="{{ Vite::asset('resources/images/part-aero.png') }}" alt="">
-                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px] ">Платформа развлечений на борту ПАО «Аэрофлот»</p>
+                        <img class="min-w-[126px]  rounded-[10px]" src="{{ Vite::asset('resources/images/content/logo/chelbasket-logo.jpg') }}" alt="">
+                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px] ">Сайт баскетбольного клуба Челбаскет</p>
                     </div>
                     <div class="swiper-slide flex flex-1 flex-col grow sm:gap-[20px] min-[320px]:gap-[12px]">
-                        <img class="min-w-[126px]" src="{{ Vite::asset('resources/images/part-ugmk.png') }}" alt="">
+                        <img class="min-w-[126px] rounded-[10px]" src="{{ Vite::asset('resources/images/content/logo/mini-app-logo.jpg') }}" alt="">
+                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">VK mini-app для букроссинга «Книжная полка»</p>
+                    </div>
+                    <div class="swiper-slide flex flex-1 flex-col grow sm:gap-[20px] min-[320px]:gap-[12px]">
+                        <img class="min-w-[126px] rounded-[10px]" src="{{ Vite::asset('resources/images/content/logo/ugmk-logo.jpg') }}" alt="">
                         <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">3D-тренажер для УГМК</p>
                     </div>
                     <div class="swiper-slide flex flex-1 flex-col grow sm:gap-[20px] min-[320px]:gap-[12px]">
-                        <img class="min-w-[126px]" src="{{ Vite::asset('resources/images/part-uni.png') }}" alt="">
-                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">«Умная обувь»: прототип обуви будущего</p>
-                    </div>
-                    <div class="swiper-slide flex flex-1 flex-col grow sm:gap-[20px] min-[320px]:gap-[12px]">
-                        <img class="min-w-[126px]" src="{{ Vite::asset('resources/images/part-mus.png') }}" alt="">
+                        <img class="min-w-[126px] rounded-[10px]" src="{{ Vite::asset('resources/images/content/logo/museum-logo.jpg') }}" alt="">
                         <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">Виртуальный атлас-тренажер для ООО «ПрограмЛаб»</p>
                     </div>
                     <div class="swiper-slide flex flex-1 flex-col grow sm:gap-[20px] min-[320px]:gap-[12px]">
-                        <img class="min-w-[126px]" src="{{ Vite::asset('resources/images/part-hyatt.png') }}" alt="">
-                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">Business case for human resources management</p>
+                        <img class="min-w-[126px] rounded-[10px]" src="{{ Vite::asset('resources/images/content/logo/polistroy-logo.jpg') }}" alt="">
+                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">Сайт-конструктор по выбору дизайна почтовых ящиков «Полистрой»</p>
                     </div>
                     <div class="swiper-slide flex flex-1 flex-col grow sm:gap-[20px] min-[320px]:gap-[12px]">
-                        <img class="min-w-[126px]" src="{{ Vite::asset('resources/images/part-bank.png') }}" alt="">
-                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">Выявление актуальных схем финансового мошенничества</p>
+                        <img class="min-w-[126px] rounded-[10px]" src="{{ Vite::asset('resources/images/content/logo/etalon-logo.jpg') }}" alt="">
+                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">Интернет-магазин носочной фабрики «Эталон»</p>
                     </div>
                 </div> 
             </div>
