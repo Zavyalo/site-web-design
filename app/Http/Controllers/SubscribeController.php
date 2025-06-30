@@ -11,12 +11,12 @@ class SubscribeController extends Controller
     public function store (Request $request, Subscribe $subscribe)
     {
 
-        if($request -> check){
+        if($request -> check  ){
             die();
         }
+       
         $data = $request -> validate([
-            'email'=>'required|string|max:255' ,
-            'agreement'=>'required',         
+            'email'=>'required|string|max:255'          
         ]);
         $subscribe->create($data);
         $message = sprintf(
