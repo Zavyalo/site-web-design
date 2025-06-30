@@ -71,16 +71,16 @@ window.onload = function () {
                 // when window width is >= 640px
                 320: {
 
-                    slidesPerView: 4,
+                    slidesPerView: 2,
                     spaceBetween: 6
                 },
                 640: {
-                    slidesPerView: 3,
-                    spaceBetween: 6
+                    slidesPerView: 2,
+                    spaceBetween: 15
                 },
                 768: {
                     slidesPerView: 3,
-                    spaceBetween: 6
+                    spaceBetween: 15
                 },
                 1024: {
                     slidesPerView: 3,
