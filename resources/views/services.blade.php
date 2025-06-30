@@ -66,16 +66,16 @@
             <div class="mb-space-48 font-victor uppercase">
                 <p class="font-victor text-lightgray lg:pb-space-16 md:pb-space-16 xl:pb-space-16 max-[1280px]:pb-space-16 sm:pb-space-4 min-[320px]:pb-space-4 sm:text-xs min-[320px]:text-xs
                         lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70 break-words
-                        max-[1280px]:w-[450px] lg:w-[450px] xl:w-[450px] sm:w-[270px] min-[320px]:w-[270px] md:w-[270px]">Кому подходит: стартапы, компании с новым продуктом</p>
+                        max-[1280px]:w-[450px] lg:w-[450px] xl:w-[450px] sm:w-[300px] min-[320px]:w-[300px] md:w-[300px]">Кому подходит: стартапы, компании с новым продуктом</p>
                 <p class="font-victor text-lightgray sm:text-xs min-[320px]:text-xs lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70
-                        max-[1280px]:w-[450px] lg:w-[450px] xl:w-[450px] sm:w-[270px] min-[320px]:w-[270px] md:w-[270px] break-words">Методы: user-flow, сценарии, pain points, CJM</p>
+                        max-[1280px]:w-[450px] lg:w-[450px] xl:w-[450px] sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">Методы: user-flow, сценарии, pain points, CJM</p>
             </div>
             <div class="flex flex-row justify-between">
                 <div class="flex flex-col justify-between lg:flex-nowrap">
                     <div class="flex 2xl:flex-row mb-space-48 min-[320px]:flex-wrap lg:flex-nowrap lg:flex-row sm:mb-space-20 min-[320px]:mb-space-20 mr-space-70">
                         <div class="pr-space-70 sm:pb-space-26 min-[320px]:pb-space-26 lg:flex-nowrap lg:flex-row">
                             <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что делаем:</p>
-                            <ul class="font-inter text-white text-base font-light">
+                            <ul class="font-inter text-white text-base font-light max-[1280px]:w-100% lg:w-100% xl:w-100% sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">
                                 <li>> Интервью с пользователями</li>
                                 <li>> Анализ конкурентов</li>
                                 <li>> Карты CJM</li>
@@ -85,10 +85,10 @@
                         </div>
                         <div>
                             <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что получает клиент:</p>
-                            <ul class="font-inter text-white text-base font-light">
+                            <ul class="font-inter text-white text-base font-light max-[1280px]:w-100% lg:w-100% xl:w-100% sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">
                                 <li>> Чёткие выводы и инсайты</li>
                                 <li>> Верифицированные гипотезы</li>
-                                <li class="text-wrap">> Конкретные рекомендации и приоритеты для запуска</li>
+                                <li>> Конкретные рекомендации и приоритеты для запуска</li>
                             </ul>
                         </div>
                     </div>
@@ -96,9 +96,7 @@
                 </div>
             </div>
         </div>
-        <img src="{{ Vite::asset('resources/images/serves1.jpg') }}" alt="" class="clip-sloped-25 flex-shrink-0 
-
-">
+        <img src="{{ Vite::asset('resources/images/serves1.jpg') }}" alt="" class="clip-sloped-25 flex-shrink-0">
     </div>
 
     <div class="flex flex-row justify-between max-[1280px]:mb-space-144 lg:mb-space-144 xl:mb-space-144 sm:mb-space-48 min-[320px]:mb-space-48 md:mb-space-48 sm:flex-wrap min-[320px]:flex-wrap lg:flex-nowrap max-[1280px]:flex-col" id="service2">
@@ -111,17 +109,17 @@
             </div>
             <div class="mb-space-48 uppercase sm:mb-space-20 min-[320px]:mb-space-20">
                 <p class="font-victor text-lightgray lg:pb-space-16 md:pb-space-16 xl:pb-space-16 max-[1280px]:pb-space-16 sm:pb-space-4 min-[320px]:pb-space-4 sm:text-xs min-[320px]:text-xs
-                        lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70 w-[500px] break-words
-                        max-[1280px]:w-[500px] lg:w-[500px] xl:w-[500px] sm:w-[270px] min-[320px]:w-[300px] md:w-[300px] break-words">Кому подходит: тем, кто запускает новый продукт, редизайн, платформу, личный кабинет или сервисную систему.</p>
+                        lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70 w-[500px]
+                        max-[1280px]:w-[450px] lg:w-[450px] xl:w-[450px] sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">Кому подходит: тем, кто запускает новый продукт, редизайн, платформу, личный кабинет или сервисную систему.</p>
                 <p class="font-victor text-lightgray sm:text-xs min-[320px]:text-xs lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70
-                        max-[1280px]:w-[500px] lg:w-[500px] xl:w-[500px] sm:w-[270px] min-[320px]:w-[270px] md:w-[270px] break-words">Методы: user-flow, сценарии, pain points, CJM</p>
+                        max-[1280px]:w-[450px] lg:w-[450px] xl:w-[450px] sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">Методы: user-flow, сценарии, pain points, CJM</p>
             </div>
             <div class="flex flex-row justify-between">
                 <div class="flex flex-col justify-between lg:flex-nowrap">
                     <div class="flex 2xl:flex-row mb-space-48 min-[320px]:flex-wrap lg:flex-nowrap lg:flex-row sm:mb-space-20 min-[320px]:mb-space-20 mr-space-70">
                         <div class="pr-space-70 sm:pb-space-26 min-[320px]:pb-space-26 lg:flex-nowrap lg:flex-row">
                             <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что делаем:</p>
-                            <ul class="font-inter text-white text-base font-light">
+                            <ul class="font-inter text-white text-base font-light max-[1280px]:w-100% lg:w-100% xl:w-100% sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">
                                 <li>> User-flow</li>
                                 <li>> Wireframes</li>
                                 <li>> Карты CJM</li>
@@ -132,7 +130,7 @@
                         </div>
                         <div>
                             <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что получает клиент:</p>
-                            <ul class="font-inter text-white text-base font-light">
+                            <ul class="font-inter text-white text-base font-light max-[1280px]:w-100% lg:w-100% xl:w-100% sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">
                                 <li>> Прототип сайта</li>
                                 <li>> Продуманную структуру страниц</li>
                                 <li>> Понятный визуальный сценарий</li>
@@ -157,15 +155,17 @@
             </div>
             <div class="mb-space-48 uppercase sm:mb-space-20 min-[320px]:mb-space-20">
                 <p class="font-victor text-lightgray lg:pb-space-16 md:pb-space-16 xl:pb-space-16 max-[1280px]:pb-space-16 sm:pb-space-4 min-[320px]:pb-space-4 sm:text-xs min-[320px]:text-xs
-                        lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70">Кому подходит: тем, кто запускает новый продукт, редизайн, платформу, личный кабинет или сервисную систему.</p>
-                <p class="font-victor text-lightgray sm:text-xs min-[320px]:text-xs lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70">Методы: user-flow, сценарии, pain points, CJM</p>
+                        lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70
+                        max-[1280px]:w-[450px] lg:w-[450px] xl:w-[450px] sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">Кому подходит: тем, кто запускает новый продукт, редизайн, платформу, личный кабинет или сервисную систему.</p>
+                <p class="font-victor text-lightgray sm:text-xs min-[320px]:text-xs lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70
+                        max-[1280px]:w-[450px] lg:w-[450px] xl:w-[450px] sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">Методы: user-flow, сценарии, pain points, CJM</p>
             </div>
             <div class="flex flex-row justify-between">
                 <div class="flex flex-col justify-between lg:flex-nowrap">
                     <div class="flex 2xl:flex-row mb-space-48 min-[320px]:flex-wrap lg:flex-nowrap lg:flex-row sm:mb-space-20 min-[320px]:mb-space-20 mr-space-70">
                         <div class="pr-space-70 sm:pb-space-26 min-[320px]:pb-space-26 lg:flex-nowrap lg:flex-row">
                             <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что делаем:</p>
-                            <ul class="font-inter text-white text-base font-light">
+                            <ul class="font-inter text-white text-base font-light max-[1280px]:w-100% lg:w-100% xl:w-100% sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">
                                 <li class="break-words">> User-flow</li>
                                 <li class="break-words">> Wireframes</li>
                                 <li class="break-words">> Карты CJM</li>
@@ -176,7 +176,7 @@
                         </div>
                         <div>
                             <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что получает клиент:</p>
-                            <ul class="font-inter text-white text-base font-light">
+                            <ul class="font-inter text-white text-base font-light max-[1280px]:w-100% lg:w-100% xl:w-100% sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">
                                 <li class="break-words">> Прототип сайта</li>
                                 <li class="break-words">> Продуманную структуру страниц</li>
                                 <li class="break-words">> Понятный визуальный сценарий</li>
@@ -191,38 +191,41 @@
         <img src="{{ Vite::asset('resources/images/serves3.jpg') }}" alt="" class="flex-shrink-0 rounded-3xl">
     </div>
 
-    <div class="flex flex-row justify-between max-[1280px]:mb-space-144 lg:mb-space-144 xl:mb-space-144 sm:mb-space-48 min-[320px]:mb-space-48 md:mb-space-48 sm:flex-wrap min-[320px]:flex-wrap lg:flex-nowrap max-[1280px]:flex-col" id="service4">
+    <div class="flex flex-row justify-between max-[1280px]:mb-space-144 lg:mb-space-144 xl:mb-space-144 sm:mb-space-48 min-[320px]:mb-space-48 md:mb-space-48 sm:flex-wrap min-[320px]:flex-wrap lg:flex-nowrap max-[1280px]:flex-col" id="service2">
         <div class="flex flex-col justify-between sm:pb-space-32 min-[320px]:pb-space-32">
             <div class="flex flex-row mb-space-48 sm:mb-space-20 min-[320px]:mb-space-20">
                 <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl pr-space-4 sm:text-base min-[320px]:text-base
                             text-transparent bg-clip-text bg-gradient-to-r from-red-600 from-10% via-orange-500 via-20% to-red-200 to-100%">(04)</h2>
-                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-white sm:text-base min-[320px]:text-base"> Создание приложений с VR-технологиями</h2>
+                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-white sm:text-base min-[320px]:text-base
+                            max-[1280px]:w-[500px] lg:w-[500px] xl:w-[500px] sm:w-[230px] min-[320px]:w-[230px] md:w-[230px] break-words"> Создание приложений с VR-технологиями</h2>
             </div>
             <div class="mb-space-48 uppercase sm:mb-space-20 min-[320px]:mb-space-20">
                 <p class="font-victor text-lightgray lg:pb-space-16 md:pb-space-16 xl:pb-space-16 max-[1280px]:pb-space-16 sm:pb-space-4 min-[320px]:pb-space-4 sm:text-xs min-[320px]:text-xs
-                        lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70">Кому подходит: тем, кто запускает новый продукт, редизайн, платформу, личный кабинет или сервисную систему.</p>
-                <p class="font-victor text-lightgray sm:text-xs min-[320px]:text-xs lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70">Методы: user-flow, сценарии, pain points, CJM</p>
+                        lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70 w-[500px]
+                        max-[1280px]:w-[450px] lg:w-[450px] xl:w-[450px] sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">Кому подходит: тем, кто запускает новый продукт, редизайн, платформу, личный кабинет или сервисную систему.</p>
+                <p class="font-victor text-lightgray sm:text-xs min-[320px]:text-xs lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70
+                        max-[1280px]:w-[450px] lg:w-[450px] xl:w-[450px] sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">Методы: user-flow, сценарии, pain points, CJM</p>
             </div>
             <div class="flex flex-row justify-between">
                 <div class="flex flex-col justify-between lg:flex-nowrap">
                     <div class="flex 2xl:flex-row mb-space-48 min-[320px]:flex-wrap lg:flex-nowrap lg:flex-row sm:mb-space-20 min-[320px]:mb-space-20 mr-space-70">
                         <div class="pr-space-70 sm:pb-space-26 min-[320px]:pb-space-26 lg:flex-nowrap lg:flex-row">
                             <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что делаем:</p>
-                            <ul class="font-inter text-white text-base font-light">
-                                <li class="break-words">> Сценарии взаимодействия в VR</li>
-                                <li class="break-words">> Дизайн и моделирование 3D-сред</li>
-                                <li class="break-words">> Разработка приложений на Unity/WebXR</li>
-                                <li class="break-words">> Поддержка под Oculus, WebVR, мобильные устройства</li>
-                                <li class="break-words">> Видео-демо и инструкции по использованию</li>
+                            <ul class="font-inter text-white text-base font-light max-[1280px]:w-100% lg:w-100% xl:w-100% sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">
+                                <li>> Сценарии взаимодействия в VR</li>
+                                <li>> Дизайн и моделирование 3D-сред</li>
+                                <li>> Разработка приложений на Unity/WebXR</li>
+                                <li>> Поддержка под Oculus, WebVR, мобильные устройства</li>
+                                <li>> Видео-демо и инструкции по использованию</li>
                             </ul>
                         </div>
                         <div>
                             <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что получает клиент:</p>
-                            <ul class="font-inter text-white text-base font-light">
-                                <li class="break-words">> Готовое VR-решение под задачу</li>
-                                <li class="break-words">> Интерактивный пользовательский опыт</li>
-                                <li class="break-words">> Технологичный продукт, выделяющийся на рынке</li>
-                                <li class="break-words">> Простой в управлении интерфейс</li>
+                            <ul class="font-inter text-white text-base font-light max-[1280px]:w-100% lg:w-100% xl:w-100% sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">
+                                <li>> Готовое VR-решение под задачу</li>
+                                <li>> Интерактивный пользовательский опыт</li>
+                                <li>> Технологичный продукт, выделяющийся на рынке</li>
+                                <li>> Простой в управлении интерфейс</li>
                             </ul>
                         </div>
                     </div>
