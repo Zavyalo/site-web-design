@@ -2,10 +2,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <x-h1-gradient>Наши услуги</x-h1-gradient>
-    <!-- <h1 class="font-victor font-bold uppercase max-[1280px]:mb-space-144 lg:my-space-144 xl:my-space-144 sm:my-space-48 min-[320px]:my-space-48 md:my-space-48 
+    <!-- <h1 class="font-victor font-bold uppercase max-[1280px]:mt-space-144 lg:mt-space-144 xl:mt-space-144 sm:mt-space-48 min-[320px]:mt-space-48 md:mt-space-48 
     text-transparent bg-clip-text bg-gradient-to-r from-emerald-100 from-10% via-orange-500 via-20% to-red-200 to-100% 
     lg:text-[64px] md:text-[64px] xl:text-[64px] max-[1280px]:text-[64px] sm:text-[32px] min-[320px]:text-[32px]">Наши услуги</h1> -->
-    <div class="swiper SwiperServices">
+    <div class="swiper SwiperServices max-[1280px]:mt-space-144 lg:mt-space-144 xl:mt-space-144 sm:mt-space-48 min-[320px]:mt-space-48 md:mt-space-48">
         <div class="swiper-wrapper flex flex-row justify-between max-[1280px]:mb-space-144 lg:mb-space-144 xl:mb-space-144 sm:mb-space-48 min-[320px]:mb-space-48 md:mb-space-48 font-victor uppercase">
             <div class="swiper-slide flex items-center justify-center font-bold
                     max-[1280px]:text-3xl lg:text-3xl xl:text-3xl sm:text-lg min-[320px]:text-lg md:text-lg
@@ -236,31 +236,6 @@
         <img src="{{ Vite::asset('resources/images/serves4.jpg') }}" alt="" class="rounded-full flex-shrink-0">
     </div>
 
-<<<<<<< HEAD
-    <section class="about-form grid grid-cols-2 mb-space-144" id="form">
-        <div class="about-form-text-wrapper flex flex-col gap-[26px]">
-            <h1 class="text-[64px] text-white">СВЯЖИТЕСЬ С НАМИ</h1>
-            <p class="text-white">Оставьте заявку и мы свяжемся с вами или позвоните по номеру:</p>
-            <a class="text-3xl font-bold text-white" href="#">+7 (999) 123-45-67</a>
-        </div>
-        <fieldset class="about-form-input flex flex-col gap-y-[14px]">
-            <div class="flex gap-[14px]">
-                <input class="flex grow border-none p-4 rounded-[100px]" type="text" name="form-name" id="" placeholder="Имя" required>
-                <input class="flex grow border-none p-4 rounded-[100px]" type="email" name="form-email" id="" placeholder="E-mail" required>
-            </div>
-            <input class="border-none p-4 rounded-[100px]" type="tel" name="form-telephone" id="" placeholder="Телефон" required>
-            <textarea class="border-none p-4 rounded-3xl" type="text" name="form-text" id="" placeholder="Комментарий"></textarea>
-            <div class="grid grid-cols-2">
-                <div>
-                    <input type="checkbox" name="" id="submit-agreement">
-                    <label class="text-white" for="submit-agreement">Нажимая на кнопку, я соглашаюсь с&nbsp<a class="underline text-white" href="#">обработкой персональных данных</a></label>
-                </div>
-                <button class="form-submit bg-gradient p-4 font-medium text-white rounded-[100px]">Оставить заявку</button>
-            </div>
-        </fieldset>
-    </section>
-=======
 <x-form-order></x-form-order>
->>>>>>> c960f797016cf18952f3076f546386c5baf6b02f
 
 </x-app-layout>
