@@ -1,13 +1,13 @@
 <div class="about-form grid 
-    sm:grid-rows-[auto,auto]
+    min-[320px]Жgrid-rows-[auto,auto]
     lg:grid-cols-2
-    sm:gap-space-20
+    min-[320px]:gap-space-32
     md:gap-space-48
     items-start">
     <div class="about-form-text-wrapper flex flex-col gap-5">
         <h1 class="text-white font-victor font-bold
-            sm:text-3xl 
-            sm:row-start-1
+            min-[320px]:text-3xl 
+            min-[320px]:row-start-1
             md:text-4xl
             lg:text-5xl"
         >СВЯЖИТЕСЬ С НАМИ</h1>
