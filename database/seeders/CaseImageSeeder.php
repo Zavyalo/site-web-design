@@ -16,14 +16,15 @@ class CaseImageSeeder extends Seeder
         CaseImage::insert(
             [
                 [
-                    'path_img' => 'content/case1.png',
+                    'path_img' => 'content/behance/сhelbasket/redisign.jpg',
                     'work_id' => 1,
                     
                 ],
                 [
-                    'path_img' => 'content/case1.png',
+                    'path_img' =>  'content/behance/сhelbasket/stageswork.jpg',
                     'work_id' => 1,
                 ]
+                
             ]
         );
     }

@@ -116,9 +116,16 @@
                <x-cardtwo></x-cardtwo>
             </div>
         </section>
+<<<<<<< HEAD
         <x-FAQ></x-FAQ>
         <x-form-order></x-form-order>  
         
+=======
+        <x-form-order ></x-form-order>
+        <section class="about-form grid grid-cols-2 font-inter w-[100%] font-inter">
+            
+        </section>
+>>>>>>> 4d3f37f7576ea61ebb27bd9f2c22e0d2fa079d0f
 
     </container>
 
