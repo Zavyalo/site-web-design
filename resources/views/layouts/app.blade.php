@@ -42,11 +42,12 @@
                         <li class="flex justify-center rounded-full px-space-16 py-space-4 {{ request()->is('blog') ? 'text-white bg-gradient' : null }}"><a href="/blog">Блог</a></li>
                         <li class="flex justify-center rounded-full px-space-16 py-space-4 {{ request()->is('portfolio') ? 'text-white bg-gradient' : null }}"><a href="/portfolio">Портфолио</a></li>
                     </ul>
-                    <div class="flex flex-row gap-8 max-[1100px]:gap-space-10">
+                    <!-- Открыть, когда появится англ. версия -->
+                    {{-- <div class="flex flex-row gap-8 max-[1100px]:gap-space-10">
                     <div class="flex flex-row bg-darkgray text-white rounded-full justify-center items-center px-space-4 gap-space-4 max-[500px]:hidden">
                         <div class="flex justify-center text-black bg-white rounded-full px-space-4 py-space-4">RU</div>
                         <div class="flex justify-center rounded-full px-space-4 py-space-4">EN</div>
-                    </div>
+                    </div> --}}
                     <x-btn-link>Оставить заявку</x-btn-link>
                     </div>
                     </div>
@@ -76,10 +77,10 @@
                     <li class="w-60 flex justify-center text-black bg-white rounded-full py-1 {{ request()->is('portfolio') ? 'text-white bg-gradient' : 'text-black bg-white' }}">
                     <a href="/portfolio" class="py-1 px-20">Портфолио</a></li>
                 </ul>
-                <div class="w-20 flex flex-row bg-black text-white rounded-full justify-center items-center py-1 gap-space-4 mt-space-26">
+                {{-- <div class="w-20 flex flex-row bg-black text-white rounded-full justify-center items-center py-1 gap-space-4 mt-space-26">
                     <div class="flex justify-center text-black bg-white rounded-full px-space-4 py-space-4">RU</div>
                     <div class="flex justify-center rounded-full px-space-4 py-space-4">EN</div>
-                </div>
+                </div> --}}
             </div>
 
             {{ $slot }}
@@ -94,9 +95,9 @@
             </div>
             <a href="tel:+73512161042">+7 (351) 216-10-42</a>
             <ul class="flex flex-row gap-space-20 max-[800px]:flex-col gap-1">
-                <li><a href="#" class="flex flex-row gap-space-10 text-sm"><img class="w-4 h-4" src="{{ Vite::asset('resources/images/icon_whatsapp.svg') }}" alt="">WhatsApp</a></li>
-                <li><a href="#" class="flex flex-row gap-space-10 text-sm"><img class="w-4 h-4" src="{{ Vite::asset('resources/images/icon_tg.svg') }}" alt="https://t.me/Olga_chely">Telegram</a></li>
-                <li><a href="#" class="flex flex-row gap-space-10 text-sm"><img class="w-4 h-4" src="{{ Vite::asset('resources/images/icon_vk.svg') }}" alt="https://vk.com/tale_lady">BK</a></li>
+                <li><a href="mailto:cr@midis.ru" class="flex flex-row gap-space-10 text-sm"><img class="w-4 h-4" src="{{ Vite::asset('resources/images/icon_email.svg') }}" alt="">E-mail</a></li>
+                <li><a href="https://t.me/Olga_chely" class="flex flex-row gap-space-10 text-sm"><img class="w-4 h-4" src="{{ Vite::asset('resources/images/icon_tg.svg') }}" alt="">Telegram</a></li>
+                <li><a href="https://vk.com/tale_lady" class="flex flex-row gap-space-10 text-sm"><img class="w-4 h-4" src="{{ Vite::asset('resources/images/icon_vk.svg') }}" alt="">BK</a></li>
             </ul>
             </div>
             <div class="flex flex-row gap-20 max-[800px]:gap-6">
@@ -106,7 +107,7 @@
                 <li><a href="/portfolio">Порфолио</a></li>
                 <li><a href="/blog">Блог</a></li>
             </ul>
-            <div class="h-20"><x-secondary-button>Оставить заявку</x-secondary-button></div>
+            <x-btn-link class="h-10">Оставить заявку</x-btn-link>
             </div>
             </div>
         </footer>
