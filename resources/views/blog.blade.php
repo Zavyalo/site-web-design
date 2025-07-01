@@ -1,9 +1,8 @@
 <x-app-layout>
 
-    <container class="flex flex-col gap-[72px] lg:gap-[144px] container mx-auto text-white flex-grow px-4 sm:px-6 lg:px-8">
+    <container class="flex flex-col sm:gap-[144px] min-[320px]:gap-[48px] container mx-auto text-white flex-grow px-4 sm:px-6 lg:px-8 my-[144px]">
         <x-h1-gradient>БЛОГ</x-h1-gradient>
-
-        <section class="flex flex-col gap-[32px] font-inter">
+        <section class="flex flex-col sm:gap-[48px] min-[320px]:gap-[32px] font-inter">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[20px] sm:gap-[24px]">
                 @foreach ($articles as $article)
 
@@ -47,7 +46,7 @@
             </div>
         </section>
 
-        <section class="about-form grid grid-cols-1 lg:grid-cols-2 text-white mt-20 mb-20 font-inter gap-8 sm:gap-12">
+        <section class="about-form grid grid-cols-1 lg:grid-cols-2 text-white mt-20 mb-20 font-inter sm:gap-[48px] min-[320px]:gap-[32px]">
             <div class="about-form-text-wrapper flex flex-col gap-[20px]">
                 <h1 class="text-2xl sm:text-4xl lg:text-6xl font-bold font-victor leading-tight max-w-full">
                     ПОДПИШИТЕСЬ НА РАССЫЛКУ

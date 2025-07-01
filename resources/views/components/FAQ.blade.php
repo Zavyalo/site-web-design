@@ -1,13 +1,6 @@
-<<<<<<< HEAD
 <section class="flex flex-row justify-between w-full font-inter text-white max-sm:flex-col gap-space-48">
     <x-h1-white class="w-[320px] nowrap">ВОПРОСЫ <br> И ОТВЕТЫ</x-h1-white>
     <div class="flex flex-col justify-between w-[1000px] gap-space-32 max-2xl:w-[800px] max-xl:w-[600px] max-lg:w-[400px] max-md:w-full">
-=======
-<section class="flex flex-row justify-between w-full font-inter text-white">
-    <x-h1-white>ВОПРОСЫ <br> И ОТВЕТЫ</x-h1-white>
-
-    <div class="flex flex-col w-[1000px] gap-space-32">
->>>>>>> c960f797016cf18952f3076f546386c5baf6b02f
         <div class="faq-item pb-space-20">
         <div class="faq-question flex flex-row justify-between" onclick="toggleAnswer(this)">
 
