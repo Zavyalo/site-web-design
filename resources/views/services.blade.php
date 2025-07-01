@@ -61,7 +61,7 @@
             <div class="flex flex-row mb-space-48 sm:mb-space-20 min-[320px]:mb-space-20">
                 <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl pr-space-4 sm:text-base min-[320px]:text-base
                             text-transparent bg-clip-text bg-gradient-to-r from-red-600 from-10% via-orange-500 via-20% to-red-200 to-100%">(01)</h2>
-                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-white sm:text-base min-[320px]:text-base">UX-исследования и аналитика</h2>
+                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-white sm:text-base min-[320px]:text-base">UX-аудит и аналитика</h2>
             </div>
             <div class="mb-space-48 font-victor uppercase">
                 <p class="font-victor text-lightgray lg:pb-space-16 md:pb-space-16 xl:pb-space-16 max-[1280px]:pb-space-16 sm:pb-space-4 min-[320px]:pb-space-4 sm:text-xs min-[320px]:text-xs
