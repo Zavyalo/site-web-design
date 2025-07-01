@@ -1,8 +1,5 @@
 <x-app-layout>
-
-    <section class="flex flex-col gap-[48px] md:gap-[144px] pb-[144px]">
-
-
+    <container class="flex flex-col sm:gap-[144px] min-[320px]:gap-[48px]] pb-[144px]">
         <section class="flex flex-col gap-6">
                 <x-h1-gradient>Наши работы</x-h1-gradient>
             <p class="w-full md:w-[70%] text-base md:text-xl lg:text-2xl text-white font-inter">
@@ -12,8 +9,7 @@
             </p>
         </section>
 
-        <section class="portfolio-cases flex flex-col gap-[36px] font-inter">
-
+        <section class="portfolio-cases flex flex-col sm:gap-[48px] min-[320px]:gap-[32px] font-inter">
             <div class="w-full overflow-x-auto scrollbar-hide">
                 <div class="flex items-start bg-white p-1.5 rounded-full gap-x-[8px] self-start w-max">
                   
@@ -33,8 +29,6 @@
               
                 </div>
               </div>
-
-
 
 
             <div class="case-about flex flex-col gap-[20px]">
@@ -85,5 +79,5 @@
 
         <x-form-order></x-form-order>
 
-    </section>
+    </container>
 </x-app-layout>
