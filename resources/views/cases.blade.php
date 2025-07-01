@@ -22,10 +22,13 @@
                 <p class="text-base text-lightgray font-inter mt-space-20">{{ \Carbon\Carbon::parse($work->date)->translatedFormat('d.m.Y') }}</p>
             </div>
         </div>
-        <div class="flex justify-center mt-space-48 md:mt-space-144">
-            <img class="object-fill flex-grow" src="{{ Vite::asset('resources/images/behance.png') }}" alt="">
+        
+        <div class="flex justify-center mt-space-48 md:mt-space-144 flex-col">
+            @foreach ($work->images as $image)
+                <img class="object-fill flex-grow" src="{{ Vite::asset($image->getImageUrlAttribute()) }}" alt="">
+            @endforeach
         </div>
-
+       
         <div class="flex flex-col md:flex-row justify-between mt-space-48 md:mt-space-144">
             <x-h1-white class="w-[269px] leading-[86px] mb-space-32 md:mb-space-0">Отзыв клиента</x-h1-white>
             <x-cardtwo></x-cardtwo>
