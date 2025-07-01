@@ -24,6 +24,7 @@ class CaseImageSeeder extends Seeder
                     'path_img' => 'content/case1.png',
                     'work_id' => 1,
                 ]
+                
             ]
         );
     }

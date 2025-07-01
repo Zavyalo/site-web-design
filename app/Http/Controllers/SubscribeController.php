@@ -21,7 +21,7 @@ class SubscribeController extends Controller
         $subscribe->create($data);
         $message = sprintf(
             "%s\r\n%s",
-            "сообщение-полдписка",
+            "сообщение-подписка",
             $request->input("email")     
         );
    

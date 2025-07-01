@@ -47,7 +47,7 @@
                         <div class="flex justify-center text-black bg-white rounded-full px-space-4 py-space-4">RU</div>
                         <div class="flex justify-center rounded-full px-space-4 py-space-4">EN</div>
                     </div>
-                    <x-secondary-button href="/services#form">Оставить заявку</x-secondary-button>
+                    <x-btn-link>Оставить заявку</x-btn-link>
                     </div>
                     </div>
             </div>
@@ -56,7 +56,7 @@
         <x-notice></x-notice>
         <main class="container mx-auto px-[15px] mt-60 max-lg:mt-40">
 
-            <div class="bg-darkgray w-70 top-0 left-0 z-10 px-space-20 pt-space-26 pb-space-144 burger-panel absolute" id="menu__burger">
+            <div class="bg-darkgray w-70 top-0 left-0 z-10 px-space-20 pt-space-26 pb-space-144 burger-panel fixed" id="menu__burger">
                 <div class="flex flex-row justify-between mb-space-26">
                 <div class="flex flex-row gap-space-16 items-center">
                     <img class="w-9 h-9" src="{{ Vite::asset('resources/images/logo.svg') }}" alt="МИДиС">
@@ -85,7 +85,8 @@
             {{ $slot }}
 
         </main>
-        <footer class="bg-darkgray flex flex-row justify-center p-space-48 justify-between text-white max-lg:p-space-32 max-[420px]:flex-col gap-space-32">
+        <footer class="bg-darkgray">
+            <div class="container flex flex-row justify-center p-space-48 justify-between text-white max-lg:p-space-32 max-[420px]:flex-col gap-space-32">
             <div class="flex flex-col gap-space-16">
             <div class="flex flex-row gap-space-16 items-center">
                 <img class="w-9 h-9" src="{{ Vite::asset('resources/images/logo.svg') }}" alt="МИДиС">
@@ -94,8 +95,8 @@
             <a href="tel:+73512161042">+7 (351) 216-10-42</a>
             <ul class="flex flex-row gap-space-20 max-[800px]:flex-col gap-1">
                 <li><a href="#" class="flex flex-row gap-space-10 text-sm"><img class="w-4 h-4" src="{{ Vite::asset('resources/images/icon_whatsapp.svg') }}" alt="">WhatsApp</a></li>
-                <li><a href="#" class="flex flex-row gap-space-10 text-sm"><img class="w-4 h-4" src="{{ Vite::asset('resources/images/icon_tg.svg') }}" alt="">Telegram</a></li>
-                <li><a href="#" class="flex flex-row gap-space-10 text-sm"><img class="w-4 h-4" src="{{ Vite::asset('resources/images/icon_vk.svg') }}" alt="">BK</a></li>
+                <li><a href="#" class="flex flex-row gap-space-10 text-sm"><img class="w-4 h-4" src="{{ Vite::asset('resources/images/icon_tg.svg') }}" alt="https://t.me/Olga_chely">Telegram</a></li>
+                <li><a href="#" class="flex flex-row gap-space-10 text-sm"><img class="w-4 h-4" src="{{ Vite::asset('resources/images/icon_vk.svg') }}" alt="https://vk.com/tale_lady">BK</a></li>
             </ul>
             </div>
             <div class="flex flex-row gap-20 max-[800px]:gap-6">
@@ -106,6 +107,7 @@
                 <li><a href="/blog">Блог</a></li>
             </ul>
             <div class="h-20"><x-secondary-button>Оставить заявку</x-secondary-button></div>
+            </div>
             </div>
         </footer>
     </body>

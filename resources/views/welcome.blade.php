@@ -116,7 +116,7 @@
                <x-cardtwo></x-cardtwo>
             </div>
         </section>
-        <x-form-order></ x-form-order>
+        <x-form-order ></x-form-order>
         <section class="about-form grid grid-cols-2 font-inter w-[100%] font-inter">
             
         </section>
