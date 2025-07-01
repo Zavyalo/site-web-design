@@ -76,11 +76,10 @@
                         <div class="pr-space-70 sm:pb-space-26 min-[320px]:pb-space-26 lg:flex-nowrap lg:flex-row">
                             <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что делаем:</p>
                             <ul class="font-inter text-white text-base font-light max-[1280px]:w-100% lg:w-100% xl:w-100% sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">
-                                <li>> Проведение глубинных интервью с ЦА (5-7 респондентов)</li>
+                                <li>> Глубинные интервью с ЦА</li>
                                 <li>> Комплексный конкурентный анализ</li>
-                                <li>> Построение CJMap с pain points</li>
+                                <li>> Построение CJM с pain points</li>
                                 <li>> A/B-тесты и упрощенные MVP</li>
-                                <li>> Поведенческая аналитика</li>
                             </ul>
                         </div>
                         <div>
