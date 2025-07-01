@@ -7,7 +7,7 @@
             <h1 class="text-white text-[24px] md:text-[24px] min-[320px]:text-[12px] text-center max-w-[832px]">Образовательный проект МИДиС: от идеи до цифрового продукта. Мы слышим, вникаем и превращаем Ваши задачи в понятные, живые цифровые продукты</h1>
 
             </div>
-            <x-secondary-button class=" flex justify-center w-[311px] h-[56px]">Оставить заявку</x-secondary-button>
+            <x-btn-link class="flex justify-center w-[311px] h-[56px]">Оставить заявку</x-btn-link>
         </section>
         <section class="flex flex-col sm:gap-[48px] min-[320px]:gap-[32px] font-victor w-[100%]">
             <x-h1-white>НАШИ УСЛУГИ</x-h1-white>
@@ -84,27 +84,27 @@
                 <div class="swiper-wrapper flex flex-row grow gap-[8px] w-[100%]">
                     <div class="swiper-slide flex flex-1 flex-col grow sm:gap-[20px] min-[320px]:gap-[12px]">
                         <img class="min-w-[126px]  rounded-[10px]" src="{{ Vite::asset('resources/images/content/logo/chelbasket-logo.jpg') }}" alt="">
-                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px] ">Сайт баскетбольного клуба Челбаскет</p>
+                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px] ">Баскетбольный клуб «Челбаскет»</p>
                     </div>
                     <div class="swiper-slide flex flex-1 flex-col grow sm:gap-[20px] min-[320px]:gap-[12px]">
                         <img class="min-w-[126px] rounded-[10px]" src="{{ Vite::asset('resources/images/content/logo/mini-app-logo.jpg') }}" alt="">
-                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">VK mini-app для букроссинга «Книжная полка»</p>
+                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">Платформа VK mini-apps</p>
                     </div>
                     <div class="swiper-slide flex flex-1 flex-col grow sm:gap-[20px] min-[320px]:gap-[12px]">
                         <img class="min-w-[126px] rounded-[10px]" src="{{ Vite::asset('resources/images/content/logo/ugmk-logo.jpg') }}" alt="">
-                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">3D-тренажер для УГМК</p>
+                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">Технический универвитет УГМК</p>
                     </div>
                     <div class="swiper-slide flex flex-1 flex-col grow sm:gap-[20px] min-[320px]:gap-[12px]">
-                        <img class="min-w-[126px] rounded-[10px]" src="{{ Vite::asset('resources/images/content/logo/museum-logo.jpg') }}" alt="">
-                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">Виртуальный атлас-тренажер для ООО «ПрограмЛаб»</p>
+                        <img class="min-w-[126px] rounded-[10px]" src="{{ Vite::asset('resources/images/content/logo/logo_polistroy.jpg') }}" alt="">
+                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">Торговый дом «Полистрой»</p>
                     </div>
                     <div class="swiper-slide flex flex-1 flex-col grow sm:gap-[20px] min-[320px]:gap-[12px]">
-                        <img class="min-w-[126px] rounded-[10px]" src="{{ Vite::asset('resources/images/content/logo/polistroy-logo.jpg') }}" alt="">
-                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">Сайт-конструктор по выбору дизайна почтовых ящиков «Полистрой»</p>
+                        <img class="min-w-[126px] rounded-[10px]" src="{{ Vite::asset('resources/images/content/logo/logo_programlab.jpg') }}" alt="">
+                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">Компания по разработке ПО «ПрограмЛаб»</p>
                     </div>
                     <div class="swiper-slide flex flex-1 flex-col grow sm:gap-[20px] min-[320px]:gap-[12px]">
                         <img class="min-w-[126px] rounded-[10px]" src="{{ Vite::asset('resources/images/content/logo/etalon-logo.jpg') }}" alt="">
-                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">Интернет-магазин носочной фабрики «Эталон»</p>
+                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">Носочная фабрика «Эталон»</p>
                     </div>
                 </div> 
             </div>
@@ -112,16 +112,50 @@
         <section class="flex lg:flex-row min-[320px]:flex-col sm:gap-[48px] min-[320px]:gap-[32px] w-[100%] place-content-between">
             <x-h1-white>ОТЗЫВЫ КЛИЕНТОВ</x-h1-white>
             <div class="flex flex-col gap-[20px]">
-               <x-cardtwo></x-cardtwo>
-               <x-cardtwo></x-cardtwo>
+                <div class="flex justify-center items-center border border-white outline-[1,5px] md:rounded-[28px] min-[320px]:rounded-[20px] text-inter max-w-[774px] lg:p-[60px] sm:p-[50px] min-[320px]:p-[20px] lg:gap-[80px] lg:gap-[30px] min-[320px]:gap-[20px] min-[320px]:flex-col sm:flex-row">
+                    <div class="flex flex-col items-center lg:gap-[30px] min-[320px]:gap-[15px] size-auto">
+                      <img src="{{ Vite::asset('resources/images/chelbasket_logo.png') }}" alt="Логотип Челбаскет" class="min-[320px]:w-[100px] lg:w-[180px] rounded-full">   
+                      <div class="flex flex-col lg:gap-[20px] min-[320px]:gap-[10px] justify-center">
+                        <p class="text-white md:text-[20px] min-[320px]:text-[15px] font-semibold text-center">Представитель БК «Челбаскет»</p>
+                        <p class="text-white md:text-[15px] min-[320px]:text-[12px] text-center md:w-[174px] sm:w-[150px] min-[440px]:w-[100%] min-[320px]:w-[138px]"></p>
+                      </div>
+              
+                    </div>
+                    <div class="flex flex-col lg:gap-[30px] min-[320px]:gap-[15px]">
+                      <img class="max-w-[27px]" src="{{ Vite::asset('resources/images/quotation-marks.svg') }}" alt="">
+                      <p class="text-white md:text-[18px] min-[320px]:text-[12px]">
+                        Проект по исследованию и прототипированию сайта выполнен на уровне профессионального агентства: студенты продемонстрировали глубокое понимание задач, креативность и умение работать с требованиями заказчика.
+                      </p>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center border border-white outline-[1,5px] md:rounded-[28px] min-[320px]:rounded-[20px] text-inter max-w-[774px] lg:p-[60px] sm:p-[50px] min-[320px]:p-[20px] lg:gap-[80px] lg:gap-[30px] min-[320px]:gap-[20px] min-[320px]:flex-col sm:flex-row">
+                    <div class="flex flex-col items-center lg:gap-[30px] min-[320px]:gap-[15px] size-auto">
+                      <img src="{{ Vite::asset('resources/images/barger_logo.png') }}" alt="Влад Зелинский" class="min-[320px]:w-[100px] lg:w-[180px] rounded-full">   
+                      <div class="flex flex-col lg:gap-[20px] min-[320px]:gap-[10px] justify-center">
+                        <p class="text-white md:text-[20px] min-[320px]:text-[15px] font-semibold text-center">Заказчик проекта «Barger»</p>
+                        <p class="text-white md:text-[15px] min-[320px]:text-[12px] text-center md:w-[174px] sm:w-[150px] min-[440px]:w-[100%] min-[320px]:w-[138px]"></p>
+                      </div>
+              
+                    </div>
+                    <div class="flex flex-col lg:gap-[30px] min-[320px]:gap-[15px]">
+                      <img class="max-w-[27px]" src="{{ Vite::asset('resources/images/quotation-marks.svg') }}" alt="">
+                      <p class="text-white md:text-[18px] min-[320px]:text-[12px]">
+                        Команда проявила высокий уровень самоорганизованости: качественно проработали проект, быстро взяли задачи в работу, разработали дизайн и фронт. Это говорит о наличии у студентов «осознанных» аналитических и профессиональных компетенций.
+                      </p>
+                    </div>
+                </div>
             </div>
         </section>
+<<<<<<< HEAD
+        <x-form-order></x-form-order>
+=======
 <<<<<<< HEAD
         <x-FAQ></x-FAQ>
         <x-form-order></x-form-order>  
         
 =======
         <x-form-order ></x-form-order>
+>>>>>>> 7f8a80389575e6e7db44471c547c07d62da80251
         <section class="about-form grid grid-cols-2 font-inter w-[100%] font-inter">
             
         </section>
