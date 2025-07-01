@@ -34,20 +34,20 @@
                 </a>
             </div>
         </section>
-        <section class="flex flex-col about-goals section-display font-victor w-[100%]">
+        <section class="flex flex-col about-goals section-display font-victor w-[100%] gap-[48px]">
             <x-h1-white>ДОСТИЖЕНИЯ</x-h1-white>
-            <div class="about-goals-num-wrapper flex flex-row sm:flex-row min-[320px]:flex-col">
+            <div class="about-goals-num-wrapper flex flex-row sm:flex-row min-[320px]:flex-col gap-[20px]">
                 <div class="about-goals-num flex flex-1 flex-col grow items-center">
-                    <p class="text-[200px] lg:text-[200px] min-[320px]:text-[110px] font-bold">80+</p>
-                    <span class="text-white font-inter sm:text-[24px] min-[320px]:text-[12px]">Завершённых проектов</span>
+                    <x-h1-gradient class="text-[200px] lg:text-[200px] min-[320px]:text-[110px] font-bold">80+</x-h1-gradient>
+                    <span class="text-white font-inter ml:text-[24px] sm:text-[12px]">Завершённых проектов</span>
                 </div>
                 <div class="about-goals-num flex flex-1 flex-col grow items-center">
-                    <p class="text-[200px] lg:text-[200px] min-[320px]:text-[110px] font-bold">4</p>
-                    <span class="text-white font-inter sm:text-[24px] min-[320px]:text-[12px]">Направления работ</span>
+                    <x-h1-gradient class="text-[200px] lg:text-[200px] min-[320px]:text-[110px] font-bold">4</x-h1-gradient>
+                    <span class="text-white font-inter ml:text-[24px] sm:text-[12px]">Направления работ</span>
                 </div>
                 <div class="about-goals-num flex flex-1 flex-col grow items-center">
-                    <p class="text-[200px] lg:text-[200px] min-[320px]:text-[110px] font-bold">25</p>
-                    <span class="text-white font-inter Z">Постоянных клиентов</span>
+                    <x-h1-gradient class="text-[200px] lg:text-[200px] min-[320px]:text-[110px] font-bold">25</x-h1-gradient>
+                    <span class="text-white font-inter text-center ml:text-[24px] sm:text-[12px]">Постоянных клиентов</span>
                 </div>
             </div>
         </section>
@@ -60,19 +60,19 @@
             <x-h1-white>ПОЧЕМУ ВЫБИРАЮТ НАС</x-h1-white>
            <div class="swiper SwiperWelcome w-[100%]">
             <div class="swiper-wrapper flex flex-row gap-[14px] w-[100%]">
-                <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] rounded-[28px] w-[426px] sm:w-[426px] min-[320px]:w-[184px] h-[365px]  sm:h-[365px] min-[320px]:h-[158px] bg-gradient p-[63px]">
+                <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] sm:rounded-[28px] min-[320px]:rounded-[12px] w-[426px] sm:min-w-[426px] min-[320px]:min-w-[184px] h-[365px] sm:h-[365px] min-[320px]:h-[158px] bg-gradient p-[63px]">
                     <p class="text-[32px] sm:text-[32px] min-[320px]:text-[12px] text-white">ТЕСТИРОВАНИЕ ВАШЕГО САЙТА ЗА 1 ДЕНЬ С УЧАСТИЕМ >500 ЧЕЛОВЕК</p>
                 </div>
-                <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] rounded-[170px] w-[426px] sm:w-[426px] min-[320px]:w-[184px] h-[365px]  sm:h-[365px] min-[320px]:h-[158px] bg-white p-[52px]">
+                <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] sm:rounded-[170px] min-[320px]:rounded-[70px] w-[426px] sm:min-w-[426px] min-[320px]:min-w-[184px] h-[365px] sm:h-[365px] min-[320px]:h-[158px] bg-white p-[52px]">
                     <p class="text-[28px] sm:text-[28px] min-[320px]:text-[12px]">ЭФФЕКТИВНОЕ РЕШЕНИЕ ВАШИХ ЗАДАЧ БЛАГОДАРЯ РАБОТЕ БОЛЬШОЙ КОМАНДЫ</p>
                 </div>
-                <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] rounded-[28px] w-[426px] sm:w-[426px] min-[320px]:w-[184px] h-[365px]  sm:h-[365px] min-[320px]:h-[158px] bg-gradient clip-sloped-25 px-[55px]">
+                <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] sm:rounded-[28px] min-[320px]:rounded-[12px] w-[426px] sm:min-w-[426px] min-[320px]:min-w-[184px] h-[365px] sm:h-[365px] min-[320px]:h-[158px] bg-gradient clip-sloped-25 px-[55px]">
                     <p class="text-[32px] sm:text-[32px] min-[320px]:text-[12px] text-white">ПРОЗРАЧНЫЕ СРОКИ И ПРОЦЕССЫ</p>
                 </div>
-                <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] rounded-[170px] w-[426px] sm:w-[426px] min-[320px]:w-[184px] h-[365px]  sm:h-[365px] min-[320px]:h-[158px] bg-white p-[52px]">
+                <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] sm:rounded-[170px] min-[320px]:rounded-[70px] w-[426px] sm:min-w-[426px] min-[320px]:min-w-[184px] h-[365px] sm:h-[365px] min-[320px]:h-[158px] bg-white p-[52px]">
                     <p class="text-[28px] sm:text-[28px] min-[320px]:text-[12px]">ОПЫТ В РАЗНЫХ ОТРАСЛЯХ: EDTECH, РИТЕЙЛ, МЕДИЦИНА, КУЛЬТУРА</p>
                 </div>
-                <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] rounded-[28px] w-[426px] sm:w-[426px] min-[320px]:w-[184px] h-[365px]  sm:h-[365px] min-[320px]:h-[158px] bg-gradient p-[63px]">
+                <div class="swiper-slide flex justify-center items-center shrink-0 outline-[1,5px] sm:rounded-[28px] min-[320px]:rounded-[12px] w-[426px] sm:min-w-[426px] min-[320px]:min-w-[184px] h-[365px] sm:h-[365px] min-[320px]:h-[158px] bg-gradient p-[63px]">
                     <p class="text-[32px] sm:text-[32px] min-[320px]:text-[12px] text-white">ГЛУБОКАЯ UX-ЭКСПЕРТИЗА</p>
                 </div>
             </div>
@@ -83,28 +83,28 @@
             <div class="swiper SwiperWelcomepartners w-[100%]">
                 <div class="swiper-wrapper flex flex-row grow gap-[8px] w-[100%]">
                     <div class="swiper-slide flex flex-1 flex-col grow sm:gap-[20px] min-[320px]:gap-[12px]">
-                        <img class="min-w-[126px]" src="{{ Vite::asset('resources/images/part-aero.png') }}" alt="">
-                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px] ">Платформа развлечений на борту ПАО «Аэрофлот»</p>
+                        <img class="min-w-[126px]  rounded-[10px]" src="{{ Vite::asset('resources/images/content/logo/chelbasket-logo.jpg') }}" alt="">
+                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px] ">Сайт баскетбольного клуба Челбаскет</p>
                     </div>
                     <div class="swiper-slide flex flex-1 flex-col grow sm:gap-[20px] min-[320px]:gap-[12px]">
-                        <img class="min-w-[126px]" src="{{ Vite::asset('resources/images/part-ugmk.png') }}" alt="">
+                        <img class="min-w-[126px] rounded-[10px]" src="{{ Vite::asset('resources/images/content/logo/mini-app-logo.jpg') }}" alt="">
+                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">VK mini-app для букроссинга «Книжная полка»</p>
+                    </div>
+                    <div class="swiper-slide flex flex-1 flex-col grow sm:gap-[20px] min-[320px]:gap-[12px]">
+                        <img class="min-w-[126px] rounded-[10px]" src="{{ Vite::asset('resources/images/content/logo/ugmk-logo.jpg') }}" alt="">
                         <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">3D-тренажер для УГМК</p>
                     </div>
                     <div class="swiper-slide flex flex-1 flex-col grow sm:gap-[20px] min-[320px]:gap-[12px]">
-                        <img class="min-w-[126px]" src="{{ Vite::asset('resources/images/part-uni.png') }}" alt="">
-                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">«Умная обувь»: прототип обуви будущего</p>
-                    </div>
-                    <div class="swiper-slide flex flex-1 flex-col grow sm:gap-[20px] min-[320px]:gap-[12px]">
-                        <img class="min-w-[126px]" src="{{ Vite::asset('resources/images/part-mus.png') }}" alt="">
+                        <img class="min-w-[126px] rounded-[10px]" src="{{ Vite::asset('resources/images/content/logo/museum-logo.jpg') }}" alt="">
                         <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">Виртуальный атлас-тренажер для ООО «ПрограмЛаб»</p>
                     </div>
                     <div class="swiper-slide flex flex-1 flex-col grow sm:gap-[20px] min-[320px]:gap-[12px]">
-                        <img class="min-w-[126px]" src="{{ Vite::asset('resources/images/part-hyatt.png') }}" alt="">
-                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">Business case for human resources management</p>
+                        <img class="min-w-[126px] rounded-[10px]" src="{{ Vite::asset('resources/images/content/logo/polistroy-logo.jpg') }}" alt="">
+                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">Сайт-конструктор по выбору дизайна почтовых ящиков «Полистрой»</p>
                     </div>
                     <div class="swiper-slide flex flex-1 flex-col grow sm:gap-[20px] min-[320px]:gap-[12px]">
-                        <img class="min-w-[126px]" src="{{ Vite::asset('resources/images/part-bank.png') }}" alt="">
-                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">Выявление актуальных схем финансового мошенничества</p>
+                        <img class="min-w-[126px] rounded-[10px]" src="{{ Vite::asset('resources/images/content/logo/etalon-logo.jpg') }}" alt="">
+                        <p class="text-white font-inter md:text-[15px] min-[320px]:text-[12px]">Интернет-магазин носочной фабрики «Эталон»</p>
                     </div>
                 </div> 
             </div>
