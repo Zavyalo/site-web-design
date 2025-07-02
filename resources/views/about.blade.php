@@ -120,11 +120,18 @@
         >Каждый проект — это синергия UX-аналитиков, дизайнеров, контент-специалистов, верстальщиков и VR-разработчиков. В команде — специалисты с опытом от 3 до 12 лет</p>
     </div>
     <div class="about-experts-photo-wrapper flex flex-row gap-[14px]">
-        <div class="bg-white flex flex-1 rounded-xl p-8 items-center justify-center">1</div>
-        <div class="bg-white flex flex-1 rounded-[100px] p-8 justify-center">2</div>
-        <div class="bg-white flex flex-1 clip-sloped-25 p-8 justify-center">3</div>
-        <div class="bg-white flex flex-1 rounded-xl p-8 items-center justify-center">4</div>
-        <div class="bg-white flex flex-1 rounded-[100px] p-8 justify-center">5</div>
+        <div class="bg-white flex flex-1 rounded-xl p-[15px] items-center justify-center">
+            <img src="{{ Vite::asset('resources/images/content/headliners/payko.jpg')}}" alt="Пайко Д.С.">
+        </div>
+        <div class="bg-white flex flex-1 rounded-xl p-[15px] items-center justify-center">
+            <img src="{{ Vite::asset('resources/images/content/headliners/sheina.jpg')}}" alt="Шеина Е.П.">
+        </div>
+        <div class="bg-white flex flex-1 rounded-xl p-[15px] items-center justify-center">
+            <img src="{{ Vite::asset('resources/images/content/headliners/orlov.jpg')}}" alt="Орлов">
+        </div>
+        <div class="bg-white flex flex-1 rounded-xl p-[15px] items-center justify-center">
+            <img src="{{ Vite::asset('resources/images/content/headliners/usinina.jpg')}}" alt="Усынина А.М.">
+        </div>
     </div>
 </section>
 

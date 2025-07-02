@@ -1,4 +1,4 @@
-<div class="about-form grid 
+<div id="form" class="about-form grid 
     min-[320px]Жgrid-rows-[auto,auto]
     lg:grid-cols-2
     min-[320px]:gap-space-32
@@ -12,7 +12,7 @@
             lg:text-5xl"
         >СВЯЖИТЕСЬ С НАМИ</h1>
         <p class="text-white font-inter">Оставьте заявку и мы свяжемся с вами или позвоните по номеру:</p>
-        <a class="text-white font-inter text-3xl font-bold mb-0" href="#">+7(999)123-45-67</a>
+        <a class="text-white font-inter text-3xl font-bold mb-0" href="tel:+73512161042">+7 (351) 216-10-42</a>
     </div>
         <form class="form-order flex flex-col gap-y-[14px] w-full" action="{{route('order.create')}}" method="POST">
             @method('put')
@@ -48,7 +48,7 @@
                     Нажимая на кнопку, я соглашаюсь с&nbsp;<a class="underline" href="#">обработкой персональных данных</a>
                 </label>
             </div>
-            <x-secondary-button type="submit">Оставить заявку</x-secondary-button>
+            <x-secondary-button type="submit" class="h-12">Оставить заявку</x-secondary-button>
         </div>
     </form>
 </div>

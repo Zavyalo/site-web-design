@@ -1,6 +1,6 @@
 <x-app-layout>
-    <section class="flex flex-col mt-space-48 md:mt-space-144">
-        <div class="flex flex-col">
+    <container class="flex flex-col sm:gap-[144px] min-[320px]:gap-[48px] sm:my-[144px] min-[320px]:my-[48px]">
+        <section class="flex flex-col">
             <div class="flex flex-row ">
                 <div class="basis-4/6">
                     <x-h1-gradient class="leadind-[86px] md:leading-[86px]">
@@ -21,17 +21,27 @@
                 <p class="w-12/12 md:w-8/12 font-inter text-base md:text-2xl text-white">{{$work->description}}</p>
                 <p class="text-base text-lightgray font-inter mt-space-20">{{ \Carbon\Carbon::parse($work->date)->translatedFormat('d.m.Y') }}</p>
             </div>
-        </div>
-        <div class="flex justify-center mt-space-48 md:mt-space-144">
+<<<<<<< HEAD
+        </section>
+        <section class="flex justify-center">
             <img class="object-fill flex-grow" src="{{ Vite::asset('resources/images/behance.png') }}" alt="">
-        </div>
+        </section>
 
+        <section class="flex flex-col md:flex-row justify-between">
+=======
+        </div>
+        
+        <div class="flex justify-center mt-space-48 md:mt-space-144 flex-col">
+            @foreach ($work->images as $image)
+                <img class="object-fill flex-grow" src="{{ Vite::asset($image->getImageUrlAttribute()) }}" alt="">
+            @endforeach
+        </div>
+       
         <div class="flex flex-col md:flex-row justify-between mt-space-48 md:mt-space-144">
+>>>>>>> 4d3f37f7576ea61ebb27bd9f2c22e0d2fa079d0f
             <x-h1-white class="w-[269px] leading-[86px] mb-space-32 md:mb-space-0">Отзыв клиента</x-h1-white>
             <x-cardtwo></x-cardtwo>
-        </div>
-        <div class="mt-space-48 mb-space-48 md:mt-space-144 md:mb-space-144">
+        </section>
             <x-form-order></x-form-order>
-        </div>
-    </section>
+            </container>
 </x-app-layout>
