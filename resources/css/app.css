@@ -1,6 +1,11 @@
+@import 'swiper/css/bundle';
 @import "./style.css";
 @import "./blog.css";
 @import "./cases.css";
+
+[type='checkbox'], [type='radio'] {
+    color: none;
+}
 
 @tailwind base;
 @tailwind components;

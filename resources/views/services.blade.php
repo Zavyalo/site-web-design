@@ -1,3 +1,243 @@
 <x-app-layout>
-    Наши услуги
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <container>
+        
+        <!-- <h1 class="font-victor font-bold uppercase max-[1280px]:mb-space-144 lg:my-space-144 xl:my-space-144 sm:my-space-48 min-[320px]:my-space-48 md:my-space-48 
+        text-transparent bg-clip-text bg-gradient-to-r from-emerald-100 from-10% via-orange-500 via-20% to-red-200 to-100% 
+        lg:text-[64px] md:text-[64px] xl:text-[64px] max-[1280px]:text-[64px] sm:text-[32px] min-[320px]:text-[32px]">Наши услуги</h1> -->
+        <section class="swiper SwiperServices flex flex-col sm:gap-[48px] min-[320px]:gap-[32px]">
+            <x-h1-gradient>Наши услуги</x-h1-gradient>
+            <div class="swiper-wrapper flex flex-row justify-between max-[1280px]:mb-space-144 lg:mb-space-144 xl:mb-space-144 sm:mb-space-48 min-[320px]:mb-space-48 md:mb-space-48 font-victor uppercase">
+                <div class="swiper-slide flex items-center justify-center font-bold
+                        max-[1280px]:text-3xl lg:text-3xl xl:text-3xl sm:text-lg min-[320px]:text-lg md:text-lg
+                        max-[1280px]:h-[373px] lg:h-[373px] xl:h-[373px] sm:h-[270px] min-[320px]:h-[270px] md:h-[270px]
+                        max-[1280px]:w-[244px] lg:w-[244px] xl:w-[244px] sm:w-[170px] min-[320px]:w-[170px] md:w-[170px]
+                        h-[373px] w-[244px] p-space-26 text-white bg-gradient rounded-3xl
+                        min-[320px]:mr-space-20 sm:mr-space-20 md:mr-space-20 xl:mr-space-20 lg:w-[244px] md:w-[244px] sm:w-[244px]">
+                    <p class="text-center">Создаем цифровые продукты с нуля</p>
+                </div>
+                <div class="swiper-slide flex items-center justify-center font-bold
+                        max-[1280px]:text-3xl lg:text-3xl xl:text-3xl sm:text-lg min-[320px]:text-lg md:text-lg
+                        max-[1280px]:h-[373px] lg:h-[373px] xl:h-[373px] sm:h-[270px] min-[320px]:h-[270px] md:h-[270px]
+                        max-[1280px]:w-[244px] lg:w-[244px] xl:w-[244px] sm:w-[170px] min-[320px]:w-[170px] md:w-[170px]
+                        p-space-26 bg-white rounded-full min-[320px]:mr-space-20 sm:mr-space-20 md:mr-space-20 xl:mr-space-20">
+                    <p class="text-center">Проводим исследования</p>
+                </div>
+                <div class="swiper-slide flex items-center justify-center font-bold
+                        max-[1280px]:text-3xl lg:text-3xl xl:text-3xl sm:text-lg min-[320px]:text-lg md:text-lg
+                        max-[1280px]:h-[373px] lg:h-[373px] xl:h-[373px] sm:h-[270px] min-[320px]:h-[270px] md:h-[270px]
+                        max-[1280px]:w-[244px] lg:w-[244px] xl:w-[244px] sm:w-[170px] min-[320px]:w-[170px] md:w-[170px]
+                        p-space-26 clip-sloped-25 text-white bg-gradient rounded-3xl 
+                        min-[320px]:mr-space-20 sm:mr-space-20 md:mr-space-20 xl:mr-space-20">
+                    <p class="text-center">проектируем интерфейсы</p>
+                </div>
+                <div class="swiper-slide flex items-center justify-center font-bold
+                        max-[1280px]:text-3xl lg:text-3xl xl:text-3xl sm:text-lg min-[320px]:text-lg md:text-lg
+                        max-[1280px]:h-[373px] lg:h-[373px] xl:h-[373px] sm:h-[270px] min-[320px]:h-[270px] md:h-[270px]
+                        max-[1280px]:w-[244px] lg:w-[244px] xl:w-[244px] sm:w-[170px] min-[320px]:w-[170px] md:w-[170px]
+                        p-space-26 bg-white rounded-full 
+                        min-[320px]:mr-space-20 sm:mr-space-20 md:mr-space-20 xl:mr-space-20">
+                    <p class="text-center">разрабатываем сайты на tilda</p>
+                </div>
+                <div class="swiper-slide flex items-center justify-center font-bold
+                        max-[1280px]:text-3xl lg:text-3xl xl:text-3xl sm:text-lg min-[320px]:text-lg md:text-lg
+                        max-[1280px]:h-[373px] lg:h-[373px] xl:h-[373px] sm:h-[270px] min-[320px]:h-[270px] md:h-[270px]
+                        max-[1280px]:w-[244px] lg:w-[244px] xl:w-[244px] sm:w-[170px] min-[320px]:w-[170px] md:w-[170px]
+                        p-space-26 text-white bg-gradient rounded-3xl 
+                        min-[320px]:mr-space-20 sm:mr-space-20 md:mr-space-20 xl:mr-space-20">
+                    <p class="text-center">создаем vr-решения</p>
+                </div>
+                <div class="swiper-slide flex items-center justify-center font-bold
+                        max-[1280px]:text-3xl lg:text-3xl xl:text-3xl sm:text-lg min-[320px]:text-lg md:text-lg
+                        max-[1280px]:h-[373px] lg:h-[373px] xl:h-[373px] sm:h-[270px] min-[320px]:h-[270px] md:h-[270px]
+                        max-[1280px]:w-[244px] lg:w-[244px] xl:w-[244px] sm:w-[170px] min-[320px]:w-[170px] md:w-[170px]
+                        p-space-26 bg-white rounded-full min-[320px]:mr-space-20 sm:mr-space-20 md:mr-space-20 xl:mr-space-20">
+                    <p class="text-center">улучшаем ваш продукт</p>
+                </div>
+            </div>
+        </section>
+
+    <section class="flex flex-row justify-between max-[1280px]:mb-space-144 lg:mb-space-144 xl:mb-space-144 sm:mb-space-48 min-[320px]:mb-space-48 md:mb-space-48 sm:flex-wrap min-[320px]:flex-wrap lg:flex-nowrap max-[1280px]:flex-col" id="service1">
+        <div class="flex flex-col justify-between sm:pb-space-32 min-[320px]:pb-space-32">
+            <div class="flex flex-row mb-space-48 sm:mb-space-20 min-[320px]:mb-space-20">
+                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl pr-space-4 sm:text-base min-[320px]:text-base
+                            text-transparent bg-clip-text bg-gradient-to-r from-red-600 from-10% via-orange-500 via-20% to-red-200 to-100%">(01)</h2>
+                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-white sm:text-base min-[320px]:text-base">UX-аудит и аналитика</h2>
+            </div>
+            <div class="mb-space-48 font-victor uppercase">
+                <p class="font-victor text-lightgray lg:pb-space-16 md:pb-space-16 xl:pb-space-16 max-[1280px]:pb-space-16 sm:pb-space-4 min-[320px]:pb-space-4 sm:text-xs min-[320px]:text-xs
+                        lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70 break-words
+                        max-[1280px]:w-[450px] lg:w-[450px] xl:w-[450px] sm:w-[300px] min-[320px]:w-[300px] md:w-[300px]">Кому подходит: стартапов, компаний с новым digital-продуктом или сервисом</p>
+                <p class="font-victor text-lightgray sm:text-xs min-[320px]:text-xs lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70
+                        max-[1280px]:w-[450px] lg:w-[450px] xl:w-[450px] sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">Методы: Интервью, user-flow, сценарии, pain points, CJM, JTBD</p>
+            </div>
+            <div class="flex flex-row justify-between">
+                <div class="flex flex-col justify-between lg:flex-nowrap">
+                    <div class="flex 2xl:flex-row mb-space-48 min-[320px]:flex-wrap lg:flex-nowrap lg:flex-row sm:mb-space-20 min-[320px]:mb-space-20 mr-space-70">
+                        <div class="pr-space-70 sm:pb-space-26 min-[320px]:pb-space-26 lg:flex-nowrap lg:flex-row">
+                            <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что делаем:</p>
+                            <ul class="font-inter text-white text-base font-light max-[1280px]:w-100% lg:w-100% xl:w-100% sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">
+                                <li>> Глубинные интервью с ЦА</li>
+                                <li>> Комплексный конкурентный анализ</li>
+                                <li>> Построение CJM с pain points</li>
+                                <li>> A/B-тесты и упрощенные MVP</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что получает клиент:</p>
+                            <ul class="font-inter text-white text-base font-light max-[1280px]:w-100% lg:w-100% xl:w-100% sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">
+                                <li>> Чёткие выводы и инсайты</li>
+                                <li>> Верифицированные гипотезы</li>
+                                <li>> Конкретные рекомендации и приоритеты для запуска</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <span class="flex items-center justify-center bg-white font-semibold py-2 px-4 rounded-full h-[46px] w-[145px]">От 20 000 ₽</span>
+                </div>
+            </div>
+        </div>
+        <img src="{{ Vite::asset('resources/images/serves1.jpg') }}" alt="" class="clip-sloped-25 flex-shrink-0">
+    </section>
+
+        <section class="flex flex-row justify-between max-[1280px]:mb-space-144 lg:mb-space-144 xl:mb-space-144 sm:mb-space-48 min-[320px]:mb-space-48 md:mb-space-48 sm:flex-wrap min-[320px]:flex-wrap lg:flex-nowrap max-[1280px]:flex-col" id="service3">
+            <div class="flex flex-col justify-between sm:pb-space-32 min-[320px]:pb-space-32">
+                <div class="flex flex-row mb-space-48 sm:mb-space-20 min-[320px]:mb-space-20">
+                    <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl pr-space-4 sm:text-base min-[320px]:text-base
+                                text-transparent bg-clip-text bg-gradient-to-r from-red-600 from-10% via-orange-500 via-20% to-red-200 to-100%">(02)</h2>
+                    <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-white sm:text-base min-[320px]:text-base
+                                max-[1280px]:w-[500px] lg:w-[500px] xl:w-[500px] sm:w-[230px] min-[320px]:w-[230px] md:w-[230px] break-words">  Дизайн и вёрстка сайтов</h2>
+                </div>
+                <div class="mb-space-48 uppercase sm:mb-space-20 min-[320px]:mb-space-20">
+                    <p class="font-victor text-lightgray lg:pb-space-16 md:pb-space-16 xl:pb-space-16 max-[1280px]:pb-space-16 sm:pb-space-4 min-[320px]:pb-space-4 sm:text-xs min-[320px]:text-xs
+                            lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70 w-[500px]
+                            max-[1280px]:w-[450px] lg:w-[450px] xl:w-[450px] sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">Кому подходит: бизнесам, запускающим сайт/лендинг/кабинет.</p>
+                    <p class="font-victor text-lightgray sm:text-xs min-[320px]:text-xs lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70
+                            max-[1280px]:w-[450px] lg:w-[450px] xl:w-[450px] sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">>Методы: user-flow, сценарии, pain points, CJM</p>
+                </div>
+                <div class="flex flex-row justify-between">
+                    <div class="flex flex-col justify-between lg:flex-nowrap">
+                        <div class="flex 2xl:flex-row mb-space-48 min-[320px]:flex-wrap lg:flex-nowrap lg:flex-row sm:mb-space-20 min-[320px]:mb-space-20 mr-space-70">
+                            <div class="pr-space-70 sm:pb-space-26 min-[320px]:pb-space-26 lg:flex-nowrap lg:flex-row">
+                                <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что делаем:</p>
+                                <ul class="font-inter text-white text-base font-light max-[1280px]:w-100% lg:w-100% xl:w-100% sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">
+                                    <li>> Проектирование user-flow </li>
+                                    <li>> Создание интерактивных wireframes</li>
+                                    <li>> Разработка CJM </li>
+                                    <li>> Кликабельный визуальный дизайн в Figma</li>
+                                    <li>> Frontend-разработка</li>
+                                    <li>> Backend-разработка</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что получает клиент:</p>
+                                <ul class="font-inter text-white text-base font-light max-[1280px]:w-100% lg:w-100% xl:w-100% sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">
+                                    <li>> Полноценный сайт с мобильной версией</li>
+                                    <li>> Дизайн-систему и гайдлайн</li>
+                                    <li>> Инструкцию по управлению контентом</li>
+                                    <li>> Возможность тестировать проект до его реализации</li>
+                                    <li>> 1 месяц технической поддержки</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <span class="font-inter flex items-center justify-center bg-white font-semibold py-2 px-4 rounded-full h-[46px] w-[145px]">От 80 000 ₽</span>
+                    </div>
+                </div>
+            </div>
+            <img src="{{ Vite::asset('resources/images/serves2.jpg') }}" alt="" class="rounded-full flex-shrink-0">
+        </section>  
+
+        <section class="flex flex-row justify-between max-[1280px]:mb-space-144 lg:mb-space-144 xl:mb-space-144 sm:mb-space-48 min-[320px]:mb-space-48 md:mb-space-48 sm:flex-wrap min-[320px]:flex-wrap lg:flex-nowrap max-[1280px]:flex-col" id="service3">
+            <div class="flex flex-col justify-between sm:pb-space-32 min-[320px]:pb-space-32">
+                <div class="flex flex-row mb-space-48 sm:mb-space-20 min-[320px]:mb-space-20">
+                    <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl pr-space-4 sm:text-base min-[320px]:text-base
+                                text-transparent bg-clip-text bg-gradient-to-r from-red-600 from-10% via-orange-500 via-20% to-red-200 to-100%">(03)</h2>
+                    <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-white sm:text-base min-[320px]:text-base
+                                max-[1280px]:w-[500px] lg:w-[500px] xl:w-[500px] sm:w-[230px] min-[320px]:w-[230px] md:w-[230px] break-words"> Разработка на Tilda</h2>
+                </div>
+                <div class="mb-space-48 uppercase sm:mb-space-20 min-[320px]:mb-space-20">
+                    <p class="font-victor text-lightgray lg:pb-space-16 md:pb-space-16 xl:pb-space-16 max-[1280px]:pb-space-16 sm:pb-space-4 min-[320px]:pb-space-4 sm:text-xs min-[320px]:text-xs
+                            lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70 w-[500px]
+                            max-[1280px]:w-[450px] lg:w-[450px] xl:w-[450px] sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">Кому подходит: тем, кому нужен быстрый запуск лендингов и корпоративных сайтов.</p>
+                    <p class="font-victor text-lightgray sm:text-xs min-[320px]:text-xs lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70
+                            max-[1280px]:w-[450px] lg:w-[450px] xl:w-[450px] sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">>Методы: user-flow, сценарии, pain points, CJM</p>
+                </div>
+                <div class="flex flex-row justify-between">
+                    <div class="flex flex-col justify-between lg:flex-nowrap">
+                        <div class="flex 2xl:flex-row mb-space-48 min-[320px]:flex-wrap lg:flex-nowrap lg:flex-row sm:mb-space-20 min-[320px]:mb-space-20 mr-space-70">
+                            <div class="pr-space-70 sm:pb-space-26 min-[320px]:pb-space-26 lg:flex-nowrap lg:flex-row">
+                                <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что делаем:</p>
+                                <ul class="font-inter text-white text-base font-light max-[1280px]:w-100% lg:w-100% xl:w-100% sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">
+                                    <li class="break-words">> Создание кликабельных прототипов</li>
+                                    <li class="break-words">> Адаптация под мобильные устройства</li>
+                                    <li class="break-words">> Настройка SEO-параметров</li>
+                                    <li class="break-words">> Кликабельные прототипы в Figma</li>
+                                    <li class="break-words">> Интеграция CRM и аналитики</li>
+                                    <li class="break-words">> Подготовка к передаче в дизайн или разработку</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что получает клиент:</p>
+                                <ul class="font-inter text-white text-base font-light max-[1280px]:w-100% lg:w-100% xl:w-100% sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">
+                                    <li class="break-words">> Прототип сайта</li>
+                                    <li class="break-words">> Базовая SEO-оптимизация</li>
+                                    <li class="break-words">> Понятный визуальный сценарий</li>
+                                    <li class="break-words">> Возможность тестировать проект до его реализации</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <span class="font-inter flex items-center justify-center bg-white font-semibold py-2 px-4 rounded-full h-[46px] w-[145px]">От 50 000 ₽</span>
+                    </div>
+                </div>
+            </div>
+            <img src="{{ Vite::asset('resources/images/serves3.jpg') }}" alt="" class="flex-shrink-0 rounded-3xl">
+        </section>  
+
+<section class="flex flex-row justify-between max-[1280px]:mb-space-144 lg:mb-space-144 xl:mb-space-144 sm:mb-space-48 min-[320px]:mb-space-48 md:mb-space-48 sm:flex-wrap min-[320px]:flex-wrap lg:flex-nowrap max-[1280px]:flex-col" id="service4">
+        <div class="flex flex-col justify-between sm:pb-space-32 min-[320px]:pb-space-32">
+            <div class="flex flex-row mb-space-48 sm:mb-space-20 min-[320px]:mb-space-20">
+                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl pr-space-4 sm:text-base min-[320px]:text-base
+                            text-transparent bg-clip-text bg-gradient-to-r from-red-600 from-10% via-orange-500 via-20% to-red-200 to-100%">(04)</h2>
+                <h2 class="font-victor uppercase lg:text-3xl md:text-3xl xl:text-3xl max-[1280px]:text-3xl text-white sm:text-base min-[320px]:text-base
+                            max-[1280px]:w-[500px] lg:w-[500px] xl:w-[500px] sm:w-[230px] min-[320px]:w-[230px] md:w-[230px] break-words"> Создание приложений с VR-технологиями</h2>
+            </div>
+            <div class="mb-space-48 uppercase sm:mb-space-20 min-[320px]:mb-space-20">
+                <p class="font-victor text-lightgray lg:pb-space-16 md:pb-space-16 xl:pb-space-16 max-[1280px]:pb-space-16 sm:pb-space-4 min-[320px]:pb-space-4 sm:text-xs min-[320px]:text-xs
+                        lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70 w-[500px]
+                        max-[1280px]:w-[450px] lg:w-[450px] xl:w-[450px] sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">Кому подходит: тем, кто запускает инновационный проект в ритейле, образовании, недвижимости.</p>
+                <p class="font-victor text-lightgray sm:text-xs min-[320px]:text-xs lg:text-base md:text-base xl:text-base max-[1280px]:text-base mr-space-70
+                        max-[1280px]:w-[450px] lg:w-[450px] xl:w-[450px] sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">Методы: user-flow, сценарии, pain points, CJM</p>
+            </div>
+            <div class="flex flex-row justify-between">
+                <div class="flex flex-col justify-between lg:flex-nowrap">
+                    <div class="flex 2xl:flex-row mb-space-48 min-[320px]:flex-wrap lg:flex-nowrap lg:flex-row sm:mb-space-20 min-[320px]:mb-space-20 mr-space-70">
+                        <div class="pr-space-70 sm:pb-space-26 min-[320px]:pb-space-26 lg:flex-nowrap lg:flex-row">
+                            <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что делаем:</p>
+                            <ul class="font-inter text-white text-base font-light max-[1280px]:w-100% lg:w-100% xl:w-100% sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">
+                                <li>> Сценарии взаимодействия в VR</li>
+                                <li>> 3D-моделирование окружения</li>
+                                <li>> Разработка на Unity/Unreal Engine</li>
+                                <li>> Поддержка под Oculus, WebVR, мобильные устройства</li>
+                                <li>> Видео-демо и инструкции по использованию</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="font-victor uppercase text-white text-base font-semibold max-[1280px]:pb-space-16 lg:pb-space-16 md:pb-space-16 min-[320px]:pb-space-10 sm:pb-space-10">Что получает клиент:</p>
+                            <ul class="font-inter text-white text-base font-light max-[1280px]:w-100% lg:w-100% xl:w-100% sm:w-[300px] min-[320px]:w-[300px] md:w-[300px] break-words">
+                                <li>> Готовое VR-решение под задачу</li>
+                                <li>> Интерактивный пользовательский опыт</li>
+                                <li>> Технологичный продукт, выделяющийся на рынке</li>
+                                <li>> Простой в управлении интерфейс</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <span class="font-inter flex items-center justify-center bg-white font-semibold py-2 px-4 rounded-full h-[46px] w-[145px]">От 90 000 ₽</span>
+                </div>
+            </div>
+        </div>
+        <img src="{{ Vite::asset('resources/images/serves4.jpg') }}" alt="" class="rounded-full flex-shrink-0">
+    </section>
+
+<div class="max-[1280px]:mb-space-144 lg:mb-space-144 xl:mb-space-144 sm:mb-space-48 min-[320px]:mb-space-48 md:mb-space-48"><x-form-order></x-form-order></div>
+
 </x-app-layout>

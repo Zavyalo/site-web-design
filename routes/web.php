@@ -1,7 +1,11 @@
 <?php
 
+use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\WorkController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\OrderController;
+use App\Http\Controllers\SubscribeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,24 +26,18 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/portfolio', function () {
-    return view('portfolio');
-});
+Route::get('/portfolio', [WorkController::class, 'index']);
 
 Route::get('/services', function () {
     return view('services');
 });
 
-Route::get('/cases', function () {
-    return view('cases');
-});
+Route::get('/cases/{work}', [WorkController::class, 'show']) ->name('case-show');
 
-Route::get('/blog', function () {
-    return view('blog');
-});
+Route::get('/blog', [ArticleController::class, 'index']);
 
-
-
+Route::put('/order',[OrderController::class, 'store']) ->name('order.create');
+Route::put('/subscribe',[SubscribeController::class, 'store']) ->name('subscribe.create');
 Route::get('/test', function () {
     return view('test');
 });
